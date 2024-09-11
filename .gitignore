@@ -5,6 +5,7 @@
 # Minecraft client/server files
 run/
 **/.mcreator/workspaceBackups
+*/runs/client/saves/
 
 ### Java ###
 # Compiled class file
@@ -12,6 +13,7 @@ run/
 
 # Log file
 *.log
+*.log.gz
 
 # BlueJ files
 *.ctxt
