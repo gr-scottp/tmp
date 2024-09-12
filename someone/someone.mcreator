@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "HanaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hana_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/someone/models/block/hana_block.json",
+          "src/main/resources/data/someone/loot_tables/blocks/hana_block.json",
+          "src/main/resources/assets/someone/blockstates/hana_block.json",
+          "src/main/java/net/mcreator/someone/block/HanaBlockBlock.java",
+          "src/main/resources/assets/someone/models/item/hana_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.someone.hana_block": "Hana Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "someone",
+    "modName": "Someone",
+    "version": "1.0.0",
+    "author": "TrainingGR13, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.someone"
+  },
+  "mcreatorVersion": 202400232117
+}

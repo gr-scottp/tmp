@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "someone:block/hana_block"
+    }
+  }
+}
