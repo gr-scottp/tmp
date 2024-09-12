@@ -1,0 +1,63 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheKEY",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/something/models/item/the_key.json",
+          "src/main/java/net/mcreator/something/item/TheKEYItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JUSTINBEBE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justinbebe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/something/models/item/justinbebe.json",
+          "src/main/resources/data/something/loot_tables/blocks/justinbebe.json",
+          "src/main/resources/assets/something/models/block/justinbebe.json",
+          "src/main/resources/assets/something/blockstates/justinbebe.json",
+          "src/main/java/net/mcreator/something/block/JUSTINBEBEBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.something.justinbebe": "JUSTINBEBE",
+      "item.something.the_key": "The KEY"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "something",
+    "modName": "SOMETHING",
+    "version": "1.0.0",
+    "author": "TrainingGR01, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.something"
+  },
+  "mcreatorVersion": 202400232117
+}

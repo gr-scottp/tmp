@@ -1,0 +1,8 @@
+/kill @e
+/give @a minecraft:acacia_chest_boat 100000000
+/give @a minecraft:acacia_door 10000
+/locate structure #c:hidden_from_displayers
+/kill dve
+/kill Dev
+/time set dya
+/time set day
