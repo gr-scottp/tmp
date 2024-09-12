@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "OogaBoogaBlockGen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ooga_booga_block_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/blockstates/ooga_booga_block_gen.json",
+          "src/main/resources/data/oogaboogablockgen/loot_tables/blocks/ooga_booga_block_gen.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oogaboogablockgen",
+    "modName": "OogaBoogaBlockGen",
+    "version": "1.0.0",
+    "author": "TrainingGR03, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.oogaboogablockgen"
+  },
+  "mcreatorVersion": 202400232117
+}

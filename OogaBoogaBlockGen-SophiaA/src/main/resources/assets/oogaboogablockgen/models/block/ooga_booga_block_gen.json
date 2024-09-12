@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "oogaboogablockgen:block/oogaboogatexture",
+    "particle": "oogaboogablockgen:block/oogaboogatexture"
+  },
+  "render_type": "solid"
+}
