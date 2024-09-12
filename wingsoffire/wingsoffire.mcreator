@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "WingsOfFireex",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/block/wings_of_fireex.json",
+          "src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json",
+          "src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java",
+          "src/main/resources/data/wingsoffire/loot_tables/blocks/wings_of_fireex.json",
+          "src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wingsoffire",
+    "modName": "wingsoffire",
+    "version": "1.0.0",
+    "author": "TrainingGR06, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.wingsoffire"
+  },
+  "mcreatorVersion": 202400232117
+}
