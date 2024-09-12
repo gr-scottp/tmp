@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "particle": "yousefmod:block/mecryingehenidontgetmcdonalds"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bebea",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bebea",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yousefmod/models/item/bebea.json",
+          "src/main/resources/assets/yousefmod/models/block/bebea.json",
+          "src/main/java/net/mcreator/yousefmod/block/BebeaBlock.java",
+          "src/main/resources/assets/yousefmod/blockstates/bebea.json",
+          "src/main/resources/data/yousefmod/loot_tables/blocks/bebea.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.yousefmod.bebea": "Bebea"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yousefmod",
+    "modName": "Yousefmod",
+    "version": "1.0.0",
+    "author": "TrainingGR08, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.yousefmod"
+  },
+  "mcreatorVersion": 202400232117
+}
