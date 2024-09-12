@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ciraeblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/block/CiraeblockBlock.java",
+          "src/main/resources/data/thehousetrap/loot_tables/blocks/ciraeblock.json",
+          "src/main/resources/assets/thehousetrap/models/item/ciraeblock.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraeblock.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraeblock.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.thehousetrap.ciraeblock": "Ciraeblock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thehousetrap",
+    "modName": "thehousetrap",
+    "version": "1.0.0",
+    "author": "TrainingGR11, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.thehousetrap"
+  },
+  "mcreatorVersion": 202400232117
+}
