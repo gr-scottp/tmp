@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "WinterLand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winter_land",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/blockstates/winter_land.json",
+          "src/main/resources/assets/cinnamoroll/models/block/winter_land.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/WinterLandBlock.java",
+          "src/main/resources/assets/cinnamoroll/models/item/winter_land.json",
+          "src/main/resources/data/cinnamoroll/loot_tables/blocks/winter_land.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.cinnamoroll.winter_land": "Winter Land"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cinnamoroll",
+    "modName": "cinnamoroll",
+    "version": "1.0.0",
+    "author": "TrainingGR14, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.cinnamoroll"
+  },
+  "mcreatorVersion": 202400232117
+}
