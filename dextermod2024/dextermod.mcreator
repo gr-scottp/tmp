@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "DexterFaceBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_face_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dextermod/models/block/dexter_face_block.json",
+          "src/main/resources/assets/dextermod/blockstates/dexter_face_block.json",
+          "src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java",
+          "src/main/resources/assets/dextermod/models/item/dexter_face_block.json",
+          "src/main/resources/data/dextermod/loot_tables/blocks/dexter_face_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DexterFaceBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_face_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.dextermod.dexter_face_block": "Dexter Face Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dextermod",
+    "modName": "dextermod",
+    "version": "1.0.0",
+    "author": "TrainingGR18, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.dextermod"
+  },
+  "mcreatorVersion": 202400232117
+}
