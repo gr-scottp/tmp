@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cavarli:block/cavarli234089",
+    "particle": "cavarli:block/cavarli234089"
+  },
+  "render_type": "solid"
+}
