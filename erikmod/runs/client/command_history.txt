@@ -1,1 +1,5 @@
 /time set day
+/place structure minecraft:desert_pyramid
+/place structure minecraft:bastion_remnant
+/place structure minecraft:igloo
+/place structure minecraft:mineshaft
