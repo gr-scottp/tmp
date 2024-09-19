@@ -1,0 +1,3 @@
+/skibidi
+/give 1000000000000000 XP to dev
+/time set day

@@ -121,6 +121,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "WingsOfFireexRedstoneOn"
+    },
+    "onRedstoneOn": {
+      "name": "WingsOfFireexRedstoneOn"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
