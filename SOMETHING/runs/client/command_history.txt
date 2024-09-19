@@ -6,3 +6,14 @@
 /kill Dev
 /time set dya
 /time set day
+/setworldspawn
+/give Dev minecraft:command_block_minecart
+/kill @s
+/kill @e
+/clear
+/time set day
+/tp @e
+/give Dev minecraft:command_block
+/config showfile minecraft
+/config showfile minecraft SERVER
+/time set day

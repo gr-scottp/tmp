@@ -1,0 +1,47 @@
+{
+  "_fv": 66,
+  "_type": "fluid",
+  "definition": {
+    "name": "NOTWATER",
+    "bucketName": "NOTWATER ",
+    "textureStill": "minecraft:campfire_log_lit",
+    "textureFlowing": "minecraft:campfire_log_lit",
+    "tintType": "Sky",
+    "canMultiply": false,
+    "flowRate": 50,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "SMOKE_LARGE"
+    },
+    "flowStrength": 4.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

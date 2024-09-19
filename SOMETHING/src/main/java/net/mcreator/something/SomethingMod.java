@@ -20,6 +20,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.something.init.SomethingModTabs;
 import net.mcreator.something.init.SomethingModItems;
+import net.mcreator.something.init.SomethingModFluids;
+import net.mcreator.something.init.SomethingModFluidTypes;
 import net.mcreator.something.init.SomethingModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -46,6 +48,8 @@ public class SomethingMod {
 
 		SomethingModTabs.REGISTRY.register(modEventBus);
 
+		SomethingModFluids.REGISTRY.register(modEventBus);
+		SomethingModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

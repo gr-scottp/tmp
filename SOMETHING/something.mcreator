@@ -28,16 +28,86 @@
           "src/main/java/net/mcreator/something/block/JUSTINBEBEBlock.java"
         ]
       }
+    },
+    {
+      "name": "JUSTINBEBERedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justinbebe_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/JUSTINBEBERedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Medkit",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/something/damage_type/medkit.json"
+        ]
+      }
+    },
+    {
+      "name": "NOTWATER",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/item/NOTWATERItem.java",
+          "src/main/resources/assets/something/blockstates/notwater.json",
+          "src/main/resources/assets/something/models/block/notwater.json",
+          "src/main/java/net/mcreator/something/fluid/NOTWATERFluid.java",
+          "src/main/java/net/mcreator/something/fluid/types/NOTWATERFluidType.java",
+          "src/main/resources/assets/something/models/item/notwater_bucket.json",
+          "src/main/java/net/mcreator/something/block/NOTWATERBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NOTWATER"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
+      "fluid.something.notwater": "NOTWATER",
       "block.something.justinbebe": "JUSTINBEBE",
-      "item.something.the_key": "The KEY"
+      "block.something.notwater": "NOTWATER",
+      "item.something.notwater_bucket": "NOTWATER ",
+      "item.something.the_key": "The KEY",
+      "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.medkit": "%1$s died"
     }
   },
   "foldersRoot": {

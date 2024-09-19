@@ -1,4 +1,10 @@
 {
+  "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
+  "fluid.something.notwater": "NOTWATER",
   "block.something.justinbebe": "JUSTINBEBE",
-  "item.something.the_key": "The KEY"
+  "block.something.notwater": "NOTWATER",
+  "item.something.notwater_bucket": "NOTWATER ",
+  "item.something.the_key": "The KEY",
+  "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
+  "death.attack.medkit": "%1$s died"
 }

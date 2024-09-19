@@ -23,6 +23,7 @@ public class SomethingModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(SomethingModBlocks.JUSTINBEBE.get().asItem());
+			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
 		}
 	}
 }
