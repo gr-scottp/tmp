@@ -1,0 +1,9 @@
+/xp add @a 1000000000
+/spaw
+/teleport Dev village
+/time set day
+/place structure minecraft:mansion
+/place structure minecraft:buried_treasure
+/place structure minecraft:end_city
+//d]e;g,etp[g
+/time set day
