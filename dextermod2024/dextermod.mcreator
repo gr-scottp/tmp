@@ -17,20 +17,16 @@
       }
     },
     {
-      "name": "DexterFaceBlockEntityWalksOnTheBlock",
+      "name": "DexterFaceBlockOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dexter_face_block_entity_walks_on_the_block",
+      "registry_name": "dexter_face_block_on_block_right_clicked",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockEntityWalksOnTheBlockProcedure.java"
+          "src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "direction",
-            "type": "direction"
-          },
           {
             "name": "x",
             "type": "number"

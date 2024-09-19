@@ -14,7 +14,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.dextermod.procedures.DexterFaceBlockEntityWalksOnTheBlockProcedure;
+import net.mcreator.dextermod.procedures.DexterFaceBlockOnBlockRightClickedProcedure;
 
 public class DexterFaceBlockBlock extends Block {
 	public DexterFaceBlockBlock() {
@@ -36,7 +36,7 @@ public class DexterFaceBlockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		DexterFaceBlockEntityWalksOnTheBlockProcedure.execute(world, x, y, z, direction);
+		DexterFaceBlockOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }
