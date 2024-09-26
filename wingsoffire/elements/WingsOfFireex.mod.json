@@ -124,6 +124,9 @@
     "onRightClicked": {
       "name": "WingsOfFireexRedstoneOn"
     },
+    "onEntityWalksOn": {
+      "name": "WingsOfFireexEntityWalksOnTheBlock"
+    },
     "onRedstoneOn": {
       "name": "WingsOfFireexRedstoneOn"
     },
