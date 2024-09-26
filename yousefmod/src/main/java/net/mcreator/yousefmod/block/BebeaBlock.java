@@ -20,7 +20,7 @@ import net.mcreator.yousefmod.procedures.BebeaEntityWalksOnTheBlockProcedure;
 
 public class BebeaBlock extends Block {
 	public BebeaBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(3.9f).jumpFactor(3.9f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.5f));
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class BebeaBlock extends Block {
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		BebeaEntityWalksOnTheBlockProcedure.execute(world, entity);
+		BebeaEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override

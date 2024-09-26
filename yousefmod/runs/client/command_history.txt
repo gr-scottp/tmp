@@ -7,3 +7,4 @@
 /place structure minecraft:end_city
 //d]e;g,etp[g
 /time set day
+/~
