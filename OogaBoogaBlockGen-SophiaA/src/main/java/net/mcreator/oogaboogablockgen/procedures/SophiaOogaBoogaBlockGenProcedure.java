@@ -10,7 +10,7 @@ public class SophiaOogaBoogaBlockGenProcedure {
 		double xvar = 0;
 		xvar = x;
 		while ((world.getBlockState(BlockPos.containing(xvar + 1, y, z))).getBlock() == (world.getBlockState(BlockPos.containing(xvar, y, z))).getBlock()) {
-			xvar = x + 1;
+			xvar = xvar + 1;
 		}
 		world.setBlock(BlockPos.containing(xvar + 1, y, z), OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN.get().defaultBlockState(), 3);
 	}

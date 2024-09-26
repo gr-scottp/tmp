@@ -76,8 +76,8 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7,
-    "speedFactor": 3.5,
+    "slipperiness": 0.61,
+    "speedFactor": 1.6,
     "jumpFactor": 3.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "SophiaOogaBoogaBlockGen"
+    },
+    "onEntityWalksOn": {
+      "name": "AutoPlace"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
