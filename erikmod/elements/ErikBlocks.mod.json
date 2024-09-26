@@ -77,8 +77,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 16.0,
-    "jumpFactor": 1.0,
+    "speedFactor": 1.2000000000000002,
+    "jumpFactor": 6.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "ErikBlocksOnBlockRightClicked"
+    },
+    "onEntityWalksOn": {
+      "name": "ErikBlocksEntityWalksOnTheBlock"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
