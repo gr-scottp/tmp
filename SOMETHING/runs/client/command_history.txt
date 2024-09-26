@@ -17,3 +17,9 @@
 /config showfile minecraft
 /config showfile minecraft SERVER
 /time set day
+/debugmobspawning creature ~ ~ ~
+/kill @e
+/spawn_armor_trims
+/spaw
+/spawn_armor_trims
+/advancement grant Dev everything

@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:0.5
 graphicsMode:0
 guiScale:0
@@ -40,7 +40,7 @@ directionalAudio:false
 touchscreen:false
 bobView:false
 toggleCrouch:false
-toggleSprint:false
+toggleSprint:true
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 hideSplashTexts:false
@@ -50,7 +50,7 @@ highContrast:false
 narratorHotkey:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:localhost:25463
+lastServer:
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0

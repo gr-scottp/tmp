@@ -10,14 +10,15 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.something.procedures.JUSTINBEBERedstoneOnProcedure;
+import net.mcreator.something.procedures.JUSTINBEBEEntityWalksOnTheBlockProcedure;
 
 public class JUSTINBEBEBlock extends Block {
 	public JUSTINBEBEBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 1000f).lightLevel(s -> 15).friction(5f).jumpFactor(21.6f).hasPostProcess((bs, br, bp) -> true)
-				.emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 1000f).lightLevel(s -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
@@ -31,5 +32,11 @@ public class JUSTINBEBEBlock extends Block {
 		if (world.getBestNeighborSignal(pos) > 0) {
 			JUSTINBEBERedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		JUSTINBEBEEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

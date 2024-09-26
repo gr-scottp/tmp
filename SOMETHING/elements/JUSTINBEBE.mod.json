@@ -76,9 +76,9 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 5.0,
+    "slipperiness": 0.6,
     "speedFactor": 1.0,
-    "jumpFactor": 21.599999999999998,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "JUSTINBEBEEntityWalksOnTheBlock"
+    },
     "onRedstoneOn": {
       "name": "JUSTINBEBERedstoneOn"
     },
