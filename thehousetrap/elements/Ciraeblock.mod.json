@@ -124,6 +124,9 @@
     "onRightClicked": {
       "name": "CiraeblockOnBlockRightClicked"
     },
+    "onEntityWalksOn": {
+      "name": "CiraeblockEntityWalksOnTheBlock"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
