@@ -38,7 +38,7 @@
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 1.1111111E7,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -77,8 +77,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.0,
-    "jumpFactor": 1.0,
+    "speedFactor": 10.0,
+    "jumpFactor": 10.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "CavarliBlockOnBlockRightClicked"
+    },
+    "onEntityWalksOn": {
+      "name": "CavarliBlockEntityWalksOnTheBlock"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
