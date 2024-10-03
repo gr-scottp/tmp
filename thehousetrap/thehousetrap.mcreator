@@ -79,6 +79,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "CiraeblockOnBlockRightClicked2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeblock_on_block_right_clicked_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockOnBlockRightClicked2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

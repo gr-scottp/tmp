@@ -15,7 +15,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.thehousetrap.procedures.CiraeblockOnBlockRightClickedProcedure;
+import net.mcreator.thehousetrap.procedures.CiraeblockOnBlockRightClicked2Procedure;
 import net.mcreator.thehousetrap.procedures.CiraeblockEntityWalksOnTheBlockProcedure;
 
 public class CiraeblockBlock extends Block {
@@ -44,7 +44,7 @@ public class CiraeblockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		CiraeblockOnBlockRightClickedProcedure.execute(world, x, y, z);
+		CiraeblockOnBlockRightClicked2Procedure.execute(x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }
