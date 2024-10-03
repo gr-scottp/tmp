@@ -122,6 +122,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "JUSTINBEBEOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justinbebe_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/JUSTINBEBEOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
