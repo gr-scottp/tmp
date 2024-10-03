@@ -50,7 +50,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -77,7 +77,7 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.61,
-    "speedFactor": 1.6,
+    "speedFactor": 1.5,
     "jumpFactor": 3.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
@@ -101,7 +101,7 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": false,
+    "unbreakable": true,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
@@ -122,7 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "SophiaOogaBoogaBlockGen"
+      "name": "OogaBoogaBlockGenOnBlockRightClicked"
     },
     "onEntityWalksOn": {
       "name": "AutoPlace"

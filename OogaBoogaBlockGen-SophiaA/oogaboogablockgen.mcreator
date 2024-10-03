@@ -105,6 +105,40 @@
           }
         ]
       }
+    },
+    {
+      "name": "OogaBoogaBlockGenOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ooga_booga_block_gen_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

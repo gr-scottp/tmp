@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "oogaboogablockgen:blocks/ooga_booga_block_gen",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "oogaboogablockgen:ooga_booga_block_gen"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "oogaboogablockgen:blocks/ooga_booga_block_gen"
 }

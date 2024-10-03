@@ -15,12 +15,12 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.oogaboogablockgen.procedures.SophiaOogaBoogaBlockGenProcedure;
+import net.mcreator.oogaboogablockgen.procedures.OogaBoogaBlockGenOnBlockRightClickedProcedure;
 import net.mcreator.oogaboogablockgen.procedures.AutoPlaceProcedure;
 
 public class OogaBoogaBlockGenBlock extends Block {
 	public OogaBoogaBlockGenBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(1f, 10f).friction(0.61f).speedFactor(1.6f).jumpFactor(3f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(-1, 3600000).friction(0.61f).speedFactor(1.5f).jumpFactor(3f));
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class OogaBoogaBlockGenBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		SophiaOogaBoogaBlockGenProcedure.execute(world, x, y, z);
+		OogaBoogaBlockGenOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
