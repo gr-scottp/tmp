@@ -44,7 +44,7 @@ public class BebeaBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		BebeaOnBlockRightClickedProcedure.execute(world, x, y, z);
+		BebeaOnBlockRightClickedProcedure.execute();
 		return InteractionResult.SUCCESS;
 	}
 }
