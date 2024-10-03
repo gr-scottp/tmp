@@ -14,7 +14,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.cinnamoroll.procedures.WinterLandOnBlockRightClickedProcedure;
+import net.mcreator.cinnamoroll.procedures.RainProcedure;
 
 public class WinterLandBlock extends Block {
 	public WinterLandBlock() {
@@ -36,7 +36,7 @@ public class WinterLandBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		WinterLandOnBlockRightClickedProcedure.execute(world, x, y, z);
+		RainProcedure.execute(x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }
