@@ -79,6 +79,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "ErikBlocksOnBlockRightClicked0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erik_blocks_on_block_right_clicked_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

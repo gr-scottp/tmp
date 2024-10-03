@@ -15,7 +15,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.erikmod.procedures.ErikBlocksOnBlockRightClickedProcedure;
+import net.mcreator.erikmod.procedures.ErikBlocksOnBlockRightClicked0Procedure;
 import net.mcreator.erikmod.procedures.ErikBlocksEntityWalksOnTheBlockProcedure;
 
 public class ErikBlocksBlock extends Block {
@@ -44,7 +44,7 @@ public class ErikBlocksBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		ErikBlocksOnBlockRightClickedProcedure.execute(world, x, y, z);
+		ErikBlocksOnBlockRightClicked0Procedure.execute(x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }
