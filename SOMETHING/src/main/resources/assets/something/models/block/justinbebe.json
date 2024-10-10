@@ -4,5 +4,5 @@
     "all": "something:block/uwewfacee",
     "particle": "something:block/uwewfacee"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
