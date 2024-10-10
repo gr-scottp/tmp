@@ -77,7 +77,7 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 2.5,
+    "speedFactor": 1.0,
     "jumpFactor": 15.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "DexterFaceBlockOnBlockRightClicked"
+    },
+    "onEntityWalksOn": {
+      "name": "DexterFaceBlockEntityWalksOnTheBlock"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
