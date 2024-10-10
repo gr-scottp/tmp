@@ -55,7 +55,7 @@ public class JUSTINBEBEBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		JUSTINBEBEOnBlockRightClickedProcedure.execute(x, y, z);
+		JUSTINBEBEOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

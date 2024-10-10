@@ -135,6 +135,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -145,7 +149,33 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Overunder",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overunder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/world/teleporter/OverunderTeleporter.java",
+          "src/main/resources/assets/something/models/block/overunder_portal_ns.json",
+          "src/main/java/net/mcreator/something/world/teleporter/OverunderPortalShape.java",
+          "src/main/resources/data/something/dimension_type/overunder.json",
+          "src/main/java/net/mcreator/something/block/OverunderPortalBlock.java",
+          "src/main/java/net/mcreator/something/world/dimension/OverunderDimension.java",
+          "src/main/resources/assets/something/blockstates/overunder_portal.json",
+          "src/main/java/net/mcreator/something/item/OverunderItem.java",
+          "src/main/resources/assets/something/models/block/overunder_portal_ew.json",
+          "src/main/resources/data/something/dimension/overunder.json",
+          "src/main/resources/assets/something/models/item/overunder.json"
         ]
       }
     }
@@ -155,6 +185,10 @@
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:NOTWATER"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SMOOTH_STONE",
+      "~Blocks.WOOL#3"
     ]
   },
   "tab_element_order": {},
@@ -162,6 +196,7 @@
     "en_us": {
       "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
       "fluid.something.notwater": "NOTWATER",
+      "item.something.overunder": "Overunder Portal Igniter",
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
       "item.something.notwater_bucket": "NOTWATER ",

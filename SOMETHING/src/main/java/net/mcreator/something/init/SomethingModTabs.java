@@ -24,6 +24,8 @@ public class SomethingModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(SomethingModBlocks.JUSTINBEBE.get().asItem());
 			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(SomethingModItems.OVERUNDER.get());
 		}
 	}
 }

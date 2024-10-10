@@ -23,3 +23,7 @@
 /spaw
 /spawn_armor_trims
 /advancement grant Dev everything
+/tp Dev 233
+/tp Dev 246 ~ ~3423
+/time set day
+/weather clear
