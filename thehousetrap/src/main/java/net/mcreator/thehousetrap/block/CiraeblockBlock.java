@@ -44,7 +44,7 @@ public class CiraeblockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		CiraeblockOnBlockRightClicked2Procedure.execute(x, y, z);
+		CiraeblockOnBlockRightClicked2Procedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
