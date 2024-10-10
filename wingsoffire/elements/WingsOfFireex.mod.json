@@ -77,7 +77,7 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.5,
+    "speedFactor": 100.0,
     "jumpFactor": 20.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
@@ -122,7 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "WingsOfFireexRedstoneOn"
+      "name": "WingsOfFireexOnBlockRightClicked"
     },
     "onEntityWalksOn": {
       "name": "WingsOfFireexEntityWalksOnTheBlock"

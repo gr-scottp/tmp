@@ -24,13 +24,14 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.wingsoffire.procedures.WingsOfFireexRedstoneOnProcedure;
+import net.mcreator.wingsoffire.procedures.WingsOfFireexOnBlockRightClickedProcedure;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexEntityWalksOnTheBlockProcedure;
 
 public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public WingsOfFireexBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.5f).jumpFactor(20f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(100f).jumpFactor(20f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -87,7 +88,7 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock 
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		WingsOfFireexRedstoneOnProcedure.execute(world, x, y, z);
+		WingsOfFireexOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
