@@ -105,6 +105,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "GlorysTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glorys_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Gloryandthehiddenkingdom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloryandthehiddenkingdom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/gloryandthehiddenkingdom.json",
+          "src/main/java/net/mcreator/wingsoffire/item/GloryandthehiddenkingdomItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GloryandthehiddenkingdomRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloryandthehiddenkingdom_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -113,6 +166,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item_group.wingsoffire.glorys_tab": "Glorys Tab",
+      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex"
     }
   },

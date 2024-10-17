@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Glorys Tab",
+    "icon": {
+      "value": "Items.TRIDENT"
+    },
+    "showSearch": true
+  }
+}
