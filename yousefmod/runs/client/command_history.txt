@@ -8,3 +8,4 @@
 //d]e;g,etp[g
 /time set day
 /~
+/advancement grant Dev everything
