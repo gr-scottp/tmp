@@ -83,6 +83,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "Dextertab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dextertab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PlatformWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platform_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/item/PlatformWandItem.java",
+          "src/main/resources/assets/dextermod/models/item/platform_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatformWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platform_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/PlatformWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -91,6 +144,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item_group.dextermod.dextertab": "Dextertab",
+      "item.dextermod.platform_wand": "Platform Wand",
       "block.dextermod.dexter_face_block": "Dexter Face Block"
     }
   },

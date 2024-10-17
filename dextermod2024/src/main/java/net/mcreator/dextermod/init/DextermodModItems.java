@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.dextermod.item.PlatformWandItem;
 import net.mcreator.dextermod.DextermodMod;
 
 public class DextermodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DextermodMod.MODID);
 	public static final DeferredHolder<Item, Item> DEXTER_FACE_BLOCK = block(DextermodModBlocks.DEXTER_FACE_BLOCK);
+	public static final DeferredHolder<Item, Item> PLATFORM_WAND = REGISTRY.register("platform_wand", PlatformWandItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

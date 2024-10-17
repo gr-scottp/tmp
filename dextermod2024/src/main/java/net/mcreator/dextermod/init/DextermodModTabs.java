@@ -23,6 +23,8 @@ public class DextermodModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DextermodModBlocks.DEXTER_FACE_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DextermodModItems.PLATFORM_WAND.get());
 		}
 	}
 }
