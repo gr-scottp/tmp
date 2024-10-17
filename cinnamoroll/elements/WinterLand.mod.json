@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:Lollipop"
       }
     ],
     "destroyTool": "Not specified",

@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.cinnamoroll.item.SunsetwandItem;
 import net.mcreator.cinnamoroll.CinnamorollMod;
 
 public class CinnamorollModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CinnamorollMod.MODID);
 	public static final DeferredHolder<Item, Item> WINTER_LAND = block(CinnamorollModBlocks.WINTER_LAND);
+	public static final DeferredHolder<Item, Item> SUNSETWAND = REGISTRY.register("sunsetwand", SunsetwandItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

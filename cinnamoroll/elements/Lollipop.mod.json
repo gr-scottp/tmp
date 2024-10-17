@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Lollipop",
+    "icon": {
+      "value": "CUSTOM:WinterLand"
+    },
+    "showSearch": false
+  }
+}
