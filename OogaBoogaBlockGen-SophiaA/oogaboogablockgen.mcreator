@@ -139,6 +139,49 @@
           }
         ]
       }
+    },
+    {
+      "name": "OGBWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogb_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OGBWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OGBWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogb_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/OGBWandItem.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/ogb_wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -147,7 +190,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen"
+      "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
+      "item.oogaboogablockgen.ogb_wand": "OGB Wand"
     }
   },
   "foldersRoot": {

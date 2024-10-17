@@ -1,6 +1,8 @@
 
 package net.mcreator.oogaboogablockgen.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -20,7 +22,7 @@ import net.mcreator.oogaboogablockgen.procedures.AutoPlaceProcedure;
 
 public class OogaBoogaBlockGenBlock extends Block {
 	public OogaBoogaBlockGenBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(-1, 3600000).friction(0.61f).speedFactor(1.5f).jumpFactor(3f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(-1, 3600000).lightLevel(s -> 1).friction(0.61f).speedFactor(1.5f).jumpFactor(1.5f));
 	}
 
 	@Override

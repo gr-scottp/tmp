@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.oogaboogablockgen.item.OGBWandItem;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 public class OogaboogablockgenModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(OogaboogablockgenMod.MODID);
 	public static final DeferredHolder<Item, Item> OOGA_BOOGA_BLOCK_GEN = block(OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN);
+	public static final DeferredHolder<Item, Item> OGB_WAND = REGISTRY.register("ogb_wand", OGBWandItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

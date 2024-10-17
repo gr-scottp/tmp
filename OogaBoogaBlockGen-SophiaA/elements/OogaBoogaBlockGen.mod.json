@@ -60,7 +60,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -78,7 +78,7 @@
     "isLadder": false,
     "slipperiness": 0.61,
     "speedFactor": 1.5,
-    "jumpFactor": 3.0,
+    "jumpFactor": 1.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -100,7 +100,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": true,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,

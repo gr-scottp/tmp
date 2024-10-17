@@ -89,10 +89,10 @@ onboardAccessibility:false
 menuBackgroundBlurriness:0.5
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
-key_key.forward:key.keyboard.w
-key_key.left:key.keyboard.a
-key_key.back:key.keyboard.s
-key_key.right:key.keyboard.d
+key_key.forward:key.keyboard.up
+key_key.left:key.keyboard.left
+key_key.back:key.keyboard.down
+key_key.right:key.keyboard.right
 key_key.jump:key.keyboard.space
 key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
