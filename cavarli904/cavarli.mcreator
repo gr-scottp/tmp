@@ -79,6 +79,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ohiocavarli",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohiocavarli",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CAVARLInoob1234567890",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavarl_inoob_1234567890",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavarli/models/item/cavarl_inoob_1234567890.json",
+          "src/main/java/net/mcreator/cavarli/item/CAVARLInoob1234567890Item.java"
+        ]
+      }
+    },
+    {
+      "name": "CAVARLInoob1234567890Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavarl_inoob_1234567890_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/CAVARLInoob1234567890RightclickedProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -87,7 +123,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.cavarli.cavarli_block": "Cavarli Block"
+      "block.cavarli.cavarli_block": "Cavarli Block",
+      "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
+      "item_group.cavarli.ohiocavarli": "Ohiocavarli"
     }
   },
   "foldersRoot": {

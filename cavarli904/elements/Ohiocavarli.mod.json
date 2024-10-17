@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Ohiocavarli",
+    "icon": {
+      "value": "CUSTOM:CavarliBlock"
+    },
+    "showSearch": true
+  }
+}

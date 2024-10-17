@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.cavarli.item.CAVARLInoob1234567890Item;
 import net.mcreator.cavarli.CavarliMod;
 
 public class CavarliModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CavarliMod.MODID);
 	public static final DeferredHolder<Item, Item> CAVARLI_BLOCK = block(CavarliModBlocks.CAVARLI_BLOCK);
+	public static final DeferredHolder<Item, Item> CAVARL_INOOB_1234567890 = REGISTRY.register("cavarl_inoob_1234567890", CAVARLInoob1234567890Item::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
