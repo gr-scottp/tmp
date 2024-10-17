@@ -26,6 +26,7 @@ public class SomethingModTabs {
 			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SomethingModItems.OVERUNDER.get());
+			tabData.accept(SomethingModItems.MAJIK_WANDDE.get());
 		}
 	}
 }

@@ -178,6 +178,49 @@
           "src/main/resources/assets/something/models/item/overunder.json"
         ]
       }
+    },
+    {
+      "name": "MajikWandde",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "majik_wandde",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/something/models/item/majik_wandde.json",
+          "src/main/java/net/mcreator/something/item/MajikWanddeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MajikWanddeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "majik_wandde_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/MajikWanddeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -200,6 +243,7 @@
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
       "item.something.notwater_bucket": "NOTWATER ",
+      "item.something.majik_wandde": "Majik Wandde",
       "item.something.the_key": "The KEY",
       "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.medkit": "%1$s died"

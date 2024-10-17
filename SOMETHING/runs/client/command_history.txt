@@ -1,4 +1,3 @@
-/kill @e
 /give @a minecraft:acacia_chest_boat 100000000
 /give @a minecraft:acacia_door 10000
 /locate structure #c:hidden_from_displayers
@@ -27,3 +26,25 @@
 /tp Dev 246 ~ ~3423
 /time set day
 /weather clear
+/summon minecraft:allay
+/SKRRRRRRRRRRR#
+/summon #
+/su
+/advancement grant Dev everything
+/attribute Dev minecraft:generic.jump_strength
+/attribute Dev minecraft:generic.armor base get 2111
+/say oh hello dere
+/advancement revoke Dev everything
+/worldborder add 21 12
+/time set day
+/weather clear
+/raid check
+/team add wallabee
+/worldborder add 1 11
+/worldborder center 1 ~
+/tp Dev 3999999999999999#
+/tp Dev 3999999999999999
+/tp @a 2999999999999999
+/tp Dev23212
+/tp Devto w32323
+/time set midnight
