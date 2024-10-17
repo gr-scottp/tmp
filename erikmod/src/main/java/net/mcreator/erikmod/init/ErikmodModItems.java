@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.erikmod.item.ErikwandthebestItem;
 import net.mcreator.erikmod.ErikmodMod;
 
 public class ErikmodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ErikmodMod.MODID);
 	public static final DeferredHolder<Item, Item> ERIK_BLOCKS = block(ErikmodModBlocks.ERIK_BLOCKS);
+	public static final DeferredHolder<Item, Item> ERIKWANDTHEBEST = REGISTRY.register("erikwandthebest", ErikwandthebestItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

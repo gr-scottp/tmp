@@ -105,6 +105,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "Erikwandthebest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikwandthebest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/erikmod/models/item/erikwandthebest.json",
+          "src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Eriktab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eriktab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Erik123456789",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erik_123456789",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -113,6 +166,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.erikmod.erikwandthebest": "Erikwandthebest",
+      "item_group.erikmod.eriktab": "Eriktab",
       "block.erikmod.erik_blocks": "Erik Blocks"
     }
   },
