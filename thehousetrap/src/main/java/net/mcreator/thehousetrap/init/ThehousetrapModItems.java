@@ -11,11 +11,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.thehousetrap.item.CiraeFroggyItem;
 import net.mcreator.thehousetrap.ThehousetrapMod;
 
 public class ThehousetrapModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ThehousetrapMod.MODID);
 	public static final DeferredHolder<Item, Item> CIRAEBLOCK = block(ThehousetrapModBlocks.CIRAEBLOCK);
+	public static final DeferredHolder<Item, Item> CIRAE_FROGGY = REGISTRY.register("cirae_froggy", CiraeFroggyItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

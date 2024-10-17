@@ -105,6 +105,59 @@
           }
         ]
       }
+    },
+    {
+      "name": "Froggy",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "froggy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CiraeFroggy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_froggy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/cirae_froggy.json",
+          "src/main/java/net/mcreator/thehousetrap/item/CiraeFroggyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CiraeFroggyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirae_froggy_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeFroggyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -113,7 +166,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.thehousetrap.ciraeblock": "Ciraeblock"
+      "block.thehousetrap.ciraeblock": "Ciraeblock",
+      "item_group.thehousetrap.froggy": "Froggy",
+      "item.thehousetrap.cirae_froggy": "Cirae Froggy"
     }
   },
   "foldersRoot": {
