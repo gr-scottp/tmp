@@ -24,6 +24,7 @@ public class SomethingModItems {
 	public static final DeferredHolder<Item, Item> NOTWATER_BUCKET = REGISTRY.register("notwater_bucket", NOTWATERItem::new);
 	public static final DeferredHolder<Item, Item> OVERUNDER = REGISTRY.register("overunder", OverunderItem::new);
 	public static final DeferredHolder<Item, Item> MAJIK_WANDDE = REGISTRY.register("majik_wandde", MajikWanddeItem::new);
+	public static final DeferredHolder<Item, Item> ABLOCK = block(SomethingModBlocks.ABLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

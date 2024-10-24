@@ -23,6 +23,7 @@ import net.mcreator.something.init.SomethingModItems;
 import net.mcreator.something.init.SomethingModFluids;
 import net.mcreator.something.init.SomethingModFluidTypes;
 import net.mcreator.something.init.SomethingModBlocks;
+import net.mcreator.something.init.SomethingModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -43,7 +44,7 @@ public class SomethingMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		SomethingModBlocks.REGISTRY.register(modEventBus);
-
+		SomethingModBlockEntities.REGISTRY.register(modEventBus);
 		SomethingModItems.REGISTRY.register(modEventBus);
 
 		SomethingModTabs.REGISTRY.register(modEventBus);

@@ -221,6 +221,53 @@
           }
         ]
       }
+    },
+    {
+      "name": "JUSTINBEBEOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justinbebe_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/JUSTINBEBEOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ABLOCK",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ablock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/block/ABLOCKBlock.java",
+          "src/main/java/net/mcreator/something/block/entity/ABLOCKBlockEntity.java",
+          "src/main/resources/assets/something/models/block/ablock.json",
+          "src/main/resources/assets/something/blockstates/ablock.json",
+          "src/main/resources/assets/something/models/item/ablock.json",
+          "src/main/resources/data/something/loot_tables/blocks/ablock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -243,6 +290,7 @@
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
       "item.something.notwater_bucket": "NOTWATER ",
+      "block.something.ablock": "JUSTINBEBE",
       "item.something.majik_wandde": "Majik Wandde",
       "item.something.the_key": "The KEY",
       "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",

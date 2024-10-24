@@ -1,16 +1,3 @@
-/give @a minecraft:acacia_chest_boat 100000000
-/give @a minecraft:acacia_door 10000
-/locate structure #c:hidden_from_displayers
-/kill dve
-/kill Dev
-/time set dya
-/time set day
-/setworldspawn
-/give Dev minecraft:command_block_minecart
-/kill @s
-/kill @e
-/clear
-/time set day
 /tp @e
 /give Dev minecraft:command_block
 /config showfile minecraft
@@ -48,3 +35,16 @@
 /tp Dev23212
 /tp Devto w32323
 /time set midnight
+/tick freeze
+/tick unfreeze
+/spawn_armor_trims
+/tp @a @p[3424
+/weather thunder
+/spawn_armor_trims
+/seed 234546576i7o8i7u66tr45
+/advancement grant Dev everything
+/resetchunks
+/weather clear
+/kill anika
+/kick Dev
+/setworldspawn
