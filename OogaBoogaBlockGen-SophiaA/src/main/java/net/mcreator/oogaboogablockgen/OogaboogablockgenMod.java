@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModTabs;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModParticleTypes;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModItems;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlocks;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,10 +43,12 @@ public class OogaboogablockgenMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		OogaboogablockgenModBlocks.REGISTRY.register(modEventBus);
-
+		OogaboogablockgenModBlockEntities.REGISTRY.register(modEventBus);
 		OogaboogablockgenModItems.REGISTRY.register(modEventBus);
 
 		OogaboogablockgenModTabs.REGISTRY.register(modEventBus);
+
+		OogaboogablockgenModParticleTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

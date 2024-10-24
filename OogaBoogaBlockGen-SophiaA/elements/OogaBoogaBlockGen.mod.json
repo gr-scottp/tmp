@@ -104,7 +104,7 @@
     "unbreakable": true,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "OogaBoogaBlockGenOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "OogaBoogaBlockGenOnTickUpdate"
     },
     "onEntityWalksOn": {
       "name": "AutoPlace"

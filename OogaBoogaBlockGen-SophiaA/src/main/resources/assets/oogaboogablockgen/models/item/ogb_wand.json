@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "oogaboogablockgen:item/obg_wand"
+    "layer0": "oogaboogablockgen:item/wandtexture"
   }
 }

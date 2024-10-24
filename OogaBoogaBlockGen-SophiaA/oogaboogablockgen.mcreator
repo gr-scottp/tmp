@@ -12,7 +12,8 @@
           "src/main/resources/data/oogaboogablockgen/loot_tables/blocks/ooga_booga_block_gen.json",
           "src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json",
           "src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json",
-          "src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java"
+          "src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/entity/OogaBoogaBlockGenBlockEntity.java"
         ]
       }
     },
@@ -180,6 +181,49 @@
         "files": [
           "src/main/java/net/mcreator/oogaboogablockgen/item/OGBWandItem.java",
           "src/main/resources/assets/oogaboogablockgen/models/item/ogb_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "OogaBoogaBlockGenOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ooga_booga_block_gen_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stars",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/client/particle/StarsParticle.java",
+          "src/main/resources/assets/oogaboogablockgen/particles/stars.json"
         ]
       }
     }

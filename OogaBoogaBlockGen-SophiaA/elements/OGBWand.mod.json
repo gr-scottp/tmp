@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "obg_wand",
+    "texture": "wandtexture",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
