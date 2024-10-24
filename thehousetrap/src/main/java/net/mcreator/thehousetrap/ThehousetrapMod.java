@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.thehousetrap.init.ThehousetrapModTabs;
 import net.mcreator.thehousetrap.init.ThehousetrapModItems;
 import net.mcreator.thehousetrap.init.ThehousetrapModBlocks;
+import net.mcreator.thehousetrap.init.ThehousetrapModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class ThehousetrapMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		ThehousetrapModBlocks.REGISTRY.register(modEventBus);
-
+		ThehousetrapModBlockEntities.REGISTRY.register(modEventBus);
 		ThehousetrapModItems.REGISTRY.register(modEventBus);
 
 		ThehousetrapModTabs.REGISTRY.register(modEventBus);

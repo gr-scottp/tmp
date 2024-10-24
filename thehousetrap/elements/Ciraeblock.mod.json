@@ -104,7 +104,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "CiraeblockOnBlockRightClicked2"
+    },
+    "onTickUpdate": {
+      "name": "CiraeblockOnTickUpdate"
     },
     "onEntityWalksOn": {
       "name": "CiraeblockEntityWalksOnTheBlock"

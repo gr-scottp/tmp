@@ -12,7 +12,8 @@
           "src/main/resources/data/thehousetrap/loot_tables/blocks/ciraeblock.json",
           "src/main/resources/assets/thehousetrap/models/item/ciraeblock.json",
           "src/main/resources/assets/thehousetrap/blockstates/ciraeblock.json",
-          "src/main/resources/assets/thehousetrap/models/block/ciraeblock.json"
+          "src/main/resources/assets/thehousetrap/models/block/ciraeblock.json",
+          "src/main/java/net/mcreator/thehousetrap/block/entity/CiraeblockBlockEntity.java"
         ]
       }
     },
@@ -146,6 +147,36 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/thehousetrap/procedures/CiraeFroggyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CiraeblockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeblock_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CiraeblockOnTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
