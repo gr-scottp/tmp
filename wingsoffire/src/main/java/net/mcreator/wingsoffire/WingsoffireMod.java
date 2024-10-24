@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.wingsoffire.init.WingsoffireModTabs;
 import net.mcreator.wingsoffire.init.WingsoffireModItems;
 import net.mcreator.wingsoffire.init.WingsoffireModBlocks;
+import net.mcreator.wingsoffire.init.WingsoffireModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class WingsoffireMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		WingsoffireModBlocks.REGISTRY.register(modEventBus);
-
+		WingsoffireModBlockEntities.REGISTRY.register(modEventBus);
 		WingsoffireModItems.REGISTRY.register(modEventBus);
 
 		WingsoffireModTabs.REGISTRY.register(modEventBus);

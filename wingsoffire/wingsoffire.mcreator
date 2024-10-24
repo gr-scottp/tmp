@@ -9,6 +9,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/wingsoffire/models/block/wings_of_fireex.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/WingsOfFireexBlockEntity.java",
           "src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json",
           "src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java",
           "src/main/resources/data/wingsoffire/loot_tables/blocks/wings_of_fireex.json",
@@ -146,6 +147,36 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/wingsoffire/procedures/GloryandthehiddenkingdomRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WingsOfFireexOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_fireex_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnTickUpdateProcedure.java"
         ],
         "dependencies": [
           {
