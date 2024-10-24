@@ -3,3 +3,4 @@
 /place structure minecraft:bastion_remnant
 /place structure minecraft:igloo
 /place structure minecraft:mineshaft
+/advancement grant

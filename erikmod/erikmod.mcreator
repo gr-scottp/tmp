@@ -11,6 +11,7 @@
           "src/main/resources/assets/erikmod/blockstates/erik_blocks.json",
           "src/main/resources/assets/erikmod/models/block/erik_blocks.json",
           "src/main/resources/data/erikmod/loot_tables/blocks/erik_blocks.json",
+          "src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java",
           "src/main/resources/assets/erikmod/models/item/erik_blocks.json",
           "src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java"
         ]
@@ -81,6 +82,7 @@
       }
     },
     {
+<<<<<<< Updated upstream
       "name": "ErikBlocksOnBlockRightClicked0",
       "type": "procedure",
       "compiles": true,
@@ -138,6 +140,16 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java"
+=======
+      "name": "ErikBlocksOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erik_blocks_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java"
+>>>>>>> Stashed changes
         ],
         "dependencies": [
           {
@@ -158,6 +170,35 @@
           }
         ]
       }
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "name": "Tickgg",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tickgg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/client/gui/TickggScreen.java",
+          "src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java"
+        ],
+        "dependencies": []
+      }
+>>>>>>> Stashed changes
     }
   ],
   "variable_elements": [],

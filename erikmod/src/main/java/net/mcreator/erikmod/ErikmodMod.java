@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.erikmod.init.ErikmodModTabs;
+import net.mcreator.erikmod.init.ErikmodModMenus;
 import net.mcreator.erikmod.init.ErikmodModItems;
 import net.mcreator.erikmod.init.ErikmodModBlocks;
+import net.mcreator.erikmod.init.ErikmodModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,10 +43,12 @@ public class ErikmodMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		ErikmodModBlocks.REGISTRY.register(modEventBus);
-
+		ErikmodModBlockEntities.REGISTRY.register(modEventBus);
 		ErikmodModItems.REGISTRY.register(modEventBus);
 
 		ErikmodModTabs.REGISTRY.register(modEventBus);
+
+		ErikmodModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
