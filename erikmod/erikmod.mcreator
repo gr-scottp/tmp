@@ -82,65 +82,6 @@
       }
     },
     {
-<<<<<<< Updated upstream
-      "name": "ErikBlocksOnBlockRightClicked0",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erik_blocks_on_block_right_clicked_0",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Erikwandthebest",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erikwandthebest",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/erikmod/models/item/erikwandthebest.json",
-          "src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Eriktab",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eriktab",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "Erik123456789",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erik_123456789",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java"
-=======
       "name": "ErikBlocksOnTickUpdate",
       "type": "procedure",
       "compiles": true,
@@ -149,7 +90,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java"
->>>>>>> Stashed changes
         ],
         "dependencies": [
           {
@@ -170,8 +110,6 @@
           }
         ]
       }
-<<<<<<< Updated upstream
-=======
     },
     {
       "name": "Tickgg",
@@ -185,20 +123,6 @@
           "src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java"
         ]
       }
-    },
-    {
-      "name": "Tick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java"
-        ],
-        "dependencies": []
-      }
->>>>>>> Stashed changes
     }
   ],
   "variable_elements": [],
@@ -207,8 +131,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.erikmod.erikwandthebest": "Erikwandthebest",
-      "item_group.erikmod.eriktab": "Eriktab",
       "block.erikmod.erik_blocks": "Erik Blocks"
     }
   },
