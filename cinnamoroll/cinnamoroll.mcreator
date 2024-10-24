@@ -11,6 +11,7 @@
           "src/main/resources/assets/cinnamoroll/blockstates/winter_land.json",
           "src/main/resources/assets/cinnamoroll/models/block/winter_land.json",
           "src/main/java/net/mcreator/cinnamoroll/block/WinterLandBlock.java",
+          "src/main/java/net/mcreator/cinnamoroll/block/entity/WinterLandBlockEntity.java",
           "src/main/resources/assets/cinnamoroll/models/item/winter_land.json",
           "src/main/resources/data/cinnamoroll/loot_tables/blocks/winter_land.json"
         ]
@@ -130,6 +131,36 @@
         "files": [
           "src/main/java/net/mcreator/cinnamoroll/item/SunsetwandItem.java",
           "src/main/resources/assets/cinnamoroll/models/item/sunsetwand.json"
+        ]
+      }
+    },
+    {
+      "name": "WinterLandOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winter_land_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/WinterLandOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

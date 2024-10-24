@@ -63,7 +63,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -107,7 +107,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -126,6 +126,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "Rain"
+    },
+    "onTickUpdate": {
+      "name": "WinterLandOnTickUpdate"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

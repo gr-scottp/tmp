@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.cinnamoroll.init.CinnamorollModTabs;
 import net.mcreator.cinnamoroll.init.CinnamorollModItems;
 import net.mcreator.cinnamoroll.init.CinnamorollModBlocks;
+import net.mcreator.cinnamoroll.init.CinnamorollModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class CinnamorollMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		CinnamorollModBlocks.REGISTRY.register(modEventBus);
-
+		CinnamorollModBlockEntities.REGISTRY.register(modEventBus);
 		CinnamorollModItems.REGISTRY.register(modEventBus);
 
 		CinnamorollModTabs.REGISTRY.register(modEventBus);
