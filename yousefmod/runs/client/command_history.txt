@@ -9,3 +9,4 @@
 /time set day
 /~
 /advancement grant Dev everything
+/advancement grant @a everything

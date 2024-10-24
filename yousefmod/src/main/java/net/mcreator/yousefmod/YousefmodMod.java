@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.yousefmod.init.YousefmodModTabs;
+import net.mcreator.yousefmod.init.YousefmodModMenus;
 import net.mcreator.yousefmod.init.YousefmodModItems;
 import net.mcreator.yousefmod.init.YousefmodModBlocks;
+import net.mcreator.yousefmod.init.YousefmodModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,10 +43,12 @@ public class YousefmodMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		YousefmodModBlocks.REGISTRY.register(modEventBus);
-
+		YousefmodModBlockEntities.REGISTRY.register(modEventBus);
 		YousefmodModItems.REGISTRY.register(modEventBus);
 
 		YousefmodModTabs.REGISTRY.register(modEventBus);
+
+		YousefmodModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

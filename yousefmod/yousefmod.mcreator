@@ -11,6 +11,7 @@
           "src/main/resources/assets/yousefmod/models/item/bebea.json",
           "src/main/resources/assets/yousefmod/models/block/bebea.json",
           "src/main/java/net/mcreator/yousefmod/block/BebeaBlock.java",
+          "src/main/java/net/mcreator/yousefmod/block/entity/BebeaBlockEntity.java",
           "src/main/resources/assets/yousefmod/blockstates/bebea.json",
           "src/main/resources/data/yousefmod/loot_tables/blocks/bebea.json"
         ]
@@ -164,6 +165,80 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "BebeaOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bebea_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/BebeaOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tickgetter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tickgetter",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/TickgetterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TickView",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_view",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/client/gui/TickViewScreen.java",
+          "src/main/java/net/mcreator/yousefmod/world/inventory/TickViewMenu.java"
         ]
       }
     }
