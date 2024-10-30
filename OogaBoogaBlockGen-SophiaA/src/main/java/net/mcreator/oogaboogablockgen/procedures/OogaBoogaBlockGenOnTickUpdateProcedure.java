@@ -24,7 +24,7 @@ public class OogaBoogaBlockGenOnTickUpdateProcedure {
 							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, BlockPos.containing(x, y, z), "NumTicks") + 1));
+				}.getValue(world, BlockPos.containing(x, y, z), "numTicks") + 1));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}

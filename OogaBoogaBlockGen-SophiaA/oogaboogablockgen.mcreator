@@ -9,10 +9,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/oogaboogablockgen/blockstates/ooga_booga_block_gen.json",
-          "src/main/resources/data/oogaboogablockgen/loot_tables/blocks/ooga_booga_block_gen.json",
           "src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json",
           "src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json",
           "src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/ooga_booga_block_gen.json",
           "src/main/java/net/mcreator/oogaboogablockgen/block/entity/OogaBoogaBlockGenBlockEntity.java"
         ]
       }
@@ -254,8 +254,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.oogaboogablockgen"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
