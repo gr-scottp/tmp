@@ -21,10 +21,11 @@
       "registry_name": "justinbebe",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/something/block/entity/JUSTINBEBEBlockEntity.java",
           "src/main/resources/assets/something/models/item/justinbebe.json",
-          "src/main/resources/data/something/loot_tables/blocks/justinbebe.json",
           "src/main/resources/assets/something/models/block/justinbebe.json",
           "src/main/resources/assets/something/blockstates/justinbebe.json",
+          "src/main/resources/data/something/loot_table/blocks/justinbebe.json",
           "src/main/java/net/mcreator/something/block/JUSTINBEBEBlock.java"
         ]
       }
@@ -262,10 +263,10 @@
         "files": [
           "src/main/java/net/mcreator/something/block/ABLOCKBlock.java",
           "src/main/java/net/mcreator/something/block/entity/ABLOCKBlockEntity.java",
+          "src/main/resources/data/something/loot_table/blocks/ablock.json",
           "src/main/resources/assets/something/models/block/ablock.json",
           "src/main/resources/assets/something/blockstates/ablock.json",
-          "src/main/resources/assets/something/models/item/ablock.json",
-          "src/main/resources/data/something/loot_tables/blocks/ablock.json"
+          "src/main/resources/assets/something/models/item/ablock.json"
         ]
       }
     }
@@ -277,8 +278,7 @@
       "~CUSTOM:NOTWATER"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SMOOTH_STONE",
-      "~Blocks.WOOL#3"
+      "~Blocks.SMOOTH_STONE"
     ]
   },
   "tab_element_order": {},
@@ -313,8 +313,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.something"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }

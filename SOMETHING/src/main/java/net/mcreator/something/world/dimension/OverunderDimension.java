@@ -26,7 +26,7 @@ public class OverunderDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("something:overunder"), customEffect);
+			event.register(ResourceLocation.parse("something:overunder"), customEffect);
 		}
 	}
 }

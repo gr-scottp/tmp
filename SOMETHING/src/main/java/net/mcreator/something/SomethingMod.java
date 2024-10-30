@@ -51,6 +51,7 @@ public class SomethingMod {
 
 		SomethingModFluids.REGISTRY.register(modEventBus);
 		SomethingModFluidTypes.REGISTRY.register(modEventBus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

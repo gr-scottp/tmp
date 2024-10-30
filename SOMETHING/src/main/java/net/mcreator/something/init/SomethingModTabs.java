@@ -22,12 +22,16 @@ public class SomethingModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(SomethingModBlocks.JUSTINBEBE.get().asItem());
 			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
 			tabData.accept(SomethingModBlocks.ABLOCK.get().asItem());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
 			tabData.accept(SomethingModItems.OVERUNDER.get());
 			tabData.accept(SomethingModItems.MAJIK_WANDDE.get());
+
 		}
 	}
 }

@@ -35,7 +35,7 @@ public class JUSTINBEBEOnTickUpdateProcedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "tagName") > 1) {
+		}.getValue(world, BlockPos.containing(x, y, z), "tagName") > 40) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.NOTE, x, y, z, 5, 3, 3, 3, 1);
 			if (!world.isClientSide()) {
