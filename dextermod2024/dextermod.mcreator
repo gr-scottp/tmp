@@ -8,11 +8,11 @@
       "registry_name": "dexter_face_block",
       "metadata": {
         "files": [
+          "src/main/resources/data/dextermod/loot_table/blocks/dexter_face_block.json",
           "src/main/resources/assets/dextermod/models/block/dexter_face_block.json",
           "src/main/resources/assets/dextermod/blockstates/dexter_face_block.json",
           "src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java",
-          "src/main/resources/assets/dextermod/models/item/dexter_face_block.json",
-          "src/main/resources/data/dextermod/loot_tables/blocks/dexter_face_block.json"
+          "src/main/resources/assets/dextermod/models/item/dexter_face_block.json"
         ]
       }
     },
@@ -165,8 +165,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.dextermod"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
