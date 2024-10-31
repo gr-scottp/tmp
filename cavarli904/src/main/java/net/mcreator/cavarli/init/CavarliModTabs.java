@@ -29,7 +29,9 @@ public class CavarliModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(CavarliModBlocks.CAVARLI_BLOCK.get().asItem());
+
 		}
 	}
 }
