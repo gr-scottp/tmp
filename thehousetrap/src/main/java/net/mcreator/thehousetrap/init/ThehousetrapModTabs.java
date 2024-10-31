@@ -30,7 +30,9 @@ public class ThehousetrapModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(ThehousetrapModBlocks.CIRAEBLOCK.get().asItem());
+
 		}
 	}
 }

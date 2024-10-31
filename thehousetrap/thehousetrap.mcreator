@@ -8,8 +8,8 @@
       "registry_name": "ciraeblock",
       "metadata": {
         "files": [
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraeblock.json",
           "src/main/java/net/mcreator/thehousetrap/block/CiraeblockBlock.java",
-          "src/main/resources/data/thehousetrap/loot_tables/blocks/ciraeblock.json",
           "src/main/resources/assets/thehousetrap/models/item/ciraeblock.json",
           "src/main/resources/assets/thehousetrap/blockstates/ciraeblock.json",
           "src/main/resources/assets/thehousetrap/models/block/ciraeblock.json",
@@ -226,8 +226,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.thehousetrap"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
