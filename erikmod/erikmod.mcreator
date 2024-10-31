@@ -82,7 +82,6 @@
       }
     },
     {
-<<<<<<< Updated upstream
       "name": "ErikBlocksOnBlockRightClicked0",
       "type": "procedure",
       "compiles": true,
@@ -104,8 +103,11 @@
           {
             "name": "z",
             "type": "number"
-          }
-        ]
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }        ]
       }
     },
     {
@@ -140,7 +142,24 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java"
-=======
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
       "name": "ErikBlocksOnTickUpdate",
       "type": "procedure",
       "compiles": true,
@@ -149,7 +168,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java"
->>>>>>> Stashed changes
         ],
         "dependencies": [
           {
@@ -170,8 +188,6 @@
           }
         ]
       }
-<<<<<<< Updated upstream
-=======
     },
     {
       "name": "Tickgg",
@@ -198,7 +214,6 @@
         ],
         "dependencies": []
       }
->>>>>>> Stashed changes
     }
   ],
   "variable_elements": [],
