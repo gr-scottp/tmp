@@ -10,8 +10,8 @@
         "files": [
           "src/main/resources/assets/erikmod/blockstates/erik_blocks.json",
           "src/main/resources/assets/erikmod/models/block/erik_blocks.json",
-          "src/main/resources/data/erikmod/loot_tables/blocks/erik_blocks.json",
           "src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java",
+          "src/main/resources/data/erikmod/loot_table/blocks/erik_blocks.json",
           "src/main/resources/assets/erikmod/models/item/erik_blocks.json",
           "src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java"
         ]
@@ -93,6 +93,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -107,7 +111,8 @@
           {
             "name": "world",
             "type": "world"
-          }        ]
+          }
+        ]
       }
     },
     {
@@ -155,6 +160,10 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -212,7 +221,25 @@
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string"
       }
     }
   ],
@@ -243,8 +270,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.erikmod"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }

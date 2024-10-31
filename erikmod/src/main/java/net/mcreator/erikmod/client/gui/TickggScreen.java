@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.erikmod.world.inventory.TickggMenu;
+import net.mcreator.erikmod.procedures.TickProcedure;
 
 import java.util.HashMap;
 
@@ -31,7 +32,7 @@ public class TickggScreen extends AbstractContainerScreen<TickggMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("erikmod:textures/screens/tickgg.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("erikmod:textures/screens/tickgg.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -60,6 +61,9 @@ public class TickggScreen extends AbstractContainerScreen<TickggMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font,
+
+				TickProcedure.execute(world, x, y, z), 72, 56, -12829636, false);
 	}
 
 	@Override

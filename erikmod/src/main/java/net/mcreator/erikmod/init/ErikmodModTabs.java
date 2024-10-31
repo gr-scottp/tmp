@@ -29,7 +29,9 @@ public class ErikmodModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(ErikmodModBlocks.ERIK_BLOCKS.get().asItem());
+
 		}
 	}
 }
