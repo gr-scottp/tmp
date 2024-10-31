@@ -32,7 +32,7 @@ public class TickViewScreen extends AbstractContainerScreen<TickViewMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("yousefmod:textures/screens/tick_view.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("yousefmod:textures/screens/tick_view.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {

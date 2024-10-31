@@ -29,9 +29,13 @@ public class YousefmodModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(YousefmodModBlocks.BEBEA.get().asItem());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
 			tabData.accept(YousefmodModItems.YOUSE_FWAND.get());
+
 		}
 	}
 }

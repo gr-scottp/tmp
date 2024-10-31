@@ -11,9 +11,9 @@
           "src/main/resources/assets/yousefmod/models/item/bebea.json",
           "src/main/resources/assets/yousefmod/models/block/bebea.json",
           "src/main/java/net/mcreator/yousefmod/block/BebeaBlock.java",
+          "src/main/resources/data/yousefmod/loot_table/blocks/bebea.json",
           "src/main/java/net/mcreator/yousefmod/block/entity/BebeaBlockEntity.java",
-          "src/main/resources/assets/yousefmod/blockstates/bebea.json",
-          "src/main/resources/data/yousefmod/loot_tables/blocks/bebea.json"
+          "src/main/resources/assets/yousefmod/blockstates/bebea.json"
         ]
       }
     },
@@ -270,8 +270,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.yousefmod"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
