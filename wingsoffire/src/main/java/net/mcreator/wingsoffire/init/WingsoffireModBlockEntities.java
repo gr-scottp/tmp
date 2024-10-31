@@ -23,6 +23,8 @@ public class WingsoffireModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, WingsoffireMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> WINGS_OF_FIREEX = register("wings_of_fireex", WingsoffireModBlocks.WINGS_OF_FIREEX, WingsOfFireexBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> register(String registryname, DeferredHolder<Block, Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}

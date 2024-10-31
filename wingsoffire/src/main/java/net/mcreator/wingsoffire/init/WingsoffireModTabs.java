@@ -30,7 +30,9 @@ public class WingsoffireModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(WingsoffireModBlocks.WINGS_OF_FIREEX.get().asItem());
+
 		}
 	}
 }

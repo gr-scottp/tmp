@@ -12,8 +12,8 @@
           "src/main/java/net/mcreator/wingsoffire/block/entity/WingsOfFireexBlockEntity.java",
           "src/main/resources/assets/wingsoffire/models/item/wings_of_fireex.json",
           "src/main/java/net/mcreator/wingsoffire/block/WingsOfFireexBlock.java",
-          "src/main/resources/data/wingsoffire/loot_tables/blocks/wings_of_fireex.json",
-          "src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json"
+          "src/main/resources/assets/wingsoffire/blockstates/wings_of_fireex.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/wings_of_fireex.json"
         ]
       }
     },
@@ -226,8 +226,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.wingsoffire"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
