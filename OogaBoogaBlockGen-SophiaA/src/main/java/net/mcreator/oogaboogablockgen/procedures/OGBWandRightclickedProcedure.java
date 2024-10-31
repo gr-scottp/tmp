@@ -10,7 +10,7 @@ public class OGBWandRightclickedProcedure {
 		double ZOffset = 0;
 		double XOffset = 0;
 		double YOffset = 0;
-		ZOffset = 1000;
+		ZOffset = -1;
 		XOffset = -1;
 		for (int index0 = 0; index0 < 3; index0++) {
 			for (int index1 = 0; index1 < 3; index1++) {

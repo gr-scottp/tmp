@@ -31,7 +31,7 @@ import net.mcreator.oogaboogablockgen.block.entity.OogaBoogaBlockGenBlockEntity;
 
 public class OogaBoogaBlockGenBlock extends Block implements EntityBlock {
 	public OogaBoogaBlockGenBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(-1, 3600000).lightLevel(s -> 1).friction(0.61f).speedFactor(1.5f).jumpFactor(1.5f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.AMETHYST).strength(-1, 3600000).lightLevel(s -> 1).friction(0.61f).speedFactor(1.5f).jumpFactor(2f));
 	}
 
 	@Override
