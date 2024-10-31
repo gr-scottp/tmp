@@ -13,7 +13,7 @@
           "src/main/java/net/mcreator/cinnamoroll/block/WinterLandBlock.java",
           "src/main/java/net/mcreator/cinnamoroll/block/entity/WinterLandBlockEntity.java",
           "src/main/resources/assets/cinnamoroll/models/item/winter_land.json",
-          "src/main/resources/data/cinnamoroll/loot_tables/blocks/winter_land.json"
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/winter_land.json"
         ]
       }
     },
@@ -192,8 +192,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.6",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.cinnamoroll"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }

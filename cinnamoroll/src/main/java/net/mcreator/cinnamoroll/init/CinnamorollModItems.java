@@ -5,6 +5,7 @@
 package net.mcreator.cinnamoroll.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
@@ -16,12 +17,12 @@ import net.mcreator.cinnamoroll.CinnamorollMod;
 
 public class CinnamorollModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CinnamorollMod.MODID);
-	public static final DeferredHolder<Item, Item> WINTER_LAND = block(CinnamorollModBlocks.WINTER_LAND);
-	public static final DeferredHolder<Item, Item> SUNSETWAND = REGISTRY.register("sunsetwand", SunsetwandItem::new);
+	public static final DeferredItem<Item> WINTER_LAND = block(CinnamorollModBlocks.WINTER_LAND);
+	public static final DeferredItem<Item> SUNSETWAND = REGISTRY.register("sunsetwand", SunsetwandItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static DeferredHolder<Item, Item> block(DeferredHolder<Block, Block> block) {
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}
 }

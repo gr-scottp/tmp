@@ -31,7 +31,9 @@ public class CinnamorollModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
 			tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
+
 		}
 	}
 }
