@@ -18,13 +18,6 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.something.init.SomethingModTabs;
-import net.mcreator.something.init.SomethingModItems;
-import net.mcreator.something.init.SomethingModFluids;
-import net.mcreator.something.init.SomethingModFluidTypes;
-import net.mcreator.something.init.SomethingModBlocks;
-import net.mcreator.something.init.SomethingModBlockEntities;
-
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -43,15 +36,8 @@ public class SomethingMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
-		SomethingModBlocks.REGISTRY.register(modEventBus);
-		SomethingModBlockEntities.REGISTRY.register(modEventBus);
-		SomethingModItems.REGISTRY.register(modEventBus);
-
-		SomethingModTabs.REGISTRY.register(modEventBus);
-
 		SomethingModFluids.REGISTRY.register(modEventBus);
 		SomethingModFluidTypes.REGISTRY.register(modEventBus);
-
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
