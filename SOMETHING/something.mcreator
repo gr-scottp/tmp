@@ -21,11 +21,10 @@
       "registry_name": "justinbebe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/something/block/entity/JUSTINBEBEBlockEntity.java",
           "src/main/resources/assets/something/models/item/justinbebe.json",
+          "src/main/resources/data/something/loot_tables/blocks/justinbebe.json",
           "src/main/resources/assets/something/models/block/justinbebe.json",
           "src/main/resources/assets/something/blockstates/justinbebe.json",
-          "src/main/resources/data/something/loot_table/blocks/justinbebe.json",
           "src/main/java/net/mcreator/something/block/JUSTINBEBEBlock.java"
         ]
       }
@@ -179,96 +178,6 @@
           "src/main/resources/assets/something/models/item/overunder.json"
         ]
       }
-    },
-    {
-      "name": "MajikWandde",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "majik_wandde",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/something/models/item/majik_wandde.json",
-          "src/main/java/net/mcreator/something/item/MajikWanddeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "MajikWanddeRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "majik_wandde_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/something/procedures/MajikWanddeRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "JUSTINBEBEOnTickUpdate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "justinbebe_on_tick_update",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/something/procedures/JUSTINBEBEOnTickUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ABLOCK",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ablock",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/something/block/ABLOCKBlock.java",
-          "src/main/java/net/mcreator/something/block/entity/ABLOCKBlockEntity.java",
-          "src/main/resources/data/something/loot_table/blocks/ablock.json",
-          "src/main/resources/assets/something/models/block/ablock.json",
-          "src/main/resources/assets/something/blockstates/ablock.json",
-          "src/main/resources/assets/something/models/item/ablock.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -278,7 +187,8 @@
       "~CUSTOM:NOTWATER"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SMOOTH_STONE"
+      "~Blocks.SMOOTH_STONE",
+      "~Blocks.WOOL#3"
     ]
   },
   "tab_element_order": {},
@@ -290,8 +200,6 @@
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
       "item.something.notwater_bucket": "NOTWATER ",
-      "block.something.ablock": "JUSTINBEBE",
-      "item.something.majik_wandde": "Majik Wandde",
       "item.something.the_key": "The KEY",
       "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.medkit": "%1$s died"
@@ -313,8 +221,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-1.20.6",
     "modElementsPackage": "net.mcreator.something"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202400232117
 }
