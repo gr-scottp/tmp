@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.erikmod.block.entity.ErikytuBlockEntity;
 import net.mcreator.erikmod.block.entity.ErikBlocksBlockEntity;
 import net.mcreator.erikmod.ErikmodMod;
 
@@ -22,6 +23,7 @@ import net.mcreator.erikmod.ErikmodMod;
 public class ErikmodModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ErikmodMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> ERIK_BLOCKS = register("erik_blocks", ErikmodModBlocks.ERIK_BLOCKS, ErikBlocksBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> ERIKYTU = register("erikytu", ErikmodModBlocks.ERIKYTU, ErikytuBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class ErikmodModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ERIK_BLOCKS.get(), (blockEntity, side) -> ((ErikBlocksBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ERIKYTU.get(), (blockEntity, side) -> ((ErikytuBlockEntity) blockEntity).getItemHandler());
 	}
 }

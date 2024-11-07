@@ -19,6 +19,7 @@ public class ErikmodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ErikmodMod.MODID);
 	public static final DeferredItem<Item> ERIK_BLOCKS = block(ErikmodModBlocks.ERIK_BLOCKS);
 	public static final DeferredItem<Item> ERIKWANDTHEBEST = REGISTRY.register("erikwandthebest", ErikwandthebestItem::new);
+	public static final DeferredItem<Item> ERIKYTU = block(ErikmodModBlocks.ERIKYTU);
 
 	// Start of user code block custom items
 	// End of user code block custom items

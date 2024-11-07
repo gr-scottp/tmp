@@ -241,6 +241,53 @@
         ],
         "return_type": "string"
       }
+    },
+    {
+      "name": "Erikytu",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikytu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/erikmod/loot_table/blocks/erikytu.json",
+          "src/main/resources/assets/erikmod/models/block/erikytu.json",
+          "src/main/java/net/mcreator/erikmod/block/entity/ErikytuBlockEntity.java",
+          "src/main/resources/assets/erikmod/models/item/erikytu.json",
+          "src/main/java/net/mcreator/erikmod/block/ErikytuBlock.java",
+          "src/main/resources/assets/erikmod/blockstates/erikytu.json"
+        ]
+      }
+    },
+    {
+      "name": "ErikytuOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikytu_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ErikytuOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -251,6 +298,7 @@
     "en_us": {
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",
+      "block.erikmod.erikytu": "Erikytu",
       "block.erikmod.erik_blocks": "Erik Blocks"
     }
   },

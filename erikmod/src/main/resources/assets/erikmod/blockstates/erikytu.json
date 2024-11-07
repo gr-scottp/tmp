@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "erikmod:block/erikytu"
+    },
+    "facing=east": {
+      "model": "erikmod:block/erikytu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "erikmod:block/erikytu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "erikmod:block/erikytu",
+      "y": 270
+    }
+  }
+}

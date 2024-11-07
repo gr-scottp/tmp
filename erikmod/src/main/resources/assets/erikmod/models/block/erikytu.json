@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "erikmod:block/meinamask",
+    "up": "erikmod:block/meinamask",
+    "north": "minecraft:block/debug2",
+    "east": "erikmod:block/meinamask",
+    "south": "erikmod:block/meinamask",
+    "west": "erikmod:block/meinamask",
+    "particle": "erikmod:block/meinamask"
+  },
+  "render_type": "solid"
+}

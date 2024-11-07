@@ -63,7 +63,7 @@ public class TickggScreen extends AbstractContainerScreen<TickggMenu> {
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font,
 
-				TickProcedure.execute(world, x, y, z), 72, 56, -12829636, false);
+				TickProcedure.execute(world, x, y, z), 72, 8, -12829636, false);
 	}
 
 	@Override
