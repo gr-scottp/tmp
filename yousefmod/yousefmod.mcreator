@@ -301,6 +301,37 @@
           }
         ]
       }
+    },
+    {
+      "name": "YousefFuelGet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yousef_fuel_get",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/YousefFuelGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -312,6 +343,7 @@
       "block.yousefmod.bebea": "Bebea",
       "item_group.yousefmod.yousefmod": "Yousefmod",
       "gui.yousefmod.fanumtax.label_empty": "",
+      "gui.yousefmod.fanumtax.label_empty2": "",
       "gui.yousefmod.fanumtax.label_empty1": "",
       "item.yousefmod.youse_fwand": "YOUSE Fwand",
       "block.yousefmod.imadyousefblock": "Imadyousefblock",

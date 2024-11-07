@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.yousefmod.world.inventory.FanumtaxMenu;
+import net.mcreator.yousefmod.procedures.YousefFuelGetProcedure;
 
 import java.util.HashMap;
 
@@ -63,6 +64,10 @@ public class FanumtaxScreen extends AbstractContainerScreen<FanumtaxMenu> {
 		guiGraphics.drawString(this.font, Component.translatable("gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon"), 5, 9, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.yousefmod.fanumtax.label_empty"), -126, -37, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.yousefmod.fanumtax.label_empty1"), -126, -37, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.yousefmod.fanumtax.label_empty2"), 20, 67, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				YousefFuelGetProcedure.execute(world, x, y, z), 13, 64, -12829636, false);
 	}
 
 	@Override

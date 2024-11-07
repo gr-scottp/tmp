@@ -102,6 +102,37 @@
           "x": 0,
           "y": 0
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty2",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 146,
+          "y": 104
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_yousef_fuel_get",
+          "text": {
+            "fixedValue": "",
+            "name": "YousefFuelGet"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 101
+        }
       }
     ],
     "gridSettings": {
