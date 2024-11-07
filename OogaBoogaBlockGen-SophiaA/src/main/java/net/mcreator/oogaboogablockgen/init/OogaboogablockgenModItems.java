@@ -13,12 +13,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.oogaboogablockgen.item.OGBWandItem;
+import net.mcreator.oogaboogablockgen.item.MoneyItem;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 public class OogaboogablockgenModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(OogaboogablockgenMod.MODID);
 	public static final DeferredItem<Item> OOGA_BOOGA_BLOCK_GEN = block(OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN);
 	public static final DeferredItem<Item> OGB_WAND = REGISTRY.register("ogb_wand", OGBWandItem::new);
+	public static final DeferredItem<Item> GOOFY_AHH_BLOCK_YIPPEEE = block(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE);
+	public static final DeferredItem<Item> MONEY = REGISTRY.register("money", MoneyItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

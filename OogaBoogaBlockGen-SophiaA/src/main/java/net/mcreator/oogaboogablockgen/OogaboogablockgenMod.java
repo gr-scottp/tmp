@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModTabs;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModParticleTypes;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModMenus;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModItems;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlocks;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlockEntities;
@@ -48,6 +49,7 @@ public class OogaboogablockgenMod {
 
 		OogaboogablockgenModTabs.REGISTRY.register(modEventBus);
 
+		OogaboogablockgenModMenus.REGISTRY.register(modEventBus);
 		OogaboogablockgenModParticleTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init

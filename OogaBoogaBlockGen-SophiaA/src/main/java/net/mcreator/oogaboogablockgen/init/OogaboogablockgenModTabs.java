@@ -25,9 +25,18 @@ public class OogaboogablockgenModTabs {
 
 			tabData.accept(OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+
+			tabData.accept(OogaboogablockgenModItems.MONEY.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+
+			tabData.accept(OogaboogablockgenModItems.MONEY.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(OogaboogablockgenModItems.OGB_WAND.get());
+			tabData.accept(OogaboogablockgenModItems.MONEY.get());
 
 		}
 	}

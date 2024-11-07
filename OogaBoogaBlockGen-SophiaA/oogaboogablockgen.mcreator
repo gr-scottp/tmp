@@ -226,6 +226,103 @@
           "src/main/resources/assets/oogaboogablockgen/particles/stars.json"
         ]
       }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/block/entity/GoofyAhhBlockYIPPEEEBlockEntity.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/goofy_ahh_block_yippeee.json",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/goofy_ahh_block_yippeee.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/goofy_ahh_block_yippeee.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/GoofyAhhBlockYIPPEEEBlock.java",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/goofy_ahh_block_yippeee.json"
+        ]
+      }
+    },
+    {
+      "name": "YIPEE",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yipee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/world/inventory/YIPEEMenu.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/client/gui/YIPEEScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Money",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/money.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/MoneyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEEOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoneyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/recipe/money_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Moolah",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moolah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/recipe/moolah.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -235,6 +332,10 @@
   "language_map": {
     "en_us": {
       "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
+      "block.oogaboogablockgen.goofy_ahh_block_yippeee": "Goofy Ahh Block YIPPEEE",
+      "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
+      "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
+      "item.oogaboogablockgen.money": "Money",
       "item.oogaboogablockgen.ogb_wand": "OGB Wand"
     }
   },
