@@ -125,9 +125,6 @@
     "onRightClicked": {
       "name": "JUSTINBEBEOnBlockRightClicked"
     },
-    "onTickUpdate": {
-      "name": "JUSTINBEBEOnTickUpdate"
-    },
     "onEntityWalksOn": {
       "name": "JUSTINBEBEEntityWalksOnTheBlock"
     },
