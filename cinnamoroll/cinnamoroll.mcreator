@@ -163,6 +163,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "LoL",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/models/block/lo_l.json",
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/lo_l.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/entity/LoLBlockEntity.java",
+          "src/main/resources/assets/cinnamoroll/blockstates/lo_l.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/LoLBlock.java",
+          "src/main/resources/assets/cinnamoroll/models/item/lo_l.json"
+        ]
+      }
+    },
+    {
+      "name": "Jamilanotcinmroll",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jamilanotcinmroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/world/inventory/JamilanotcinmrollMenu.java",
+          "src/main/java/net/mcreator/cinnamoroll/client/gui/JamilanotcinmrollScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -172,8 +202,10 @@
   "language_map": {
     "en_us": {
       "block.cinnamoroll.winter_land": "Winter Land",
+      "block.cinnamoroll.lo_l": "Lo L",
       "item_group.cinnamoroll.lollipop": "Lollipop",
-      "item.cinnamoroll.sunsetwand": "Sunsetwand"
+      "item.cinnamoroll.sunsetwand": "Sunsetwand",
+      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet"
     }
   },
   "foldersRoot": {

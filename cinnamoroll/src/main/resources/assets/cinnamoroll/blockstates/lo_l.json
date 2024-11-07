@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cinnamoroll:block/lo_l"
+    },
+    "facing=east": {
+      "model": "cinnamoroll:block/lo_l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cinnamoroll:block/lo_l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cinnamoroll:block/lo_l",
+      "y": 270
+    }
+  }
+}

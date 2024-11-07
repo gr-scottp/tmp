@@ -24,6 +24,7 @@ public class CinnamorollModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LOLLIPOP = REGISTRY.register("lollipop",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cinnamoroll.lollipop")).icon(() -> new ItemStack(CinnamorollModBlocks.WINTER_LAND.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
+				tabData.accept(CinnamorollModBlocks.LO_L.get().asItem());
 			})
 
 					.build());

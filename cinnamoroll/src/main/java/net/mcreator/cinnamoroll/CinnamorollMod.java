@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.cinnamoroll.init.CinnamorollModTabs;
+import net.mcreator.cinnamoroll.init.CinnamorollModMenus;
 import net.mcreator.cinnamoroll.init.CinnamorollModItems;
 import net.mcreator.cinnamoroll.init.CinnamorollModBlocks;
 import net.mcreator.cinnamoroll.init.CinnamorollModBlockEntities;
@@ -46,6 +47,8 @@ public class CinnamorollMod {
 		CinnamorollModItems.REGISTRY.register(modEventBus);
 
 		CinnamorollModTabs.REGISTRY.register(modEventBus);
+
+		CinnamorollModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

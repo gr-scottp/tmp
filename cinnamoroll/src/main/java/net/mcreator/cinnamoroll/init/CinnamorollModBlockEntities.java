@@ -16,12 +16,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.cinnamoroll.block.entity.WinterLandBlockEntity;
+import net.mcreator.cinnamoroll.block.entity.LoLBlockEntity;
 import net.mcreator.cinnamoroll.CinnamorollMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class CinnamorollModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, CinnamorollMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> WINTER_LAND = register("winter_land", CinnamorollModBlocks.WINTER_LAND, WinterLandBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> LO_L = register("lo_l", CinnamorollModBlocks.LO_L, LoLBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class CinnamorollModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, WINTER_LAND.get(), (blockEntity, side) -> ((WinterLandBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LO_L.get(), (blockEntity, side) -> ((LoLBlockEntity) blockEntity).getItemHandler());
 	}
 }
