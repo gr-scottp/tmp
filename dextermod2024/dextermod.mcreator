@@ -136,6 +136,97 @@
           }
         ]
       }
+    },
+    {
+      "name": "DexterFunaceBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_funace_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dextermod/models/item/dexter_funace_block.json",
+          "src/main/resources/assets/dextermod/models/block/dexter_funace_block.json",
+          "src/main/resources/assets/dextermod/blockstates/dexter_funace_block.json",
+          "src/main/resources/data/dextermod/loot_table/blocks/dexter_funace_block.json",
+          "src/main/java/net/mcreator/dextermod/block/DexterFunaceBlockBlock.java",
+          "src/main/java/net/mcreator/dextermod/block/entity/DexterFunaceBlockBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DexterFurnaceGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/world/inventory/DexterFurnaceGUIMenu.java",
+          "src/main/java/net/mcreator/dextermod/client/gui/DexterFurnaceGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "DexterFunaceBlockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_funace_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/DexterFunaceBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DexCheckFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dex_check_fuel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/DexCheckFuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -146,7 +237,9 @@
     "en_us": {
       "item_group.dextermod.dextertab": "Dextertab",
       "item.dextermod.platform_wand": "Platform Wand",
-      "block.dextermod.dexter_face_block": "Dexter Face Block"
+      "gui.dextermod.dexter_furnace_gui.label_bob_the_builder": "Bob The Builder",
+      "block.dextermod.dexter_face_block": "Dexter Face Block",
+      "block.dextermod.dexter_funace_block": "Dexter Funace Block"
     }
   },
   "foldersRoot": {

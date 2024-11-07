@@ -5,12 +5,15 @@
 package net.mcreator.dextermod.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.dextermod.DextermodMod;
@@ -18,6 +21,10 @@ import net.mcreator.dextermod.DextermodMod;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class DextermodModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DextermodMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEXTERTAB = REGISTRY.register("dextertab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dextermod.dextertab")).icon(() -> new ItemStack(DextermodModBlocks.DEXTER_FACE_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DextermodModBlocks.DEXTER_FUNACE_BLOCK.get().asItem());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

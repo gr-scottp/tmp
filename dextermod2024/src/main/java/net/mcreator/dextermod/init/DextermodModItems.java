@@ -19,6 +19,7 @@ public class DextermodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DextermodMod.MODID);
 	public static final DeferredItem<Item> DEXTER_FACE_BLOCK = block(DextermodModBlocks.DEXTER_FACE_BLOCK);
 	public static final DeferredItem<Item> PLATFORM_WAND = REGISTRY.register("platform_wand", PlatformWandItem::new);
+	public static final DeferredItem<Item> DEXTER_FUNACE_BLOCK = block(DextermodModBlocks.DEXTER_FUNACE_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

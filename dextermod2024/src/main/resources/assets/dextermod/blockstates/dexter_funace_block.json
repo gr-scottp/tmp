@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dextermod:block/dexter_funace_block"
+    },
+    "facing=east": {
+      "model": "dextermod:block/dexter_funace_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dextermod:block/dexter_funace_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dextermod:block/dexter_funace_block",
+      "y": 270
+    }
+  }
+}
