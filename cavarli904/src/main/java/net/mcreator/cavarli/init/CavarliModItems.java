@@ -19,6 +19,7 @@ public class CavarliModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CavarliMod.MODID);
 	public static final DeferredItem<Item> CAVARLI_BLOCK = block(CavarliModBlocks.CAVARLI_BLOCK);
 	public static final DeferredItem<Item> CAVARL_INOOB_1234567890 = REGISTRY.register("cavarl_inoob_1234567890", CAVARLInoob1234567890Item::new);
+	public static final DeferredItem<Item> OHIOTOLENOOB_1234 = block(CavarliModBlocks.OHIOTOLENOOB_1234);
 
 	// Start of user code block custom items
 	// End of user code block custom items

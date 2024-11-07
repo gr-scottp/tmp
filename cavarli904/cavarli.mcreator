@@ -115,6 +115,35 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "OHIOTOLENOOB1234",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohiotolenoob_1234",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cavarli/models/item/ohiotolenoob_1234.json",
+          "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json",
+          "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json",
+          "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
+          "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json"
+        ]
+      }
+    },
+    {
+      "name": "OHIOTOLENOOB1234OnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohiotolenoob_1234_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/OHIOTOLENOOB1234OnTickUpdateProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -125,7 +154,8 @@
     "en_us": {
       "block.cavarli.cavarli_block": "Cavarli Block",
       "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
-      "item_group.cavarli.ohiocavarli": "Ohiocavarli"
+      "item_group.cavarli.ohiocavarli": "Ohiocavarli",
+      "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4"
     }
   },
   "foldersRoot": {
