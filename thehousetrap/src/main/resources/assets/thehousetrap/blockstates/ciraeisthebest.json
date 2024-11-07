@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "thehousetrap:block/ciraeisthebest"
+    },
+    "facing=east": {
+      "model": "thehousetrap:block/ciraeisthebest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "thehousetrap:block/ciraeisthebest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thehousetrap:block/ciraeisthebest",
+      "y": 270
+    }
+  }
+}

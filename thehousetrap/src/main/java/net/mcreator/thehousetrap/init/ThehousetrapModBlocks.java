@@ -10,11 +10,13 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.thehousetrap.block.CiraeblockBlock;
+import net.mcreator.thehousetrap.block.CIRAEISTHEBESTBlock;
 import net.mcreator.thehousetrap.ThehousetrapMod;
 
 public class ThehousetrapModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ThehousetrapMod.MODID);
 	public static final DeferredBlock<Block> CIRAEBLOCK = REGISTRY.register("ciraeblock", CiraeblockBlock::new);
+	public static final DeferredBlock<Block> CIRAEISTHEBEST = REGISTRY.register("ciraeisthebest", CIRAEISTHEBESTBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

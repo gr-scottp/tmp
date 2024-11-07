@@ -19,6 +19,7 @@ public class ThehousetrapModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(ThehousetrapMod.MODID);
 	public static final DeferredItem<Item> CIRAEBLOCK = block(ThehousetrapModBlocks.CIRAEBLOCK);
 	public static final DeferredItem<Item> CIRAE_FROGGY = REGISTRY.register("cirae_froggy", CiraeFroggyItem::new);
+	public static final DeferredItem<Item> CIRAEISTHEBEST = block(ThehousetrapModBlocks.CIRAEISTHEBEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

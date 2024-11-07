@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thehousetrap:block/smilyface",
+    "up": "thehousetrap:block/smilyface",
+    "north": "minecraft:block/debug",
+    "east": "thehousetrap:block/smilyface",
+    "south": "thehousetrap:block/smilyface",
+    "west": "thehousetrap:block/smilyface",
+    "particle": "thehousetrap:block/smilyface"
+  },
+  "render_type": "solid"
+}

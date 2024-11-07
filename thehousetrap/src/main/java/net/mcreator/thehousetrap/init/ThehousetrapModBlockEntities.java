@@ -16,12 +16,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.thehousetrap.block.entity.CiraeblockBlockEntity;
+import net.mcreator.thehousetrap.block.entity.CIRAEISTHEBESTBlockEntity;
 import net.mcreator.thehousetrap.ThehousetrapMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class ThehousetrapModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ThehousetrapMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CIRAEBLOCK = register("ciraeblock", ThehousetrapModBlocks.CIRAEBLOCK, CiraeblockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CIRAEISTHEBEST = register("ciraeisthebest", ThehousetrapModBlocks.CIRAEISTHEBEST, CIRAEISTHEBESTBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class ThehousetrapModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CIRAEBLOCK.get(), (blockEntity, side) -> ((CiraeblockBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CIRAEISTHEBEST.get(), (blockEntity, side) -> ((CIRAEISTHEBESTBlockEntity) blockEntity).getItemHandler());
 	}
 }

@@ -197,6 +197,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "CIRAEISTHEBEST",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeisthebest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/block/entity/CIRAEISTHEBESTBlockEntity.java",
+          "src/main/java/net/mcreator/thehousetrap/block/CIRAEISTHEBESTBlock.java",
+          "src/main/resources/assets/thehousetrap/models/item/ciraeisthebest.json",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraeisthebest.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraeisthebest.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraeisthebest.json"
+        ]
+      }
+    },
+    {
+      "name": "CIREISSOSIGMA",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cireissosigma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/world/inventory/CIREISSOSIGMAMenu.java",
+          "src/main/java/net/mcreator/thehousetrap/client/gui/CIREISSOSIGMAScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,6 +237,8 @@
     "en_us": {
       "block.thehousetrap.ciraeblock": "Ciraeblock",
       "item_group.thehousetrap.froggy": "Froggy",
+      "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
+      "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
       "item.thehousetrap.cirae_froggy": "Cirae Froggy"
     }
   },

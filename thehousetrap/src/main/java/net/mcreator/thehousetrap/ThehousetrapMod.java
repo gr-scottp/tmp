@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thehousetrap.init.ThehousetrapModTabs;
+import net.mcreator.thehousetrap.init.ThehousetrapModMenus;
 import net.mcreator.thehousetrap.init.ThehousetrapModItems;
 import net.mcreator.thehousetrap.init.ThehousetrapModBlocks;
 import net.mcreator.thehousetrap.init.ThehousetrapModBlockEntities;
@@ -46,6 +47,8 @@ public class ThehousetrapMod {
 		ThehousetrapModItems.REGISTRY.register(modEventBus);
 
 		ThehousetrapModTabs.REGISTRY.register(modEventBus);
+
+		ThehousetrapModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

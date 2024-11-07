@@ -25,6 +25,7 @@ public class ThehousetrapModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FROGGY = REGISTRY.register("froggy",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.thehousetrap.froggy")).icon(() -> new ItemStack(Blocks.SMALL_AMETHYST_BUD)).displayItems((parameters, tabData) -> {
 				tabData.accept(ThehousetrapModItems.CIRAE_FROGGY.get());
+				tabData.accept(ThehousetrapModBlocks.CIRAEISTHEBEST.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
