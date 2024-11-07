@@ -23,6 +23,7 @@ public class SomethingModItems {
 	public static final DeferredItem<Item> JUSTINBEBE = block(SomethingModBlocks.JUSTINBEBE);
 	public static final DeferredItem<Item> NOTWATER_BUCKET = REGISTRY.register("notwater_bucket", NOTWATERItem::new);
 	public static final DeferredItem<Item> OVERUNDER = REGISTRY.register("overunder", OverunderItem::new);
+	public static final DeferredItem<Item> VOLDEMORT_IS_STEALING_MY_SHAMPOO = block(SomethingModBlocks.VOLDEMORT_IS_STEALING_MY_SHAMPOO);
 
 	// Start of user code block custom items
 	// End of user code block custom items

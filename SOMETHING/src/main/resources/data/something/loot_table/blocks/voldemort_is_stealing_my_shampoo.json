@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "something:blocks/voldemort_is_stealing_my_shampoo",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "something:voldemort_is_stealing_my_shampoo"
+        }
+      ]
+    }
+  ]
+}

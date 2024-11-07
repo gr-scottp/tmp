@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "something:block/voldemort_is_stealing_my_shampoo"
+    },
+    "facing=east": {
+      "model": "something:block/voldemort_is_stealing_my_shampoo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "something:block/voldemort_is_stealing_my_shampoo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "something:block/voldemort_is_stealing_my_shampoo",
+      "y": 270
+    }
+  }
+}

@@ -26,6 +26,10 @@ public class SomethingModTabs {
 			tabData.accept(SomethingModBlocks.JUSTINBEBE.get().asItem());
 			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+
+			tabData.accept(SomethingModBlocks.VOLDEMORT_IS_STEALING_MY_SHAMPOO.get().asItem());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(SomethingModItems.OVERUNDER.get());

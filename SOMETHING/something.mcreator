@@ -179,6 +179,66 @@
           "src/main/resources/assets/something/models/item/overunder.json"
         ]
       }
+    },
+    {
+      "name": "VoldemortIsStealingMyShampoo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voldemort_is_stealing_my_shampoo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/block/VoldemortIsStealingMyShampooBlock.java",
+          "src/main/resources/assets/something/models/item/voldemort_is_stealing_my_shampoo.json",
+          "src/main/resources/assets/something/models/block/voldemort_is_stealing_my_shampoo.json",
+          "src/main/java/net/mcreator/something/block/entity/VoldemortIsStealingMyShampooBlockEntity.java",
+          "src/main/resources/data/something/loot_table/blocks/voldemort_is_stealing_my_shampoo.json",
+          "src/main/resources/assets/something/blockstates/voldemort_is_stealing_my_shampoo.json"
+        ]
+      }
+    },
+    {
+      "name": "JakyFurnaceGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaky_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/client/gui/JakyFurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/something/world/inventory/JakyFurnaceGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "VoldemortIsStealingMyShampooOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voldemort_is_stealing_my_shampoo_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/VoldemortIsStealingMyShampooOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -197,10 +257,12 @@
       "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
       "fluid.something.notwater": "NOTWATER",
       "item.something.overunder": "Overunder Portal Igniter",
+      "gui.something.jaky_furnace_gui.label_avada_kedavra": "AVADA KEDAVRA",
       "block.something.justinbebe": "JUSTINBEBE",
       "block.something.notwater": "NOTWATER",
       "item.something.notwater_bucket": "NOTWATER ",
       "item.something.the_key": "The KEY",
+      "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo",
       "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.medkit": "%1$s died"
     }

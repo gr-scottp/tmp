@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.something.block.VoldemortIsStealingMyShampooBlock;
 import net.mcreator.something.block.OverunderPortalBlock;
 import net.mcreator.something.block.NOTWATERBlock;
 import net.mcreator.something.block.JUSTINBEBEBlock;
@@ -19,6 +20,7 @@ public class SomethingModBlocks {
 	public static final DeferredBlock<Block> JUSTINBEBE = REGISTRY.register("justinbebe", JUSTINBEBEBlock::new);
 	public static final DeferredBlock<Block> NOTWATER = REGISTRY.register("notwater", NOTWATERBlock::new);
 	public static final DeferredBlock<Block> OVERUNDER_PORTAL = REGISTRY.register("overunder_portal", OverunderPortalBlock::new);
+	public static final DeferredBlock<Block> VOLDEMORT_IS_STEALING_MY_SHAMPOO = REGISTRY.register("voldemort_is_stealing_my_shampoo", VoldemortIsStealingMyShampooBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
