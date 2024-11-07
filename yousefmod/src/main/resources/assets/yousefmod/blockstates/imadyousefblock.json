@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yousefmod:block/imadyousefblock"
+    },
+    "facing=east": {
+      "model": "yousefmod:block/imadyousefblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yousefmod:block/imadyousefblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yousefmod:block/imadyousefblock",
+      "y": 270
+    }
+  }
+}

@@ -19,6 +19,7 @@ public class YousefmodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(YousefmodMod.MODID);
 	public static final DeferredItem<Item> BEBEA = block(YousefmodModBlocks.BEBEA);
 	public static final DeferredItem<Item> YOUSE_FWAND = REGISTRY.register("youse_fwand", YOUSEFwandItem::new);
+	public static final DeferredItem<Item> IMADYOUSEFBLOCK = block(YousefmodModBlocks.IMADYOUSEFBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

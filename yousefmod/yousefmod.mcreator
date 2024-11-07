@@ -241,6 +241,66 @@
           "src/main/java/net/mcreator/yousefmod/world/inventory/TickViewMenu.java"
         ]
       }
+    },
+    {
+      "name": "Imadyousefblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imadyousefblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yousefmod/models/item/imadyousefblock.json",
+          "src/main/resources/assets/yousefmod/models/block/imadyousefblock.json",
+          "src/main/resources/assets/yousefmod/blockstates/imadyousefblock.json",
+          "src/main/resources/data/yousefmod/loot_table/blocks/imadyousefblock.json",
+          "src/main/java/net/mcreator/yousefmod/block/entity/ImadyousefblockBlockEntity.java",
+          "src/main/java/net/mcreator/yousefmod/block/ImadyousefblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Fanumtax",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fanumtax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/world/inventory/FanumtaxMenu.java",
+          "src/main/java/net/mcreator/yousefmod/client/gui/FanumtaxScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ImadyousefblockOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imadyousefblock_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/procedures/ImadyousefblockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -251,7 +311,11 @@
     "en_us": {
       "block.yousefmod.bebea": "Bebea",
       "item_group.yousefmod.yousefmod": "Yousefmod",
-      "item.yousefmod.youse_fwand": "YOUSE Fwand"
+      "gui.yousefmod.fanumtax.label_empty": "",
+      "gui.yousefmod.fanumtax.label_empty1": "",
+      "item.yousefmod.youse_fwand": "YOUSE Fwand",
+      "block.yousefmod.imadyousefblock": "Imadyousefblock",
+      "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon"
     }
   },
   "foldersRoot": {

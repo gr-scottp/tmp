@@ -1,5 +1,9 @@
 {
   "block.yousefmod.bebea": "Bebea",
   "item_group.yousefmod.yousefmod": "Yousefmod",
-  "item.yousefmod.youse_fwand": "YOUSE Fwand"
+  "gui.yousefmod.fanumtax.label_empty": "",
+  "gui.yousefmod.fanumtax.label_empty1": "",
+  "item.yousefmod.youse_fwand": "YOUSE Fwand",
+  "block.yousefmod.imadyousefblock": "Imadyousefblock",
+  "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon"
 }

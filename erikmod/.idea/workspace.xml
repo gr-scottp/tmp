@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="874044f3-ee49-4bb6-8803-5d55b00ea2b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Erikmod - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare Erikmod - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run Erikmod - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/command_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/fml.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/server/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/runs/server/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/ErikmodMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/ErikmodMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/client/gui/TickggScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/client/gui/TickggScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModScreens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModScreens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/init/ErikmodModTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksEntityWalksOnTheBlockProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksEntityWalksOnTheBlockProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="erikmod" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="erikmod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="erikmod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="mod development" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2oDC83pvPXNtQJ4oPQDb0ekAVyM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.erikmod [runClient].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ilovefootball",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub-2024/erikmod"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="erikmod.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="erikmod.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\erikmod\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\erikmod\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="erikmod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.erikmod [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="874044f3-ee49-4bb6-8803-5d55b00ea2b3" name="Changes" comment="" />
+      <created>1730394596868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730394596868</updated>
+    </task>
+    <servers />
+  </component>
+</project>

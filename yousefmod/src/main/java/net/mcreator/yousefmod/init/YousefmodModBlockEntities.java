@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.yousefmod.block.entity.ImadyousefblockBlockEntity;
 import net.mcreator.yousefmod.block.entity.BebeaBlockEntity;
 import net.mcreator.yousefmod.YousefmodMod;
 
@@ -22,6 +23,7 @@ import net.mcreator.yousefmod.YousefmodMod;
 public class YousefmodModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, YousefmodMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> BEBEA = register("bebea", YousefmodModBlocks.BEBEA, BebeaBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> IMADYOUSEFBLOCK = register("imadyousefblock", YousefmodModBlocks.IMADYOUSEFBLOCK, ImadyousefblockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class YousefmodModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BEBEA.get(), (blockEntity, side) -> ((BebeaBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, IMADYOUSEFBLOCK.get(), (blockEntity, side) -> ((ImadyousefblockBlockEntity) blockEntity).getItemHandler());
 	}
 }

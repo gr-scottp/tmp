@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "up": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "north": "yousefmod:block/skibiditoilet",
+    "east": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "south": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "west": "yousefmod:block/mecryingehenidontgetmcdonalds",
+    "particle": "yousefmod:block/mecryingehenidontgetmcdonalds"
+  },
+  "render_type": "solid"
+}
