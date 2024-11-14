@@ -9,7 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.erikmod.world.inventory.TickggMenu;
-import net.mcreator.erikmod.procedures.TickProcedure;
+import net.mcreator.erikmod.procedures.GetfuelProcedure;
 
 import java.util.HashMap;
 
@@ -63,7 +63,7 @@ public class TickggScreen extends AbstractContainerScreen<TickggMenu> {
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font,
 
-				TickProcedure.execute(world, x, y, z), 72, 8, -12829636, false);
+				GetfuelProcedure.execute(world, x, y, z), 72, 8, -12829636, false);
 	}
 
 	@Override

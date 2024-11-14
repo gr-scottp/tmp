@@ -24,6 +24,7 @@ public class ErikmodModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ERIKTAB = REGISTRY.register("eriktab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.erikmod.eriktab")).icon(() -> new ItemStack(ErikmodModBlocks.ERIK_BLOCKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ErikmodModItems.ERIKWANDTHEBEST.get());
+				tabData.accept(ErikmodModBlocks.ERIKYTU.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -31,6 +32,7 @@ public class ErikmodModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(ErikmodModBlocks.ERIK_BLOCKS.get().asItem());
+			tabData.accept(ErikmodModBlocks.ERIKYTU.get().asItem());
 
 		}
 	}

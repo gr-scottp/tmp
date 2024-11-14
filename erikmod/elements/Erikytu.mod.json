@@ -42,7 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Eriktab"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -58,7 +65,7 @@
       "value": "NONE"
     },
     "tickRate": 1,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -103,7 +110,7 @@
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Tickgg",
-    "openGUIOnRightClick": false,
+    "openGUIOnRightClick": true,
     "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -123,6 +130,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "ErikytuOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

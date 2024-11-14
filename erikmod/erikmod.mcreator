@@ -296,7 +296,7 @@
       "locked_code": false,
       "registry_name": "getfuel",
       "metadata": {
-        "return_type": "number",
+        "return_type": "string",
         "files": [
           "src/main/java/net/mcreator/erikmod/procedures/GetfuelProcedure.java"
         ],
