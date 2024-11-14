@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/furnace_top",
-    "up": "minecraft:block/furnace_top",
-    "north": "minecraft:block/furnace_front_on",
-    "east": "minecraft:block/furnace_side",
-    "south": "minecraft:block/furnace_side",
-    "west": "minecraft:block/furnace_side",
-    "particle": "minecraft:block/furnace_top"
+    "down": "minecraft:block/crimson_door_bottom",
+    "up": "minecraft:block/cherry_door_top",
+    "north": "minecraft:block/cactus_bottom",
+    "east": "minecraft:block/copper_door_top",
+    "south": "minecraft:block/iron_door_bottom",
+    "west": "minecraft:block/jungle_door_bottom",
+    "particle": "minecraft:block/crimson_door_bottom"
   },
   "render_type": "solid"
 }

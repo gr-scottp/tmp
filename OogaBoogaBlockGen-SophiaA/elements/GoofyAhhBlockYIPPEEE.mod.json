@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:furnace_top",
-    "textureTop": "minecraft:furnace_top",
-    "textureLeft": "minecraft:furnace_side",
-    "textureFront": "minecraft:furnace_front_on",
-    "textureRight": "minecraft:furnace_side",
-    "textureBack": "minecraft:furnace_side",
+    "texture": "minecraft:crimson_door_bottom",
+    "textureTop": "minecraft:cherry_door_top",
+    "textureLeft": "minecraft:copper_door_top",
+    "textureFront": "minecraft:cactus_bottom",
+    "textureRight": "minecraft:jungle_door_bottom",
+    "textureBack": "minecraft:iron_door_bottom",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -42,7 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "TRANSPORTATION"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -108,8 +115,13 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      2
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -118,6 +130,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "GoofyAhhBlockYIPPEEEOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

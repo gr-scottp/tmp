@@ -313,15 +313,60 @@
       }
     },
     {
-      "name": "Moolah",
-      "type": "recipe",
+      "name": "ThankYouForPayingYourFanumTax",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "moolah",
+      "registry_name": "thank_you_for_paying_your_fanum_tax",
       "metadata": {
         "files": [
-          "src/main/resources/data/oogaboogablockgen/recipe/moolah.json"
+          "src/main/java/net/mcreator/oogaboogablockgen/item/ThankYouForPayingYourFanumTaxItem.java",
+          "src/main/resources/assets/oogaboogablockgen/models/item/thank_you_for_paying_your_fanum_tax.json"
         ]
+      }
+    },
+    {
+      "name": "GetMoolah",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_moolah",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GetMoolahProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheckFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/CheckFuelProcedure.java"
+        ],
+        "dependencies": []
       }
     }
   ],
@@ -336,7 +381,8 @@
       "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
       "item.oogaboogablockgen.money": "Money",
-      "item.oogaboogablockgen.ogb_wand": "OGB Wand"
+      "item.oogaboogablockgen.ogb_wand": "OGB Wand",
+      "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax"
     }
   },
   "foldersRoot": {

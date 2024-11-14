@@ -24,11 +24,17 @@ public class OogaboogablockgenModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN.get().asItem());
+			tabData.accept(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 
+			tabData.accept(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE.get().asItem());
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
+			if (tabData.hasPermissions()) {
+				tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
+			}
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());

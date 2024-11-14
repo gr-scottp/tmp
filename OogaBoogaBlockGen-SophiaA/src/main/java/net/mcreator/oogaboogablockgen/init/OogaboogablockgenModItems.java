@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.oogaboogablockgen.item.ThankYouForPayingYourFanumTaxItem;
 import net.mcreator.oogaboogablockgen.item.OGBWandItem;
 import net.mcreator.oogaboogablockgen.item.MoneyItem;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
@@ -22,6 +23,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> OGB_WAND = REGISTRY.register("ogb_wand", OGBWandItem::new);
 	public static final DeferredItem<Item> GOOFY_AHH_BLOCK_YIPPEEE = block(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE);
 	public static final DeferredItem<Item> MONEY = REGISTRY.register("money", MoneyItem::new);
+	public static final DeferredItem<Item> THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX = REGISTRY.register("thank_you_for_paying_your_fanum_tax", ThankYouForPayingYourFanumTaxItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
