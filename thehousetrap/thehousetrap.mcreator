@@ -227,6 +227,36 @@
           "src/main/java/net/mcreator/thehousetrap/client/gui/CIREISSOSIGMAScreen.java"
         ]
       }
+    },
+    {
+      "name": "CIRAEISTHEBESTOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraeisthebest_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CIRAEISTHEBESTOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
