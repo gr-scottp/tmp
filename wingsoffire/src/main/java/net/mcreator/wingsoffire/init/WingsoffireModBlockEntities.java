@@ -16,12 +16,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
+import net.mcreator.wingsoffire.block.entity.CheckersBlockEntity;
 import net.mcreator.wingsoffire.WingsoffireMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class WingsoffireModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, WingsoffireMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> WINGS_OF_FIREEX = register("wings_of_fireex", WingsoffireModBlocks.WINGS_OF_FIREEX, WingsOfFireexBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CHECKERS = register("checkers", WingsoffireModBlocks.CHECKERS, CheckersBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class WingsoffireModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, WINGS_OF_FIREEX.get(), (blockEntity, side) -> ((WingsOfFireexBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CHECKERS.get(), (blockEntity, side) -> ((CheckersBlockEntity) blockEntity).getItemHandler());
 	}
 }

@@ -1,5 +1,8 @@
 {
   "item_group.wingsoffire.glorys_tab": "Glorys Tab",
   "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
-  "block.wingsoffire.wings_of_fireex": "Wings Of Fireex"
+  "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
+  "gui.wingsoffire.checkersgui.label_empty": "",
+  "block.wingsoffire.checkers": "Checkers",
+  "block.wingsoffire.funblock": "Funblock"
 }

@@ -197,6 +197,82 @@
           }
         ]
       }
+    },
+    {
+      "name": "Checkersgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkersgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/client/gui/CheckersguiScreen.java",
+          "src/main/java/net/mcreator/wingsoffire/world/inventory/CheckersguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Checkers",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/CheckersBlock.java",
+          "src/main/resources/assets/wingsoffire/models/item/checkers.json",
+          "src/main/resources/assets/wingsoffire/models/block/checkers.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/CheckersBlockEntity.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/checkers.json",
+          "src/main/resources/assets/wingsoffire/blockstates/checkers.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckersOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "checkers_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/CheckersOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Funblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/funblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/funblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/FunblockBlock.java",
+          "src/main/resources/assets/wingsoffire/blockstates/funblock.json",
+          "src/main/resources/assets/wingsoffire/models/block/funblock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,7 +283,10 @@
     "en_us": {
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
-      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex"
+      "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
+      "gui.wingsoffire.checkersgui.label_empty": "",
+      "block.wingsoffire.checkers": "Checkers",
+      "block.wingsoffire.funblock": "Funblock"
     }
   },
   "foldersRoot": {

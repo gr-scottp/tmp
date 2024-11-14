@@ -32,6 +32,7 @@ public class WingsoffireModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(WingsoffireModBlocks.WINGS_OF_FIREEX.get().asItem());
+			tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
 
 		}
 	}

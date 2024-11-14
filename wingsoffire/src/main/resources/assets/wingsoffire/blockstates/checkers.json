@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wingsoffire:block/checkers"
+    },
+    "facing=east": {
+      "model": "wingsoffire:block/checkers",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wingsoffire:block/checkers",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wingsoffire:block/checkers",
+      "y": 270
+    }
+  }
+}

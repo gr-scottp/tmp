@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/wingsoffirexo",
+    "up": "wingsoffire:block/wingsoffirexo",
+    "north": "wingsoffire:block/checkers",
+    "east": "wingsoffire:block/wingsoffirexo",
+    "south": "wingsoffire:block/wingsoffirexo",
+    "west": "wingsoffire:block/wingsoffirexo",
+    "particle": "wingsoffire:block/wingsoffirexo"
+  },
+  "render_type": "solid"
+}

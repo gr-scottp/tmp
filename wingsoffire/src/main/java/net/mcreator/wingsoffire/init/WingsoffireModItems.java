@@ -19,6 +19,8 @@ public class WingsoffireModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(WingsoffireMod.MODID);
 	public static final DeferredItem<Item> WINGS_OF_FIREEX = block(WingsoffireModBlocks.WINGS_OF_FIREEX);
 	public static final DeferredItem<Item> GLORYANDTHEHIDDENKINGDOM = REGISTRY.register("gloryandthehiddenkingdom", GloryandthehiddenkingdomItem::new);
+	public static final DeferredItem<Item> CHECKERS = block(WingsoffireModBlocks.CHECKERS);
+	public static final DeferredItem<Item> FUNBLOCK = block(WingsoffireModBlocks.FUNBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

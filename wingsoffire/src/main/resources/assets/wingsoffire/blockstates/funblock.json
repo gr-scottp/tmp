@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wingsoffire:block/funblock"
+    },
+    "facing=east": {
+      "model": "wingsoffire:block/funblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wingsoffire:block/funblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wingsoffire:block/funblock",
+      "y": 270
+    }
+  }
+}

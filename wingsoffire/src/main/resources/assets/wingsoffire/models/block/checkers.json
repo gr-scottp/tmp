@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/checkers",
+    "up": "wingsoffire:block/checkers",
+    "north": "wingsoffire:block/checkers",
+    "east": "wingsoffire:block/checkers",
+    "south": "wingsoffire:block/checkers",
+    "west": "wingsoffire:block/checkers",
+    "particle": "wingsoffire:block/checkers"
+  },
+  "render_type": "solid"
+}

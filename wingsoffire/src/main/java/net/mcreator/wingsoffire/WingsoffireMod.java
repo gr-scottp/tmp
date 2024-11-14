@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.wingsoffire.init.WingsoffireModTabs;
+import net.mcreator.wingsoffire.init.WingsoffireModMenus;
 import net.mcreator.wingsoffire.init.WingsoffireModItems;
 import net.mcreator.wingsoffire.init.WingsoffireModBlocks;
 import net.mcreator.wingsoffire.init.WingsoffireModBlockEntities;
@@ -46,6 +47,8 @@ public class WingsoffireMod {
 		WingsoffireModItems.REGISTRY.register(modEventBus);
 
 		WingsoffireModTabs.REGISTRY.register(modEventBus);
+
+		WingsoffireModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
