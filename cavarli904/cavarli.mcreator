@@ -128,7 +128,8 @@
           "src/main/resources/assets/cavarli/blockstates/ohiotolenoob_1234.json",
           "src/main/resources/assets/cavarli/models/block/ohiotolenoob_1234.json",
           "src/main/java/net/mcreator/cavarli/block/OHIOTOLENOOB1234Block.java",
-          "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json"
+          "src/main/resources/data/cavarli/loot_table/blocks/ohiotolenoob_1234.json",
+          "src/main/java/net/mcreator/cavarli/block/entity/OHIOTOLENOOB1234BlockEntity.java"
         ]
       }
     },
@@ -142,7 +143,68 @@
         "files": [
           "src/main/java/net/mcreator/cavarli/procedures/OHIOTOLENOOB1234OnTickUpdateProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CacacacacacaGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cacacacacaca_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cavarli/world/inventory/CacacacacacaGUIMenu.java",
+          "src/main/java/net/mcreator/cavarli/client/gui/CacacacacacaGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ShowFuelCount",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_fuel_count",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/cavarli/procedures/ShowFuelCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     }
   ],
@@ -155,7 +217,9 @@
       "block.cavarli.cavarli_block": "Cavarli Block",
       "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
-      "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4"
+      "gui.cavarli.cacacacacaca_gui.label_empty": "",
+      "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
+      "gui.cavarli.cacacacacaca_gui.label_empty1": ""
     }
   },
   "foldersRoot": {

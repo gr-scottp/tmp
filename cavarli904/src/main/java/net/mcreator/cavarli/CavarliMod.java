@@ -19,8 +19,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.cavarli.init.CavarliModTabs;
+import net.mcreator.cavarli.init.CavarliModMenus;
 import net.mcreator.cavarli.init.CavarliModItems;
 import net.mcreator.cavarli.init.CavarliModBlocks;
+import net.mcreator.cavarli.init.CavarliModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,10 +43,12 @@ public class CavarliMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		CavarliModBlocks.REGISTRY.register(modEventBus);
-
+		CavarliModBlockEntities.REGISTRY.register(modEventBus);
 		CavarliModItems.REGISTRY.register(modEventBus);
 
 		CavarliModTabs.REGISTRY.register(modEventBus);
+
+		CavarliModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
