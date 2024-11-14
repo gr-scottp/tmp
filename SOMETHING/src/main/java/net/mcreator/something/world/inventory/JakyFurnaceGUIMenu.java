@@ -82,11 +82,11 @@ public class JakyFurnaceGUIMenu extends AbstractContainerMenu implements Supplie
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 21, 19) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 19, 28) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 21, 61) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 19, 56) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 113, 42) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 138, 42) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

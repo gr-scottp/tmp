@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.something.world.inventory.JakyFurnaceGUIMenu;
+import net.mcreator.something.procedures.JakyFuelProcedure;
 
 import java.util.HashMap;
 
@@ -60,7 +61,10 @@ public class JakyFurnaceGUIScreen extends AbstractContainerScreen<JakyFurnaceGUI
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.something.jaky_furnace_gui.label_avada_kedavra"), 48, 10, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.something.jaky_furnace_gui.label_avada_kedavra"), 9, 9, -16777216, false);
+		guiGraphics.drawString(this.font,
+
+				JakyFuelProcedure.execute(world, x, y, z), 119, 9, -13369396, false);
 	}
 
 	@Override

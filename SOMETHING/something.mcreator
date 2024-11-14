@@ -239,6 +239,37 @@
           }
         ]
       }
+    },
+    {
+      "name": "JakyFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaky_fuel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/JakyFuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
