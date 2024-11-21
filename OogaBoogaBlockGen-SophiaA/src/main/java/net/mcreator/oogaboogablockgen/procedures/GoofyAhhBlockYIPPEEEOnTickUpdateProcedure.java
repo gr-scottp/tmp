@@ -14,6 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModItems;
+import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 public class GoofyAhhBlockYIPPEEEOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -104,7 +105,7 @@ public class GoofyAhhBlockYIPPEEEOnTickUpdateProcedure {
 			}
 		}.getValue(world, BlockPos.containing(x, y, z), "fuel") > 0) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
-				ItemStack _setstack = new ItemStack(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get()).copy();
+				ItemStack _setstack = new ItemStack(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get()).copy();
 				_setstack.setCount((int) (1 + new Object() {
 					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 						if (world instanceof ILevelExtension _ext) {
@@ -131,12 +132,67 @@ public class GoofyAhhBlockYIPPEEEOnTickUpdateProcedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "fuel") == 0) {
+		}.getValue(world, BlockPos.containing(x, y, z), "fuel") + 0 == (new Object() {
+			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, BlockPos.containing(x, y, z), "fuel")) - 1) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				int _slotid = 1;
 				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
 				_stk.shrink(1);
 				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			}
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				ItemStack _setstack = new ItemStack(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get()).copy();
+				_setstack.setCount((int) (new Object() {
+					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+						if (world instanceof ILevelExtension _ext) {
+							IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
+							if (_itemHandler != null)
+								return _itemHandler.getStackInSlot(slotid).getCount();
+						}
+						return 0;
+					}
+				}.getAmount(world, BlockPos.containing(x, y, z), 2) + 1));
+				_itemHandlerModifiable.setStackInSlot(2, _setstack);
+			}
+		}
+		if (new Object() {
+			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, BlockPos.containing(x, y, z), "fuel") == 0) {
+			while (new Object() {
+				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+					BlockEntity blockEntity = world.getBlockEntity(pos);
+					if (blockEntity != null)
+						return blockEntity.getPersistentData().getDouble(tag);
+					return -1;
+				}
+			}.getValue(world, BlockPos.containing(x, y, z), "fuel") == 0) {
+				OogaboogablockgenMod.queueServerWork(50, () -> {
+					if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+						ItemStack _setstack = new ItemStack(Items.GOLDEN_APPLE).copy();
+						_setstack.setCount((int) (1 + new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+								if (world instanceof ILevelExtension _ext) {
+									IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
+									if (_itemHandler != null)
+										return _itemHandler.getStackInSlot(slotid).getCount();
+								}
+								return 0;
+							}
+						}.getAmount(world, BlockPos.containing(x, y, z), 1)));
+						_itemHandlerModifiable.setStackInSlot(1, _setstack);
+					}
+				});
 			}
 		}
 	}

@@ -1,0 +1,45 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "minecraft:barrier",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Thanks For The Tax Money",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TRANSPORTATION"
+      },
+      {
+        "value": "OP_BLOCKS"
+      }
+    ],
+    "efficiency": 10.0,
+    "attackSpeed": 0.5,
+    "enchantability": 100,
+    "damageVsEntity": 10.0,
+    "usageCount": 10,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Money"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

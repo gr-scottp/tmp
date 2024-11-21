@@ -30,10 +30,13 @@ public class OogaboogablockgenModTabs {
 
 			tabData.accept(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE.get().asItem());
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
+			tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
+			tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
 			if (tabData.hasPermissions()) {
 				tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
+				tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
 			}
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

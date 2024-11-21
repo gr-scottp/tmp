@@ -368,16 +368,43 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "ThanksForTheTaxMoney",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanks_for_the_tax_money",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/thanks_for_the_tax_money.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/ThanksForTheTaxMoneyItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:ThankYouForPayingYourFanumTax"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ThanksForTheTaxMoney"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
       "block.oogaboogablockgen.goofy_ahh_block_yippeee": "Goofy Ahh Block YIPPEEE",
+      "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
       "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
       "item.oogaboogablockgen.money": "Money",
