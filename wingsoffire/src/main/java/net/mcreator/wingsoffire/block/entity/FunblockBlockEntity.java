@@ -27,12 +27,12 @@ import java.util.stream.IntStream;
 
 import io.netty.buffer.Unpooled;
 
-public class WingsOfFireexBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class FunblockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
 	private final SidedInvWrapper handler = new SidedInvWrapper(this, null);
 
-	public WingsOfFireexBlockEntity(BlockPos position, BlockState state) {
-		super(WingsoffireModBlockEntities.WINGS_OF_FIREEX.get(), position, state);
+	public FunblockBlockEntity(BlockPos position, BlockState state) {
+		super(WingsoffireModBlockEntities.FUNBLOCK.get(), position, state);
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class WingsOfFireexBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("wings_of_fireex");
+		return Component.literal("funblock");
 	}
 
 	@Override
@@ -91,7 +91,7 @@ public class WingsOfFireexBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Wings Of Fireex");
+		return Component.literal("Funblock");
 	}
 
 	@Override

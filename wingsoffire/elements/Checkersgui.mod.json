@@ -72,6 +72,22 @@
           "x": 205,
           "y": 46
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_wings_fuel_label",
+          "text": {
+            "fixedValue": "",
+            "name": "WingsFuelLabel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 219,
+          "y": 46
+        }
       }
     ],
     "gridSettings": {

@@ -266,11 +266,43 @@
       "registry_name": "funblock",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/entity/FunblockBlockEntity.java",
           "src/main/resources/data/wingsoffire/loot_table/blocks/funblock.json",
           "src/main/resources/assets/wingsoffire/models/item/funblock.json",
           "src/main/java/net/mcreator/wingsoffire/block/FunblockBlock.java",
           "src/main/resources/assets/wingsoffire/blockstates/funblock.json",
           "src/main/resources/assets/wingsoffire/models/block/funblock.json"
+        ]
+      }
+    },
+    {
+      "name": "WingsFuelLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_fuel_label",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/WingsFuelLabelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

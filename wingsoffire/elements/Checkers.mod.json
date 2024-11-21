@@ -42,7 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:GlorysTab"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

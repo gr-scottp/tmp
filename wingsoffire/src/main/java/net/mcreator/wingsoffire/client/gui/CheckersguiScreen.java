@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.wingsoffire.world.inventory.CheckersguiMenu;
+import net.mcreator.wingsoffire.procedures.WingsFuelLabelProcedure;
 
 import java.util.HashMap;
 
@@ -61,6 +62,9 @@ public class CheckersguiScreen extends AbstractContainerScreen<CheckersguiMenu> 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.wingsoffire.checkersgui.label_empty"), 79, 9, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				WingsFuelLabelProcedure.execute(world, x, y, z), 93, 9, -12829636, false);
 	}
 
 	@Override

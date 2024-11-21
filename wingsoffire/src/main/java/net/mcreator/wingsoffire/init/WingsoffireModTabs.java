@@ -25,6 +25,8 @@ public class WingsoffireModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> GLORYS_TAB = REGISTRY.register("glorys_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.wingsoffire.glorys_tab")).icon(() -> new ItemStack(Items.TRIDENT)).displayItems((parameters, tabData) -> {
 				tabData.accept(WingsoffireModItems.GLORYANDTHEHIDDENKINGDOM.get());
+				tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
+				tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -32,6 +34,7 @@ public class WingsoffireModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(WingsoffireModBlocks.WINGS_OF_FIREEX.get().asItem());
+			tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
 			tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
 
 		}
