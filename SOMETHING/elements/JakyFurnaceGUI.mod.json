@@ -34,6 +34,10 @@
           "disablePlacement": {
             "fixedValue": false
           },
+          "color": {
+            "value": -3355393,
+            "falpha": 0.0
+          },
           "id": 0,
           "disablePickup": {
             "fixedValue": false
@@ -52,6 +56,10 @@
           "disablePlacement": {
             "fixedValue": false
           },
+          "color": {
+            "value": -13057,
+            "falpha": 0.0
+          },
           "id": 1,
           "disablePickup": {
             "fixedValue": false
@@ -64,6 +72,10 @@
       {
         "type": "outputslot",
         "data": {
+          "color": {
+            "value": -3342388,
+            "falpha": 0.0
+          },
           "id": 2,
           "disablePickup": {
             "fixedValue": false
