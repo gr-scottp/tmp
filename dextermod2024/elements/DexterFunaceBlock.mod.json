@@ -62,7 +62,7 @@
       "value": "NONE"
     },
     "tickRate": 1,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
