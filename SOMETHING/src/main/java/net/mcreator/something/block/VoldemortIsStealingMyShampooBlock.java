@@ -69,6 +69,16 @@ public class VoldemortIsStealingMyShampooBlock extends Block implements EntityBl
 	}
 
 	@Override
+	public boolean isSignalSource(BlockState state) {
+		return true;
+	}
+
+	@Override
+	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction direction) {
+		return 15;
+	}
+
+	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 10);

@@ -279,6 +279,7 @@
       "~CUSTOM:NOTWATER"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DIAMOND_BLOCK",
       "~Blocks.SMOOTH_STONE"
     ]
   },

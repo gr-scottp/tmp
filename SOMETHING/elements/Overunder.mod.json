@@ -5,14 +5,20 @@
     "biomesInDimension": [
       {
         "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "cold_ocean"
       }
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.SMOOTH_STONE"
+      "value": "Blocks.DIAMOND_BLOCK"
     },
     "fluidBlock": {
-      "value": "Blocks.SMOOTH_STONE"
+      "value": "Blocks.DIAMOND_BLOCK"
     },
     "airColor": {
       "value": -3342337,
