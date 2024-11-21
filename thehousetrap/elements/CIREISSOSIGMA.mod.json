@@ -84,6 +84,22 @@
           "x": 217,
           "y": 89
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_cinmroll",
+          "text": {
+            "fixedValue": "",
+            "name": "Cinmroll"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 253,
+          "y": 43
+        }
       }
     ],
     "gridSettings": {

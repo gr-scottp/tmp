@@ -257,6 +257,37 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cinmroll",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinmroll",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/CinmrollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.thehousetrap.world.inventory.CIREISSOSIGMAMenu;
+import net.mcreator.thehousetrap.procedures.CinmrollProcedure;
 
 import java.util.HashMap;
 
@@ -61,6 +62,9 @@ public class CIREISSOSIGMAScreen extends AbstractContainerScreen<CIREISSOSIGMAMe
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.thehousetrap.cireissosigma.label_cinmroll"), 66, 75, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				CinmrollProcedure.execute(world, x, y, z), 127, 6, -12829636, false);
 	}
 
 	@Override
