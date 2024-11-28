@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.erikmod.init.ErikmodModTabs;
 import net.mcreator.erikmod.init.ErikmodModMenus;
 import net.mcreator.erikmod.init.ErikmodModItems;
+import net.mcreator.erikmod.init.ErikmodModEntities;
 import net.mcreator.erikmod.init.ErikmodModBlocks;
 import net.mcreator.erikmod.init.ErikmodModBlockEntities;
 
@@ -45,7 +46,7 @@ public class ErikmodMod {
 		ErikmodModBlocks.REGISTRY.register(modEventBus);
 		ErikmodModBlockEntities.REGISTRY.register(modEventBus);
 		ErikmodModItems.REGISTRY.register(modEventBus);
-
+		ErikmodModEntities.REGISTRY.register(modEventBus);
 		ErikmodModTabs.REGISTRY.register(modEventBus);
 
 		ErikmodModMenus.REGISTRY.register(modEventBus);

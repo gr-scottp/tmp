@@ -34,6 +34,10 @@ public class ErikmodModTabs {
 			tabData.accept(ErikmodModBlocks.ERIK_BLOCKS.get().asItem());
 			tabData.accept(ErikmodModBlocks.ERIKYTU.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(ErikmodModItems.ERIKIISHIM_SPAWN_EGG.get());
+
 		}
 	}
 }

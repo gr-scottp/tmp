@@ -319,6 +319,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Erikiishim",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikiishim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/entity/ErikiishimEntity.java",
+          "src/main/resources/assets/erikmod/models/item/erikiishim_spawn_egg.json",
+          "src/main/java/net/mcreator/erikmod/client/renderer/ErikiishimRenderer.java",
+          "src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -330,6 +345,8 @@
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",
       "block.erikmod.erikytu": "Erikytu",
+      "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
+      "entity.erikmod.erikiishim": "Erikiishim",
       "block.erikmod.erik_blocks": "Erik Blocks"
     }
   },
