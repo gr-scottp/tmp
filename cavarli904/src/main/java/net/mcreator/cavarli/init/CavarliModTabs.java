@@ -32,6 +32,10 @@ public class CavarliModTabs {
 
 			tabData.accept(CavarliModBlocks.CAVARLI_BLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(CavarliModItems.NOOB_1234567890_OHIO_SPAWN_EGG.get());
+
 		}
 	}
 }

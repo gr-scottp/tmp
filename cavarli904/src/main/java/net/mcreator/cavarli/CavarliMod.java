@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.cavarli.init.CavarliModTabs;
 import net.mcreator.cavarli.init.CavarliModMenus;
 import net.mcreator.cavarli.init.CavarliModItems;
+import net.mcreator.cavarli.init.CavarliModEntities;
 import net.mcreator.cavarli.init.CavarliModBlocks;
 import net.mcreator.cavarli.init.CavarliModBlockEntities;
 
@@ -45,7 +46,7 @@ public class CavarliMod {
 		CavarliModBlocks.REGISTRY.register(modEventBus);
 		CavarliModBlockEntities.REGISTRY.register(modEventBus);
 		CavarliModItems.REGISTRY.register(modEventBus);
-
+		CavarliModEntities.REGISTRY.register(modEventBus);
 		CavarliModTabs.REGISTRY.register(modEventBus);
 
 		CavarliModMenus.REGISTRY.register(modEventBus);

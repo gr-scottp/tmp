@@ -206,6 +206,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Noob1234567890OHIO",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_1234567890_ohio",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cavarli/neoforge/biome_modifier/noob_1234567890_ohio_biome_modifier.json",
+          "src/main/java/net/mcreator/cavarli/client/renderer/Noob1234567890OHIORenderer.java",
+          "src/main/java/net/mcreator/cavarli/entity/Noob1234567890OHIOEntity.java",
+          "src/main/resources/assets/cavarli/models/item/noob_1234567890_ohio_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -216,9 +231,11 @@
     "en_us": {
       "block.cavarli.cavarli_block": "Cavarli Block",
       "item.cavarli.cavarl_inoob_1234567890": "CAVARL Inoob 1 2 3 4 5 6 7 8 9 0",
+      "entity.cavarli.noob_1234567890_ohio": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO",
       "item_group.cavarli.ohiocavarli": "Ohiocavarli",
       "gui.cavarli.cacacacacaca_gui.label_empty": "",
       "block.cavarli.ohiotolenoob_1234": "OHIOTOLENOOB 1 2 3 4",
+      "item.cavarli.noob_1234567890_ohio_spawn_egg": "Noob 1 2 3 4 5 6 7 8 9 0 OHIO Spawn Egg",
       "gui.cavarli.cacacacacaca_gui.label_empty1": ""
     }
   },
