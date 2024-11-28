@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.wingsoffire.init.WingsoffireModTabs;
 import net.mcreator.wingsoffire.init.WingsoffireModMenus;
 import net.mcreator.wingsoffire.init.WingsoffireModItems;
+import net.mcreator.wingsoffire.init.WingsoffireModEntities;
 import net.mcreator.wingsoffire.init.WingsoffireModBlocks;
 import net.mcreator.wingsoffire.init.WingsoffireModBlockEntities;
 
@@ -45,7 +46,7 @@ public class WingsoffireMod {
 		WingsoffireModBlocks.REGISTRY.register(modEventBus);
 		WingsoffireModBlockEntities.REGISTRY.register(modEventBus);
 		WingsoffireModItems.REGISTRY.register(modEventBus);
-
+		WingsoffireModEntities.REGISTRY.register(modEventBus);
 		WingsoffireModTabs.REGISTRY.register(modEventBus);
 
 		WingsoffireModMenus.REGISTRY.register(modEventBus);

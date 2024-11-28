@@ -37,6 +37,10 @@ public class WingsoffireModTabs {
 			tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
 			tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(WingsoffireModItems.ANIKAWOF_SPAWN_EGG.get());
+
 		}
 	}
 }

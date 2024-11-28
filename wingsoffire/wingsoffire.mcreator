@@ -305,6 +305,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Anikawof",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anikawof",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/neoforge/biome_modifier/anikawof_biome_modifier.json",
+          "src/main/resources/assets/wingsoffire/models/item/anikawof_spawn_egg.json",
+          "src/main/java/net/mcreator/wingsoffire/client/renderer/AnikawofRenderer.java",
+          "src/main/java/net/mcreator/wingsoffire/entity/AnikawofEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -314,6 +329,8 @@
   "language_map": {
     "en_us": {
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
+      "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
+      "entity.wingsoffire.anikawof": "Anikawof",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
