@@ -381,6 +381,21 @@
           "src/main/java/net/mcreator/oogaboogablockgen/item/ThanksForTheTaxMoneyItem.java"
         ]
       }
+    },
+    {
+      "name": "Duck",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/duck_spawn_egg.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/client/renderer/DuckRenderer.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/entity/DuckEntity.java",
+          "src/main/resources/data/oogaboogablockgen/neoforge/biome_modifier/duck_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -402,8 +417,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.oogaboogablockgen.duck_spawn_egg": "Duck Spawn Egg",
       "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
       "block.oogaboogablockgen.goofy_ahh_block_yippeee": "Goofy Ahh Block YIPPEEE",
+      "entity.oogaboogablockgen.duck": "Duck",
       "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
       "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",

@@ -38,6 +38,10 @@ public class OogaboogablockgenModTabs {
 				tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
 				tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
 			}
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(OogaboogablockgenModItems.DUCK_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
