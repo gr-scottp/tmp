@@ -7,6 +7,7 @@ package net.mcreator.thehousetrap.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -20,6 +21,7 @@ public class ThehousetrapModItems {
 	public static final DeferredItem<Item> CIRAEBLOCK = block(ThehousetrapModBlocks.CIRAEBLOCK);
 	public static final DeferredItem<Item> CIRAE_FROGGY = REGISTRY.register("cirae_froggy", CiraeFroggyItem::new);
 	public static final DeferredItem<Item> CIRAEISTHEBEST = block(ThehousetrapModBlocks.CIRAEISTHEBEST);
+	public static final DeferredItem<Item> CIRAEWOLF_SPAWN_EGG = REGISTRY.register("ciraewolf_spawn_egg", () -> new DeferredSpawnEggItem(ThehousetrapModEntities.CIRAEWOLF, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

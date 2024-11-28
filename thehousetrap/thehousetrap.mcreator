@@ -288,6 +288,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ciraewolf",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraewolf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/client/renderer/CiraewolfRenderer.java",
+          "src/main/resources/assets/thehousetrap/models/item/ciraewolf_spawn_egg.json",
+          "src/main/java/net/mcreator/thehousetrap/entity/CiraewolfEntity.java",
+          "src/main/resources/data/thehousetrap/neoforge/biome_modifier/ciraewolf_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -297,10 +312,12 @@
   "language_map": {
     "en_us": {
       "block.thehousetrap.ciraeblock": "Ciraeblock",
+      "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
       "item_group.thehousetrap.froggy": "Froggy",
       "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
       "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
-      "item.thehousetrap.cirae_froggy": "Cirae Froggy"
+      "item.thehousetrap.cirae_froggy": "Cirae Froggy",
+      "entity.thehousetrap.ciraewolf": "Ciraewolf"
     }
   },
   "foldersRoot": {

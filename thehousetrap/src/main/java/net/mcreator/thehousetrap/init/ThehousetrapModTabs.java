@@ -34,6 +34,10 @@ public class ThehousetrapModTabs {
 
 			tabData.accept(ThehousetrapModBlocks.CIRAEBLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(ThehousetrapModItems.CIRAEWOLF_SPAWN_EGG.get());
+
 		}
 	}
 }

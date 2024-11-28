@@ -1,7 +1,9 @@
 {
   "block.thehousetrap.ciraeblock": "Ciraeblock",
+  "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
   "item_group.thehousetrap.froggy": "Froggy",
   "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
   "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
-  "item.thehousetrap.cirae_froggy": "Cirae Froggy"
+  "item.thehousetrap.cirae_froggy": "Cirae Froggy",
+  "entity.thehousetrap.ciraewolf": "Ciraewolf"
 }
