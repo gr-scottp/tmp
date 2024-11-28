@@ -363,6 +363,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Dragonn",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yousefmod/client/renderer/DragonnRenderer.java",
+          "src/main/resources/data/yousefmod/neoforge/biome_modifier/dragonn_biome_modifier.json",
+          "src/main/java/net/mcreator/yousefmod/entity/DragonnEntity.java",
+          "src/main/resources/assets/yousefmod/models/item/dragonn_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -373,8 +388,10 @@
     "en_us": {
       "block.yousefmod.bebea": "Bebea",
       "item_group.yousefmod.yousefmod": "Yousefmod",
+      "entity.yousefmod.dragonn": "Dragonn",
       "gui.yousefmod.fanumtax.label_empty": "",
       "gui.yousefmod.fanumtax.label_empty2": "",
+      "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
       "gui.yousefmod.fanumtax.label_empty1": "",
       "item.yousefmod.youse_fwand": "YOUSE Fwand",
       "block.yousefmod.imadyousefblock": "Imadyousefblock",

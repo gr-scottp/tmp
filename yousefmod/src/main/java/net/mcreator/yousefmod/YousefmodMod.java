@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.yousefmod.init.YousefmodModTabs;
 import net.mcreator.yousefmod.init.YousefmodModMenus;
 import net.mcreator.yousefmod.init.YousefmodModItems;
+import net.mcreator.yousefmod.init.YousefmodModEntities;
 import net.mcreator.yousefmod.init.YousefmodModBlocks;
 import net.mcreator.yousefmod.init.YousefmodModBlockEntities;
 
@@ -45,7 +46,7 @@ public class YousefmodMod {
 		YousefmodModBlocks.REGISTRY.register(modEventBus);
 		YousefmodModBlockEntities.REGISTRY.register(modEventBus);
 		YousefmodModItems.REGISTRY.register(modEventBus);
-
+		YousefmodModEntities.REGISTRY.register(modEventBus);
 		YousefmodModTabs.REGISTRY.register(modEventBus);
 
 		YousefmodModMenus.REGISTRY.register(modEventBus);

@@ -33,6 +33,10 @@ public class YousefmodModTabs {
 
 			tabData.accept(YousefmodModBlocks.BEBEA.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(YousefmodModItems.DRAGONN_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(YousefmodModItems.YOUSE_FWAND.get());
