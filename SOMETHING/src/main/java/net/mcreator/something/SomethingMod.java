@@ -23,6 +23,7 @@ import net.mcreator.something.init.SomethingModMenus;
 import net.mcreator.something.init.SomethingModItems;
 import net.mcreator.something.init.SomethingModFluids;
 import net.mcreator.something.init.SomethingModFluidTypes;
+import net.mcreator.something.init.SomethingModEntities;
 import net.mcreator.something.init.SomethingModBlocks;
 import net.mcreator.something.init.SomethingModBlockEntities;
 
@@ -47,7 +48,7 @@ public class SomethingMod {
 		SomethingModBlocks.REGISTRY.register(modEventBus);
 		SomethingModBlockEntities.REGISTRY.register(modEventBus);
 		SomethingModItems.REGISTRY.register(modEventBus);
-
+		SomethingModEntities.REGISTRY.register(modEventBus);
 		SomethingModTabs.REGISTRY.register(modEventBus);
 
 		SomethingModMenus.REGISTRY.register(modEventBus);

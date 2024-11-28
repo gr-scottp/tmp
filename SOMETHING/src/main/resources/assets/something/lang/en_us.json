@@ -1,13 +1,15 @@
 {
-  "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
-  "fluid.something.notwater": "NOTWATER",
-  "item.something.overunder": "Overunder Portal Igniter",
   "gui.something.jaky_furnace_gui.label_avada_kedavra": "AVADA KEDAVRA",
   "block.something.justinbebe": "JUSTINBEBE",
   "block.something.notwater": "NOTWATER",
-  "item.something.notwater_bucket": "NOTWATER ",
   "item.something.the_key": "The KEY",
-  "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo",
+  "item.something.kityy_jaky_spawn_egg": "Kityy Jaky Spawn Egg",
   "death.attack.medkit.item": "%1$s was killed by %2$s using %3$s",
-  "death.attack.medkit": "%1$s died"
+  "death.attack.medkit": "%1$s died",
+  "death.attack.medkit.player": "%1$s died whilst trying to escape %2$s",
+  "fluid.something.notwater": "NOTWATER",
+  "item.something.overunder": "Overunder Portal Igniter",
+  "item.something.notwater_bucket": "NOTWATER ",
+  "entity.something.kityy_jaky": "Kityy Jaky",
+  "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo"
 }

@@ -7,6 +7,7 @@ package net.mcreator.something.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -24,6 +25,7 @@ public class SomethingModItems {
 	public static final DeferredItem<Item> NOTWATER_BUCKET = REGISTRY.register("notwater_bucket", NOTWATERItem::new);
 	public static final DeferredItem<Item> OVERUNDER = REGISTRY.register("overunder", OverunderItem::new);
 	public static final DeferredItem<Item> VOLDEMORT_IS_STEALING_MY_SHAMPOO = block(SomethingModBlocks.VOLDEMORT_IS_STEALING_MY_SHAMPOO);
+	public static final DeferredItem<Item> KITYY_JAKY_SPAWN_EGG = REGISTRY.register("kityy_jaky_spawn_egg", () -> new DeferredSpawnEggItem(SomethingModEntities.KITYY_JAKY, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

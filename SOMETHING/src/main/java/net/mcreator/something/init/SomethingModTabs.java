@@ -30,6 +30,10 @@ public class SomethingModTabs {
 
 			tabData.accept(SomethingModBlocks.VOLDEMORT_IS_STEALING_MY_SHAMPOO.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(SomethingModItems.KITYY_JAKY_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(SomethingModItems.OVERUNDER.get());
