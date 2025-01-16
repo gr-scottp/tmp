@@ -396,6 +396,36 @@
           "src/main/resources/data/oogaboogablockgen/neoforge/biome_modifier/duck_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "GoofyAhhBlockYIPPEEEOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goofy_ahh_block_yippeee_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

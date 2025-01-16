@@ -16,6 +16,6 @@ public class DuckRenderer extends MobRenderer<DuckEntity, ChickenModel<DuckEntit
 
 	@Override
 	public ResourceLocation getTextureLocation(DuckEntity entity) {
-		return ResourceLocation.parse("oogaboogablockgen:textures/entities/ducky.png");
+		return ResourceLocation.parse("oogaboogablockgen:textures/entities/duckysussybakayipeewahooimrunningoutofnameshelp.png");
 	}
 }
