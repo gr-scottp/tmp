@@ -285,6 +285,36 @@
           "src/main/resources/assets/something/models/item/kityy_jaky_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "VoldemortIsStealingMyShampooOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voldemort_is_stealing_my_shampoo_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/VoldemortIsStealingMyShampooOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

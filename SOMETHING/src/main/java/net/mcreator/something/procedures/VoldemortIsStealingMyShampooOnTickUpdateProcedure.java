@@ -33,7 +33,7 @@ public class VoldemortIsStealingMyShampooOnTickUpdateProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Blocks.COAL_BLOCK.asItem() && new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Blocks.SMOOTH_STONE.asItem() && new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
