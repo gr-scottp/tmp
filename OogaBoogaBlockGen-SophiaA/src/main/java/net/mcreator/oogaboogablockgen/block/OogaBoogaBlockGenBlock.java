@@ -55,7 +55,7 @@ public class OogaBoogaBlockGenBlock extends Block implements EntityBlock {
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		AutoPlaceProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		AutoPlaceProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, pos);
 	}
 
 	@Override
