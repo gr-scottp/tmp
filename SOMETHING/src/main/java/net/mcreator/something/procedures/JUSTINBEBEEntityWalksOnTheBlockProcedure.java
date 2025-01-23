@@ -7,9 +7,10 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.something.init.SomethingModBlocks;
 
 public class JUSTINBEBEEntityWalksOnTheBlockProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, BlockPos pos) {
 		if (entity == null)
 			return;
-		world.setBlock(BlockPos.containing((entity.getDirection()).getStepX() + x, y, (entity.getDirection()).getStepZ() + z), SomethingModBlocks.JUSTINBEBE.get().defaultBlockState(), 3);
+		BlockPos newPos = pos.relative(entity.getMotionDirection(), 1);
+		world.setBlock(newPos, SomethingModBlocks.JUSTINBEBE.get().defaultBlockState(), 3);
 	}
 }

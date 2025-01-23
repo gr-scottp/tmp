@@ -17,7 +17,7 @@
       "name": "JUSTINBEBE",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "justinbebe",
       "metadata": {
         "files": [
@@ -94,7 +94,7 @@
       "name": "JUSTINBEBEEntityWalksOnTheBlock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "justinbebe_entity_walks_on_the_block",
       "metadata": {
         "files": [
