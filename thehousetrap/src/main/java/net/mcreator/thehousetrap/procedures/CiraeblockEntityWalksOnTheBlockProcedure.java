@@ -10,6 +10,7 @@ public class CiraeblockEntityWalksOnTheBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, BlockPos pos) {
 		if (entity == null)
 			return;
-		world.setBlock(BlockPos.containing(x + (entity.getDirection()).getStepX(), y, z + (entity.getDirection()).getStepZ()), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
+
+		world.setBlock(pos.relative(entity.getMotionDirection(), 1), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
 	}
 }
