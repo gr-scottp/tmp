@@ -22,6 +22,7 @@ public class ThehousetrapModItems {
 	public static final DeferredItem<Item> CIRAE_FROGGY = REGISTRY.register("cirae_froggy", CiraeFroggyItem::new);
 	public static final DeferredItem<Item> CIRAEISTHEBEST = block(ThehousetrapModBlocks.CIRAEISTHEBEST);
 	public static final DeferredItem<Item> CIRAEWOLF_SPAWN_EGG = REGISTRY.register("ciraewolf_spawn_egg", () -> new DeferredSpawnEggItem(ThehousetrapModEntities.CIRAEWOLF, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> HI = block(ThehousetrapModBlocks.HI);
 
 	// Start of user code block custom items
 	// End of user code block custom items

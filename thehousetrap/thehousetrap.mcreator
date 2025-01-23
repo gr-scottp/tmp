@@ -303,6 +303,22 @@
           "src/main/resources/data/thehousetrap/neoforge/biome_modifier/ciraewolf_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Hi",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thehousetrap/loot_table/blocks/hi.json",
+          "src/main/resources/assets/thehousetrap/models/item/hi.json",
+          "src/main/java/net/mcreator/thehousetrap/block/HiBlock.java",
+          "src/main/resources/assets/thehousetrap/blockstates/hi.json",
+          "src/main/resources/assets/thehousetrap/models/block/hi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -317,6 +333,7 @@
       "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
       "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
       "item.thehousetrap.cirae_froggy": "Cirae Froggy",
+      "block.thehousetrap.hi": "Hi",
       "entity.thehousetrap.ciraewolf": "Ciraewolf"
     }
   },

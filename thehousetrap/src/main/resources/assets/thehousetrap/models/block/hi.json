@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thehousetrap:block/checkers",
+    "up": "thehousetrap:block/checkers",
+    "north": "thehousetrap:block/checkers",
+    "east": "thehousetrap:block/checkers",
+    "south": "thehousetrap:block/checkers",
+    "west": "thehousetrap:block/checkers",
+    "particle": "thehousetrap:block/checkers"
+  },
+  "render_type": "solid"
+}
