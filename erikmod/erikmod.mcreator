@@ -4,7 +4,7 @@
       "name": "ErikBlocks",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "erik_blocks",
       "metadata": {
         "files": [

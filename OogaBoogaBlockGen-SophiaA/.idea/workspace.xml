@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26680730-5ee8-4f58-8870-8fd2a456a591" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.mcreator/generatorGradleCache" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.mcreator/generatorGradleCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.mcreator/modElementThumbnails/Erikiishim.png" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.mcreator/modElementThumbnails/Erikiishim.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erikiishim.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erikiishim.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erikytu.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erikytu.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikytuOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikytuOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Getfuel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Getfuel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/erikmod.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/erikmod.mcreator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikiishim_spawn_egg.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikiishim_spawn_egg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/pack.mcmeta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pUCdKW56SaYLemHte9Xsr0jMXy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ilovefootball",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub-2024/erikmod"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26680730-5ee8-4f58-8870-8fd2a456a591" name="Changes" comment="" />
+      <created>1732811356018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732811356018</updated>
+    </task>
+    <servers />
+  </component>
+</project>
