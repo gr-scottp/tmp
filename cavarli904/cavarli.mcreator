@@ -4,7 +4,7 @@
       "name": "CavarliBlock",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "cavarli_block",
       "metadata": {
         "files": [
@@ -19,7 +19,7 @@
     {
       "name": "CavarliBlockOnBlockRightClicked",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cavarli_block_on_block_right_clicked",
       "metadata": {
@@ -94,7 +94,7 @@
       "name": "CAVARLInoob1234567890",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "cavarl_inoob_1234567890",
       "metadata": {
         "files": [
