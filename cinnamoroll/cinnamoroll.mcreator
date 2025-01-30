@@ -4,7 +4,7 @@
       "name": "WinterLand",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "winter_land",
       "metadata": {
         "files": [
@@ -21,7 +21,7 @@
       "name": "WinterLandOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "winter_land_on_block_right_clicked",
       "metadata": {
         "files": [
