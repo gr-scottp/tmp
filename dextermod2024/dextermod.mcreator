@@ -4,7 +4,7 @@
       "name": "DexterFaceBlock",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dexter_face_block",
       "metadata": {
         "files": [
@@ -20,7 +20,7 @@
       "name": "DexterFaceBlockOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dexter_face_block_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -54,7 +54,7 @@
       "name": "DexterFaceBlockEntityWalksOnTheBlock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dexter_face_block_entity_walks_on_the_block",
       "metadata": {
         "files": [
@@ -238,6 +238,36 @@
         "return_type": "number",
         "files": [
           "src/main/java/net/mcreator/dextermod/procedures/GetFuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DexterFunaceBlockOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_funace_block_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/procedures/DexterFunaceBlockOnRandomClientDisplayTickProcedure.java"
         ],
         "dependencies": [
           {

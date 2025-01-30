@@ -3,6 +3,8 @@ package net.mcreator.dextermod.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 import net.mcreator.dextermod.init.DextermodModBlocks;
 
@@ -19,5 +21,13 @@ public class DexterFaceBlockOnBlockRightClickedProcedure {
 			zOffset = zOffset + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(xOffset + (entity.getDirection()).getStepX(), y, zOffset + (entity.getDirection()).getStepZ()), DextermodModBlocks.DEXTER_FACE_BLOCK.get().defaultBlockState(), 3);
+		world.playSound(
+				null,
+				new BlockPos((int) x, (int) y, (int) z),
+				SoundEvents.CREEPER_DEATH,
+				SoundSource.BLOCKS,
+				10.0F,
+				1.0F
+		);
 	}
 }
