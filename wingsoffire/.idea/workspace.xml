@@ -5,15 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1de5fe6-1e55-4b20-9244-fc8bba4c2d48" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OogaBoogaBlockGen-SophiaA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cinnamoroll/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cinnamoroll/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Erikmod - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Prepare Erikmod - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Run Erikmod - Server.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.eclipse/configurations/Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/modules/erikmod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/modules/erikmod.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/modules/erikmod.main~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/modules/erikmod.main~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/modules/minecraft-codeclub-2024.erikmod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/modules/minecraft-codeclub-2024.erikmod.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/.mcreator/generatorGradleCache" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/.mcreator/generatorGradleCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erik123456789.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erik123456789.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikBlocks.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikBlocks.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksEntityWalksOnTheBlock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksEntityWalksOnTheBlock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnBlockRightClicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnBlockRightClicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnBlockRightClicked0.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnBlockRightClicked0.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikBlocksOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erikiishim.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erikiishim.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Eriktab.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Eriktab.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erikwandthebest.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erikwandthebest.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Erikytu.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Erikytu.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/ErikytuOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/ErikytuOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Getfuel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Getfuel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Tick.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Tick.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/elements/Tickgg.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/elements/Tickgg.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/erikmod.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/erikmod.mcreator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/command_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/config/fml.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-common.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-common.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/config/neoforge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/client/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/client/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/runs/server/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/runs/server/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/ErikmodMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/ErikmodMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/ErikBlocksBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/ErikytuBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/ErikytuBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/entity/ErikBlocksBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/entity/ErikytuBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/block/entity/ErikytuBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/client/gui/TickggScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/client/gui/TickggScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/client/renderer/ErikiishimRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/client/renderer/ErikiishimRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/entity/ErikiishimEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/entity/ErikiishimEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModEntityRenderers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModEntityRenderers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModScreens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModScreens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/init/ErikmodModTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/item/ErikwandthebestItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/Erik123456789Procedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksEntityWalksOnTheBlockProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksEntityWalksOnTheBlockProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClicked0Procedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnBlockRightClickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikBlocksOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikytuOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/ErikytuOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/GetfuelProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/GetfuelProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/procedures/TickProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/java/net/mcreator/erikmod/world/inventory/TickggMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erik_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erik_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/blockstates/erikytu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erik_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erik_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/block/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erik_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erik_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikiishim_spawn_egg.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikiishim_spawn_egg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikwandthebest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikwandthebest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/assets/erikmod/models/item/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erik_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erik_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erikytu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/loot_table/blocks/erikytu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../erikmod/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/../erikmod/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,23 +112,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pUBPoSRcFDnJMe7skZIwihbjka" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ilovefootball",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/minecraft-codeclub-2024/erikmod"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ilovefootball&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/minecraft-codeclub-2024/erikmod&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -21,7 +21,7 @@
       "name": "ErikBlocksOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "erik_blocks_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -85,7 +85,7 @@
       "name": "ErikBlocksOnBlockRightClicked0",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "erik_blocks_on_block_right_clicked_0",
       "metadata": {
         "files": [

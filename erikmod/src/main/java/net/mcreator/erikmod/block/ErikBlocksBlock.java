@@ -36,7 +36,7 @@ import io.netty.buffer.Unpooled;
 
 public class ErikBlocksBlock extends Block implements EntityBlock {
 	public ErikBlocksBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.2f).jumpFactor(6f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.2f).jumpFactor(10000000000000000000000000f));
 	}
 
 	@Override
