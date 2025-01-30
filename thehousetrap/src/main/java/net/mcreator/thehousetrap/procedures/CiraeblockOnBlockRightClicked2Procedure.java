@@ -3,6 +3,8 @@ package net.mcreator.thehousetrap.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 import net.mcreator.thehousetrap.init.ThehousetrapModBlocks;
 
@@ -22,5 +24,6 @@ public class CiraeblockOnBlockRightClicked2Procedure {
 			ciraez = ciraez + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(cirae1x + (entity.getDirection()).getStepX(), cirae1y + (entity.getDirection()).getStepY(), ciraez + (entity.getDirection()).getStepZ()), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
+		world.playSound(null, , SoundEvents.DROWNED_DEATH_WATER);
 	}
 }

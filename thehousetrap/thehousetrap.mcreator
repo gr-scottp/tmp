@@ -4,7 +4,7 @@
       "name": "Ciraeblock",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ciraeblock",
       "metadata": {
         "files": [
@@ -84,8 +84,8 @@
     {
       "name": "CiraeblockOnBlockRightClicked2",
       "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
+      "compiles": false,
+      "locked_code": true,
       "registry_name": "ciraeblock_on_block_right_clicked_2",
       "metadata": {
         "files": [
