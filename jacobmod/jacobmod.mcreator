@@ -4,7 +4,7 @@
       "name": "DexterFaceBlock",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dexter_face_block",
       "metadata": {
         "files": [
@@ -20,7 +20,7 @@
       "name": "DexterFaceBlockOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dexter_face_block_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -145,11 +145,11 @@
       "registry_name": "dexter_funace_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dextermod/block/DexterFunaceBlockBlock.java",
+          "src/main/resources/assets/dextermod/blockstates/dexter_funace_block.json",
           "src/main/resources/assets/dextermod/models/item/dexter_funace_block.json",
           "src/main/resources/assets/dextermod/models/block/dexter_funace_block.json",
-          "src/main/resources/assets/dextermod/blockstates/dexter_funace_block.json",
           "src/main/resources/data/dextermod/loot_table/blocks/dexter_funace_block.json",
-          "src/main/java/net/mcreator/dextermod/block/DexterFunaceBlockBlock.java",
           "src/main/java/net/mcreator/dextermod/block/entity/DexterFunaceBlockBlockEntity.java"
         ]
       }
