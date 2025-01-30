@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dextermod:block/dexterfacetexture",
+    "up": "dextermod:block/dexterfacetexture",
+    "north": "minecraft:block/jack_o_lantern",
+    "east": "dextermod:block/dexterfacetexture",
+    "south": "dextermod:block/dexterfacetexture",
+    "west": "dextermod:block/dexterfacetexture",
+    "particle": "dextermod:block/dexterfacetexture"
+  },
+  "render_type": "solid"
+}
