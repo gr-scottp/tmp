@@ -50,7 +50,7 @@
     {
       "name": "WingsOfFireexEntityWalksOnTheBlock",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "wings_of_fireex_entity_walks_on_the_block",
       "metadata": {
@@ -85,7 +85,7 @@
       "name": "WingsOfFireexOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wings_of_fireex_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -172,7 +172,7 @@
       "name": "WingsOfFireexOnTickUpdate",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wings_of_fireex_on_tick_update",
       "metadata": {
         "files": [

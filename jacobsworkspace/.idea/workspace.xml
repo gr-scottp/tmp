@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f1bd70a-63e1-4898-9309-407765630ee2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.mcreator/generatorGradleCache" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.mcreator/generatorGradleCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/src/main/resources/assets/wingsoffire/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/src/main/resources/assets/wingsoffire/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/wingsoffire.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/wingsoffire.mcreator" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2s2KV9HyxlpgmHVO5jGEjNfxo9x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "wingsoffirexi",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub-2024/wingsoffire"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="jacobsworkspace.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="jacobsworkspace.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\jacobsworkspace\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f1bd70a-63e1-4898-9309-407765630ee2" name="Changes" comment="" />
+      <created>1737648251338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737648251338</updated>
+    </task>
+    <servers />
+  </component>
+</project>

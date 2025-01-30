@@ -3,6 +3,8 @@ package net.mcreator.wingsoffire.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 import net.mcreator.wingsoffire.init.WingsoffireModBlocks;
 
@@ -21,5 +23,6 @@ public class WingsOfFireexOnBlockRightClickedProcedure {
 			anikaz = anikaz + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(anikax + (entity.getDirection()).getStepX(), y, anikaz + (entity.getDirection()).getStepZ()), WingsoffireModBlocks.WINGS_OF_FIREEX.get().defaultBlockState(), 3);
+		world.playSound(null, , SoundEvents.BAT_DEATH);
 	}
 }
