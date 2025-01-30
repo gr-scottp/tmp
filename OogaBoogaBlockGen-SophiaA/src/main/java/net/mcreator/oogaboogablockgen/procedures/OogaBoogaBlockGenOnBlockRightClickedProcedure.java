@@ -3,6 +3,8 @@ package net.mcreator.oogaboogablockgen.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlocks;
 

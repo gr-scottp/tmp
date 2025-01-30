@@ -1,0 +1,111 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "music.overworld.cherry_grove",
+    "additions_sound": {
+      "sound": "entity.experience_orb.pickup",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "entity.experience_orb.pickup",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "item_snowball"
+      },
+      "probability": 0.006
+    },
+    "foliage_color": -3368449,
+    "grass_color": -13434829,
+    "sky_color": -3381505,
+    "fog_color": -3381505,
+    "water_color": -6723841,
+    "water_fog_color": -6723841
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "oogaboogablockgen:duck",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "armadillo",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "bee",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 66
+      },
+      {
+        "type": "dolphin",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "endermite",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "wolf",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 10
+      },
+      {
+        "type": "snow_golem",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 14
+      }
+    ],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "axolotl",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "oogaboogablockgen:james_charles_biome_tree"
+    ],
+    []
+  ]
+}

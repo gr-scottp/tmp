@@ -1,0 +1,195 @@
+{
+  "_fv": 69,
+  "_type": "biome",
+  "definition": {
+    "name": "James Charles Biome",
+    "groundBlock": {
+      "value": "Blocks.AMETHYST_BLOCK"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.QUARTZ_BLOCK#0"
+    },
+    "airColor": {
+      "value": -3381505,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3368449,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6723841,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -6723841,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "music.overworld.cherry_grove"
+    },
+    "additionsSound": {
+      "value": "entity.experience_orb.pickup"
+    },
+    "music": {
+      "value": "entity.experience_orb.pickup"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SNOWBALL"
+    },
+    "particlesProbability": 0.6,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": true,
+    "spawnBiomeNether": true,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 15,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 2,
+    "treeStem": {
+      "value": "Blocks.CHERRY_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.CHERRY_WOOD"
+    },
+    "treeVines": {
+      "value": "Blocks.CAVE_VINES"
+    },
+    "treeFruits": {
+      "value": "Blocks.RED_MUSHROOM"
+    },
+    "defaultFeatures": [
+      "ExtraEmeraldOre",
+      "AmethystGeodes",
+      "Icebergs",
+      "Fossils"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "snowy",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": false,
+    "spawnIgloo": true,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "WARM",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "NETHER",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Duck"
+        },
+        "minGroup": 4,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityArmadillo"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAxolotl"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "axolotls"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 4,
+        "maxGroup": 66,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityDolphin"
+        },
+        "minGroup": 4,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityEndermite"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySnowman"
+        },
+        "minGroup": 4,
+        "maxGroup": 14,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

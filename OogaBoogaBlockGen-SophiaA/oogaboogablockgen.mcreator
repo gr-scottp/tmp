@@ -21,7 +21,7 @@
       "name": "SophiaOogaBoogaBlockGen",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "sophia_ooga_booga_block_gen",
       "metadata": {
         "files": [
@@ -51,7 +51,7 @@
       "name": "AutoGeneratorForOBblock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "auto_generator_for_o_bblock",
       "metadata": {
         "files": [
@@ -145,7 +145,7 @@
       "name": "OGBWandRightclicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ogb_wand_rightclicked",
       "metadata": {
         "files": [
@@ -188,7 +188,7 @@
       "name": "OogaBoogaBlockGenOnTickUpdate",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ooga_booga_block_gen_on_tick_update",
       "metadata": {
         "files": [
@@ -426,19 +426,72 @@
           }
         ]
       }
+    },
+    {
+      "name": "JamesCharlesBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "james_charles_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oogaboogablockgen/worldgen/configured_feature/james_charles_biome_tree.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/placed_feature/james_charles_biome_tree.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeTrunkDecorator.java",
+          "src/main/resources/data/oogaboogablockgen/worldgen/biome/james_charles_biome.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeLeaveDecorator.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:ThankYouForPayingYourFanumTax"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:JamesCharlesBiome"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:ThanksForTheTaxMoney"
     ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:JamesCharlesBiome"
+    ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:ThanksForTheTaxMoney"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:JamesCharlesBiome"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:ThanksForTheTaxMoney"
@@ -455,6 +508,7 @@
       "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
       "item.oogaboogablockgen.money": "Money",
+      "biome.oogaboogablockgen.james_charles_biome": "James Charles Biome",
       "item.oogaboogablockgen.ogb_wand": "OGB Wand",
       "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax"
     }
