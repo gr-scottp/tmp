@@ -288,6 +288,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "DexPlatformRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dex_platform_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dextermod/recipe/dex_platform_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
