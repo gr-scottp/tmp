@@ -84,7 +84,7 @@
     {
       "name": "CiraeblockOnBlockRightClicked2",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "ciraeblock_on_block_right_clicked_2",
       "metadata": {
@@ -317,6 +317,18 @@
           "src/main/java/net/mcreator/thehousetrap/block/HiBlock.java",
           "src/main/resources/assets/thehousetrap/blockstates/hi.json",
           "src/main/resources/assets/thehousetrap/models/block/hi.json"
+        ]
+      }
+    },
+    {
+      "name": "Sigma",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sigma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thehousetrap/recipe/sigma.json"
         ]
       }
     }

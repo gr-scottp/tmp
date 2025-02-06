@@ -23,7 +23,8 @@ public class CiraeblockOnBlockRightClicked2Procedure {
 			cirae1y = cirae1y + (entity.getDirection()).getStepY();
 			ciraez = ciraez + (entity.getDirection()).getStepZ();
 		}
+		BlockPos p = new BlockPos((int)x,(int)y,(int)z);
 		world.setBlock(BlockPos.containing(cirae1x + (entity.getDirection()).getStepX(), cirae1y + (entity.getDirection()).getStepY(), ciraez + (entity.getDirection()).getStepZ()), ThehousetrapModBlocks.CIRAEBLOCK.get().defaultBlockState(), 3);
-		world.playSound(null, , SoundEvents.DROWNED_DEATH_WATER);
+		world.playSound(null, p, SoundEvents.DROWNED_DEATH_WATER, SoundSource.BLOCKS, 10f, 1f);
 	}
 }

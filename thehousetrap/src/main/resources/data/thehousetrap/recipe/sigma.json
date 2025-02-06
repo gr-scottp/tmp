@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:purple_wool"
+    },
+    "c": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "id": "minecraft:purple_stained_glass",
+    "count": 1
+  }
+}
