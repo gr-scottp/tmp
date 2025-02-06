@@ -131,7 +131,20 @@
       "name": "DexterFunaceBlockOnTickUpdate"
     },
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "forest"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "plains"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"

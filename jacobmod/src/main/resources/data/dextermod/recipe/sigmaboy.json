@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "dextermod:dexter_face_block"
+    },
+    "b": {
+      "item": "dextermod:dexter_funace_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1
+  }
+}

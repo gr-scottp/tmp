@@ -4,15 +4,15 @@
       "name": "DexterFaceBlock",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dexter_face_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dextermod/models/item/dexter_face_block.json",
           "src/main/resources/data/dextermod/loot_table/blocks/dexter_face_block.json",
-          "src/main/resources/assets/dextermod/models/block/dexter_face_block.json",
           "src/main/resources/assets/dextermod/blockstates/dexter_face_block.json",
-          "src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java",
-          "src/main/resources/assets/dextermod/models/item/dexter_face_block.json"
+          "src/main/resources/assets/dextermod/models/block/dexter_face_block.json",
+          "src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java"
         ]
       }
     },
@@ -20,7 +20,7 @@
       "name": "DexterFaceBlockOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dexter_face_block_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -256,6 +256,42 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Idklol",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idklol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dextermod/recipe/sigmablock.json"
+        ]
+      }
+    },
+    {
+      "name": "Sigmarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sigmarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dextermod/recipe/sigmarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sigmaboy",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sigmaboy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dextermod/recipe/sigmaboy.json"
         ]
       }
     }
