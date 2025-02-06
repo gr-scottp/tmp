@@ -32,12 +32,17 @@ public class OogaboogablockgenModTabs {
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
 			tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
 			tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
+			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
 			if (tabData.hasPermissions()) {
 				tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
 				tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
 			}
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+
+			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(OogaboogablockgenModItems.DUCK_SPAWN_EGG.get());
@@ -50,6 +55,7 @@ public class OogaboogablockgenModTabs {
 
 			tabData.accept(OogaboogablockgenModItems.OGB_WAND.get());
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
+			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
 
 		}
 	}

@@ -17,6 +17,7 @@ import net.mcreator.oogaboogablockgen.item.ThanksForTheTaxMoneyItem;
 import net.mcreator.oogaboogablockgen.item.ThankYouForPayingYourFanumTaxItem;
 import net.mcreator.oogaboogablockgen.item.OGBWandItem;
 import net.mcreator.oogaboogablockgen.item.MoneyItem;
+import net.mcreator.oogaboogablockgen.item.EmeraldSwordItem;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 public class OogaboogablockgenModItems {
@@ -28,6 +29,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX = REGISTRY.register("thank_you_for_paying_your_fanum_tax", ThankYouForPayingYourFanumTaxItem::new);
 	public static final DeferredItem<Item> THANKS_FOR_THE_TAX_MONEY = REGISTRY.register("thanks_for_the_tax_money", ThanksForTheTaxMoneyItem::new);
 	public static final DeferredItem<Item> DUCK_SPAWN_EGG = REGISTRY.register("duck_spawn_egg", () -> new DeferredSpawnEggItem(OogaboogablockgenModEntities.DUCK, -15120359, -11648462, new Item.Properties()));
+	public static final DeferredItem<Item> EMERALD_SWORD = REGISTRY.register("emerald_sword", EmeraldSwordItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
