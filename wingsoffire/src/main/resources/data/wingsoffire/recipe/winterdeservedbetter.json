@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raiseyour",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "wingsoffire:raiseyouryayaya"
+    },
+    "b": {
+      "item": "minecraft:cherry_planks"
+    },
+    "c": {
+      "item": "wingsoffire:checkers"
+    }
+  },
+  "result": {
+    "id": "wingsoffire:raiseyouryayaya_2",
+    "count": 1
+  }
+}

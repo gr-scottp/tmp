@@ -27,6 +27,8 @@ public class WingsoffireModTabs {
 				tabData.accept(WingsoffireModItems.GLORYANDTHEHIDDENKINGDOM.get());
 				tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
 				tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
+				tabData.accept(WingsoffireModBlocks.RAISEYOURYAYAYA.get().asItem());
+				tabData.accept(WingsoffireModBlocks.RAISEYOURYAYAYA_2.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

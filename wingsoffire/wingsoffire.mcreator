@@ -4,7 +4,7 @@
       "name": "WingsOfFireex",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "wings_of_fireex",
       "metadata": {
         "files": [
@@ -320,6 +320,50 @@
           "src/main/java/net/mcreator/wingsoffire/entity/AnikawofEntity.java"
         ]
       }
+    },
+    {
+      "name": "Raiseyouryayaya",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raiseyouryayaya",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya.json",
+          "src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya.json",
+          "src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya.json",
+          "src/main/java/net/mcreator/wingsoffire/block/RaiseyouryayayaBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Raiseyouryayaya2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raiseyouryayaya_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya_2.json",
+          "src/main/java/net/mcreator/wingsoffire/block/Raiseyouryayaya2Block.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya_2.json",
+          "src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya_2.json",
+          "src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Anikarecipewof",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anikarecipewof",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/recipe/winterdeservedbetter.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -335,7 +379,9 @@
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.checkers": "Checkers",
-      "block.wingsoffire.funblock": "Funblock"
+      "block.wingsoffire.raiseyouryayaya_2": "Raiseyouryayaya 2",
+      "block.wingsoffire.funblock": "Funblock",
+      "block.wingsoffire.raiseyouryayaya": "Raiseyouryayaya"
     }
   },
   "foldersRoot": {

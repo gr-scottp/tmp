@@ -23,6 +23,8 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> CHECKERS = block(WingsoffireModBlocks.CHECKERS);
 	public static final DeferredItem<Item> FUNBLOCK = block(WingsoffireModBlocks.FUNBLOCK);
 	public static final DeferredItem<Item> ANIKAWOF_SPAWN_EGG = REGISTRY.register("anikawof_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.ANIKAWOF, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> RAISEYOURYAYAYA = block(WingsoffireModBlocks.RAISEYOURYAYAYA);
+	public static final DeferredItem<Item> RAISEYOURYAYAYA_2 = block(WingsoffireModBlocks.RAISEYOURYAYAYA_2);
 
 	// Start of user code block custom items
 	// End of user code block custom items

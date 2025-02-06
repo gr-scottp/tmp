@@ -23,6 +23,5 @@ public class WingsOfFireexOnBlockRightClickedProcedure {
 			anikaz = anikaz + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(anikax + (entity.getDirection()).getStepX(), y, anikaz + (entity.getDirection()).getStepZ()), WingsoffireModBlocks.WINGS_OF_FIREEX.get().defaultBlockState(), 3);
-		world.playSound(null, , SoundEvents.BAT_DEATH);
 	}
 }

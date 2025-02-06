@@ -36,7 +36,6 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.wingsoffire.world.inventory.CheckersguiMenu;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexRedstoneOnProcedure;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexOnTickUpdateProcedure;
-import net.mcreator.wingsoffire.procedures.WingsOfFireexOnBlockRightClickedProcedure;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexEntityWalksOnTheBlockProcedure;
 import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
 
@@ -104,7 +103,7 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock,
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		WingsOfFireexEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, pos);
+		WingsOfFireexEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override
@@ -123,14 +122,6 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock,
 				}
 			}, pos);
 		}
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		double hitX = hit.getLocation().x;
-		double hitY = hit.getLocation().y;
-		double hitZ = hit.getLocation().z;
-		Direction direction = hit.getDirection();
-		WingsOfFireexOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
