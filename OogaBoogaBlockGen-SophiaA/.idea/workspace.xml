@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de908c31-84c8-4130-b0b8-1abf975778ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.eclipse/configurations/Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/.mcreator/generatorGradleCache" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/.mcreator/generatorGradleCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/src/main/resources/assets/wingsoffire/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/src/main/resources/assets/wingsoffire/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wingsoffire/wingsoffire.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../wingsoffire/wingsoffire.mcreator" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2s5Bo2mPFCRkpLfqRxjxtHLXXZx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "wingsoffirexi",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/TrainingGR07/MCreatorWorkspaces/roberttestmod"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de908c31-84c8-4130-b0b8-1abf975778ff" name="Changes" comment="" />
+      <created>1737735730398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737735730398</updated>
+    </task>
+    <servers />
+  </component>
+</project>
