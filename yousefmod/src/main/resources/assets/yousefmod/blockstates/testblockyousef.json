@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yousefmod:block/testblockyousef"
+    },
+    "facing=east": {
+      "model": "yousefmod:block/testblockyousef",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yousefmod:block/testblockyousef",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yousefmod:block/testblockyousef",
+      "y": 270
+    }
+  }
+}

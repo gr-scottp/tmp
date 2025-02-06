@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "yayaya",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "yousefmod:imadyousefblock"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "count": 52
+  }
+}

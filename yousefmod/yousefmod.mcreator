@@ -4,7 +4,7 @@
       "name": "Bebea",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "bebea",
       "metadata": {
         "files": [
@@ -55,7 +55,7 @@
       "name": "BebeaEntityWalksOnTheBlock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "bebea_entity_walks_on_the_block",
       "metadata": {
         "files": [
@@ -378,6 +378,48 @@
           "src/main/resources/assets/yousefmod/models/item/dragonn_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "Yousefwand32",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yousefwand_32",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yousefmod/recipe/yousefwand_32.json"
+        ]
+      }
+    },
+    {
+      "name": "Testblockyousef",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testblockyousef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/yousefmod/models/item/testblockyousef.json",
+          "src/main/resources/assets/yousefmod/models/block/testblockyousef.json",
+          "src/main/java/net/mcreator/yousefmod/block/TestblockyousefBlock.java",
+          "src/main/resources/assets/yousefmod/blockstates/testblockyousef.json",
+          "src/main/resources/data/yousefmod/loot_table/blocks/testblockyousef.json"
+        ]
+      }
+    },
+    {
+      "name": "Testbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/yousefmod/worldgen/biome/testbiome.json",
+          "src/main/resources/data/yousefmod/worldgen/placed_feature/testbiome_tree.json",
+          "src/main/resources/data/yousefmod/worldgen/configured_feature/testbiome_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -386,16 +428,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.yousefmod.bebea": "Bebea",
       "item_group.yousefmod.yousefmod": "Yousefmod",
       "entity.yousefmod.dragonn": "Dragonn",
-      "gui.yousefmod.fanumtax.label_empty": "",
-      "gui.yousefmod.fanumtax.label_empty2": "",
-      "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
-      "gui.yousefmod.fanumtax.label_empty1": "",
-      "item.yousefmod.youse_fwand": "YOUSE Fwand",
+      "block.yousefmod.testblockyousef": "Imadyousefblock",
       "block.yousefmod.imadyousefblock": "Imadyousefblock",
-      "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon"
+      "gui.yousefmod.fanumtax.label_iwontheminischoolcompitistipon": "iwontheminischoolcompitistipon",
+      "block.yousefmod.bebea": "Bebea",
+      "biome.yousefmod.testbiome": "Testbiome",
+      "gui.yousefmod.fanumtax.label_empty": "",
+      "item.yousefmod.dragonn_spawn_egg": "Dragonn Spawn Egg",
+      "gui.yousefmod.fanumtax.label_empty2": "",
+      "gui.yousefmod.fanumtax.label_empty1": "",
+      "item.yousefmod.youse_fwand": "YOUSE Fwand"
     }
   },
   "foldersRoot": {

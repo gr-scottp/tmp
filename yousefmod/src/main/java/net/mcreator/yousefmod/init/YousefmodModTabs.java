@@ -25,6 +25,7 @@ public class YousefmodModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.yousefmod.yousefmod")).icon(() -> new ItemStack(YousefmodModBlocks.BEBEA.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(YousefmodModItems.YOUSE_FWAND.get());
 				tabData.accept(YousefmodModBlocks.IMADYOUSEFBLOCK.get().asItem());
+				tabData.accept(YousefmodModBlocks.TESTBLOCKYOUSEF.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
