@@ -104,7 +104,7 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock,
 	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		WingsOfFireexEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		WingsOfFireexEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, pos);
 	}
 
 	@Override
