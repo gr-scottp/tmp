@@ -3,8 +3,6 @@ package net.mcreator.cinnamoroll.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
 
 import net.mcreator.cinnamoroll.init.CinnamorollModBlocks;
 
@@ -23,8 +21,5 @@ public class RainProcedure {
 			sauag7esz = sauag7esz + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(sauag7esx + (entity.getDirection()).getStepX(), y, sauag7esz + (entity.getDirection()).getStepZ()), CinnamorollModBlocks.WINTER_LAND.get().defaultBlockState(), 3);
-		world.playSound(
-				
-		);
 	}
 }

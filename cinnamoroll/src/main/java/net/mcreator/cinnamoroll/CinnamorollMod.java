@@ -32,7 +32,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 
 @Mod("cinnamoroll")
-public class nCinnamorollMod {
+public class CinnamorollMod {
 	public static final Logger LOGGER = LogManager.getLogger(CinnamorollMod.class);
 	public static final String MODID = "cinnamoroll";
 

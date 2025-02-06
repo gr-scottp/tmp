@@ -25,6 +25,7 @@ public class CinnamorollModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cinnamoroll.lollipop")).icon(() -> new ItemStack(CinnamorollModBlocks.WINTER_LAND.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
 				tabData.accept(CinnamorollModBlocks.LO_L.get().asItem());
+				tabData.accept(CinnamorollModBlocks.WINTERBLOCK_2.get().asItem());
 			})
 
 					.build());
@@ -34,6 +35,7 @@ public class CinnamorollModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
+			tabData.accept(CinnamorollModBlocks.WINTERBLOCK_2.get().asItem());
 
 		}
 	}
