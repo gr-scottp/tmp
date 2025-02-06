@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "id": "something:justinbebe",
+    "count": 1
+  }
+}

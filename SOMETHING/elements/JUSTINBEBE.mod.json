@@ -132,7 +132,11 @@
       "name": "JUSTINBEBERedstoneOn"
     },
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"

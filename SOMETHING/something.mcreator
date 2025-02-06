@@ -315,6 +315,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Anything",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anything",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/something/recipe/anything.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -324,8 +336,7 @@
       "~CUSTOM:NOTWATER"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.DIAMOND_BLOCK",
-      "~Blocks.SMOOTH_STONE"
+      "~Blocks.DIAMOND_BLOCK"
     ]
   },
   "tab_element_order": {},
