@@ -334,6 +334,18 @@
           "src/main/resources/data/erikmod/neoforge/biome_modifier/erikiishim_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Erikrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/erikmod/recipe/erikrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
