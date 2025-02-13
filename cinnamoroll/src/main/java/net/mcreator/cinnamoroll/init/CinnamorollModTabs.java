@@ -37,6 +37,10 @@ public class CinnamorollModTabs {
 			tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
 			tabData.accept(CinnamorollModBlocks.WINTERBLOCK_2.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(CinnamorollModItems.BOB_THE_BUILDER.get());
+
 		}
 	}
 }

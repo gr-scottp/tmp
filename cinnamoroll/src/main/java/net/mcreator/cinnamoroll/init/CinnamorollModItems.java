@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.cinnamoroll.item.SunsetwandItem;
+import net.mcreator.cinnamoroll.item.BobTheBuilderItem;
 import net.mcreator.cinnamoroll.CinnamorollMod;
 
 public class CinnamorollModItems {
@@ -21,6 +22,7 @@ public class CinnamorollModItems {
 	public static final DeferredItem<Item> SUNSETWAND = REGISTRY.register("sunsetwand", SunsetwandItem::new);
 	public static final DeferredItem<Item> LO_L = block(CinnamorollModBlocks.LO_L);
 	public static final DeferredItem<Item> WINTERBLOCK_2 = block(CinnamorollModBlocks.WINTERBLOCK_2);
+	public static final DeferredItem<Item> BOB_THE_BUILDER = REGISTRY.register("bob_the_builder", BobTheBuilderItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

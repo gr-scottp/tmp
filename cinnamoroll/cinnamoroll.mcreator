@@ -252,14 +252,41 @@
           "src/main/resources/data/cinnamoroll/loot_table/blocks/winterblock_2.json"
         ]
       }
+    },
+    {
+      "name": "BobTheBuilder",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_the_builder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cinnamoroll/models/block/bob_the_builder_portal_ns.json",
+          "src/main/resources/assets/cinnamoroll/blockstates/bob_the_builder_portal.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/BobTheBuilderPortalBlock.java",
+          "src/main/java/net/mcreator/cinnamoroll/world/dimension/BobTheBuilderDimension.java",
+          "src/main/resources/data/cinnamoroll/dimension_type/bob_the_builder.json",
+          "src/main/resources/data/cinnamoroll/dimension/bob_the_builder.json",
+          "src/main/java/net/mcreator/cinnamoroll/world/teleporter/BobTheBuilderPortalShape.java",
+          "src/main/resources/assets/cinnamoroll/models/block/bob_the_builder_portal_ew.json",
+          "src/main/resources/assets/cinnamoroll/models/item/bob_the_builder.json",
+          "src/main/java/net/mcreator/cinnamoroll/item/BobTheBuilderItem.java",
+          "src/main/java/net/mcreator/cinnamoroll/world/teleporter/BobTheBuilderTeleporter.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:WinterLand"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.cinnamoroll.bob_the_builder": "Bob The Builder Portal Igniter",
       "block.cinnamoroll.winter_land": "Winter Land",
       "block.cinnamoroll.lo_l": "Lo L",
       "block.cinnamoroll.winterblock_2": "Winter Land 2",

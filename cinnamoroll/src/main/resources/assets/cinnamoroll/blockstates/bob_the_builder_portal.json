@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cinnamoroll:block/bob_the_builder_portal_ew"
+    },
+    "axis=x": {
+      "model": "cinnamoroll:block/bob_the_builder_portal_ns"
+    }
+  }
+}
