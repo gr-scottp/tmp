@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oogaboogablockgen:block/buildobsidian",
+    "up": "oogaboogablockgen:block/buildobsidian",
+    "north": "oogaboogablockgen:block/buildobsidian",
+    "east": "oogaboogablockgen:block/buildobsidian",
+    "south": "oogaboogablockgen:block/buildobsidian",
+    "west": "oogaboogablockgen:block/buildobsidian",
+    "particle": "oogaboogablockgen:block/buildobsidian"
+  },
+  "render_type": "solid"
+}

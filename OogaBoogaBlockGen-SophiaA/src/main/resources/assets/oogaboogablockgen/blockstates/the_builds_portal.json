@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "oogaboogablockgen:block/the_builds_portal_ew"
+    },
+    "axis=x": {
+      "model": "oogaboogablockgen:block/the_builds_portal_ns"
+    }
+  }
+}

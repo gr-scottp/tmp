@@ -25,6 +25,7 @@ public class OogaboogablockgenModTabs {
 
 			tabData.accept(OogaboogablockgenModBlocks.OOGA_BOOGA_BLOCK_GEN.get().asItem());
 			tabData.accept(OogaboogablockgenModBlocks.GOOFY_AHH_BLOCK_YIPPEEE.get().asItem());
+			tabData.accept(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 
@@ -33,6 +34,7 @@ public class OogaboogablockgenModTabs {
 			tabData.accept(OogaboogablockgenModItems.THANK_YOU_FOR_PAYING_YOUR_FANUM_TAX.get());
 			tabData.accept(OogaboogablockgenModItems.THANKS_FOR_THE_TAX_MONEY.get());
 			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
+			tabData.accept(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
 			if (tabData.hasPermissions()) {
@@ -56,6 +58,12 @@ public class OogaboogablockgenModTabs {
 			tabData.accept(OogaboogablockgenModItems.OGB_WAND.get());
 			tabData.accept(OogaboogablockgenModItems.MONEY.get());
 			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
+			tabData.accept(OogaboogablockgenModItems.THE_BUILDS.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+
+			tabData.accept(OogaboogablockgenModItems.THE_BUILD_WATER_BUCKET.get());
+			tabData.accept(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN.get().asItem());
 
 		}
 	}

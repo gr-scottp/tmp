@@ -1,0 +1,47 @@
+{
+  "_fv": 69,
+  "_type": "fluid",
+  "definition": {
+    "name": "The Build Water",
+    "bucketName": "The Build Water Bucket",
+    "textureStill": "waterbuild",
+    "textureFlowing": "waterbuild",
+    "tintType": "Water",
+    "canMultiply": true,
+    "flowRate": 7,
+    "levelDecrease": 1,
+    "slopeFindDistance": 10,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "WATER_SPLASH"
+    },
+    "flowStrength": 3.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "waterbuildstexture",
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 95.0,
+    "luminance": 1,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BLUE"
+  }
+}

@@ -22,6 +22,8 @@ import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModTabs;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModParticleTypes;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModMenus;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModItems;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModFluids;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModFluidTypes;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModEntities;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlocks;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModBlockEntities;
@@ -52,6 +54,9 @@ public class OogaboogablockgenMod {
 
 		OogaboogablockgenModMenus.REGISTRY.register(modEventBus);
 		OogaboogablockgenModParticleTypes.REGISTRY.register(modEventBus);
+
+		OogaboogablockgenModFluids.REGISTRY.register(modEventBus);
+		OogaboogablockgenModFluidTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

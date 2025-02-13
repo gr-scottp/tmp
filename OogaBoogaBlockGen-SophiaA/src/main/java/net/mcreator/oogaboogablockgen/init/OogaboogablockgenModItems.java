@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.oogaboogablockgen.item.TheBuildsItem;
+import net.mcreator.oogaboogablockgen.item.TheBuildWaterItem;
 import net.mcreator.oogaboogablockgen.item.ThanksForTheTaxMoneyItem;
 import net.mcreator.oogaboogablockgen.item.ThankYouForPayingYourFanumTaxItem;
 import net.mcreator.oogaboogablockgen.item.OGBWandItem;
@@ -30,6 +32,9 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> THANKS_FOR_THE_TAX_MONEY = REGISTRY.register("thanks_for_the_tax_money", ThanksForTheTaxMoneyItem::new);
 	public static final DeferredItem<Item> DUCK_SPAWN_EGG = REGISTRY.register("duck_spawn_egg", () -> new DeferredSpawnEggItem(OogaboogablockgenModEntities.DUCK, -15120359, -11648462, new Item.Properties()));
 	public static final DeferredItem<Item> EMERALD_SWORD = REGISTRY.register("emerald_sword", EmeraldSwordItem::new);
+	public static final DeferredItem<Item> THE_BUILD_WATER_BUCKET = REGISTRY.register("the_build_water_bucket", TheBuildWaterItem::new);
+	public static final DeferredItem<Item> THE_BUILDS = REGISTRY.register("the_builds", TheBuildsItem::new);
+	public static final DeferredItem<Item> BUILDS_OBSIDIAN = block(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

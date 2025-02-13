@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "oogaboogablockgen:blocks/builds_obsidian",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "oogaboogablockgen:builds_obsidian"
+        }
+      ]
+    }
+  ]
+}

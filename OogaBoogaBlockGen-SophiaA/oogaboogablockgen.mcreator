@@ -468,6 +468,79 @@
           "src/main/resources/data/oogaboogablockgen/recipe/emerald_sword_craft_recipe.json"
         ]
       }
+    },
+    {
+      "name": "TheBuildWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_build_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/item/TheBuildWaterItem.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/TheBuildWaterBlock.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/fluid/TheBuildWaterFluid.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/fluid/types/TheBuildWaterFluidType.java",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/the_build_water.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/the_build_water_bucket.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_build_water.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBuildsBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_builds_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeFruitDecorator.java",
+          "src/main/resources/data/oogaboogablockgen/worldgen/placed_feature/the_builds_biome_tree.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/biome/the_builds_biome.json",
+          "src/main/resources/data/oogaboogablockgen/worldgen/configured_feature/the_builds_biome_tree.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeTrunkDecorator.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/TheBuildsBiomeLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBuilds",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_builds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_builds_portal_ns.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/teleporter/TheBuildsPortalShape.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/item/TheBuildsItem.java",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/dimension/TheBuildsDimension.java",
+          "src/main/resources/data/oogaboogablockgen/dimension_type/the_builds.json",
+          "src/main/resources/data/oogaboogablockgen/dimension/the_builds.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/world/teleporter/TheBuildsTeleporter.java",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/the_builds_portal.json",
+          "src/main/resources/assets/oogaboogablockgen/models/block/the_builds_portal_ew.json",
+          "src/main/resources/assets/oogaboogablockgen/models/item/the_builds.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/TheBuildsPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BuildsObsidio",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builds_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/oogaboogablockgen/models/item/builds_obsidian.json",
+          "src/main/java/net/mcreator/oogaboogablockgen/block/BuildsObsidioBlock.java",
+          "src/main/resources/assets/oogaboogablockgen/models/block/builds_obsidian.json",
+          "src/main/resources/data/oogaboogablockgen/loot_table/blocks/builds_obsidian.json",
+          "src/main/resources/assets/oogaboogablockgen/blockstates/builds_obsidian.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -482,13 +555,21 @@
     "BIOMES:minecraft:has_structure/nether_fortress": [
       "~CUSTOM:JamesCharlesBiome"
     ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:TheBuildsBiome"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:TheBuildWater"
+    ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:ThankYouForPayingYourFanumTax"
     ],
     "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:TheBuildsBiome",
       "~CUSTOM:JamesCharlesBiome"
     ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:TheBuildsBiome",
       "~CUSTOM:JamesCharlesBiome"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -499,6 +580,10 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_nether": [
       "~CUSTOM:JamesCharlesBiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MOSS_BLOCK",
+      "~Blocks.GLASS"
     ],
     "BIOMES:minecraft:has_structure/end_city": [
       "~CUSTOM:JamesCharlesBiome"
@@ -516,6 +601,7 @@
       "~CUSTOM:ThanksForTheTaxMoney"
     ],
     "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:TheBuildsBiome",
       "~CUSTOM:JamesCharlesBiome"
     ],
     "ITEMS:minecraft:swords": [
@@ -530,12 +616,18 @@
       "block.oogaboogablockgen.ooga_booga_block_gen": "Ooga Booga Block Gen",
       "entity.oogaboogablockgen.duck": "Duck",
       "item.oogaboogablockgen.thanks_for_the_tax_money": "Thanks For The Tax Money",
-      "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "item.oogaboogablockgen.money": "Money",
+      "gui.oogaboogablockgen.yipee.label_you_just_got_fanum_taxed": "YOU JUST GOT FANUM TAXED!",
       "biome.oogaboogablockgen.james_charles_biome": "James Charles Biome",
       "item.oogaboogablockgen.thank_you_for_paying_your_fanum_tax": "Thank You For Paying Your Fanum Tax",
+      "item.oogaboogablockgen.the_builds": "The Builds Portal Igniter",
       "item.oogaboogablockgen.emerald_sword": "Emerald Sword",
+      "fluid.oogaboogablockgen.the_build_water": "The Build Water",
+      "biome.oogaboogablockgen.the_builds_biome": "The Builds Biome",
       "block.oogaboogablockgen.goofy_ahh_block_yippeee": "Goofy Ahh Block YIPPEEE",
+      "block.oogaboogablockgen.the_build_water": "The Build Water",
+      "block.oogaboogablockgen.builds_obsidian": "Builds Obsidion",
+      "item.oogaboogablockgen.the_build_water_bucket": "The Build Water Bucket",
       "gui.oogaboogablockgen.yipee.label_insert_money_to_pay_your_fanum_t": "Insert Money To Pay Your Taxes!",
       "item.oogaboogablockgen.ogb_wand": "OGB Wand"
     }
