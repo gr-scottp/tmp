@@ -130,9 +130,6 @@
     "onRightClicked": {
       "name": "ErikBlocksOnBlockRightClicked0"
     },
-    "onTickUpdate": {
-      "name": "ErikBlocksOnTickUpdate"
-    },
     "onEntityWalksOn": {
       "name": "ErikBlocksEntityWalksOnTheBlock"
     },

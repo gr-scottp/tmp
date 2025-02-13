@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:command_block",
+    "minecraft:black_glazed_terracotta",
+    "erikmod:erik_blocks"
+  ]
+}

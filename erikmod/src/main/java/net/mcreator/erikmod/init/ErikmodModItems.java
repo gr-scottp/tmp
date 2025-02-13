@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.erikmod.item.ErikwandthebestItem;
+import net.mcreator.erikmod.item.ErikishimItem;
 import net.mcreator.erikmod.ErikmodMod;
 
 public class ErikmodModItems {
@@ -22,6 +23,7 @@ public class ErikmodModItems {
 	public static final DeferredItem<Item> ERIKWANDTHEBEST = REGISTRY.register("erikwandthebest", ErikwandthebestItem::new);
 	public static final DeferredItem<Item> ERIKYTU = block(ErikmodModBlocks.ERIKYTU);
 	public static final DeferredItem<Item> ERIKIISHIM_SPAWN_EGG = REGISTRY.register("erikiishim_spawn_egg", () -> new DeferredSpawnEggItem(ErikmodModEntities.ERIKIISHIM, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> ERIKISHIM = REGISTRY.register("erikishim", ErikishimItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

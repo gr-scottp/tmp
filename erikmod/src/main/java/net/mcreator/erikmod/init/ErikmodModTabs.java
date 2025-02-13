@@ -38,6 +38,10 @@ public class ErikmodModTabs {
 
 			tabData.accept(ErikmodModItems.ERIKIISHIM_SPAWN_EGG.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(ErikmodModItems.ERIKISHIM.get());
+
 		}
 	}
 }

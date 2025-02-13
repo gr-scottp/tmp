@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "erikmod:block/erikishim_portal_ew"
+    },
+    "axis=x": {
+      "model": "erikmod:block/erikishim_portal_ns"
+    }
+  }
+}

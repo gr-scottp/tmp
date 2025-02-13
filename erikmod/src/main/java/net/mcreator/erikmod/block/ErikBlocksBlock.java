@@ -18,16 +18,13 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.erikmod.world.inventory.TickggMenu;
-import net.mcreator.erikmod.procedures.ErikBlocksOnTickUpdateProcedure;
 import net.mcreator.erikmod.procedures.ErikBlocksOnBlockRightClicked0Procedure;
 import net.mcreator.erikmod.procedures.ErikBlocksEntityWalksOnTheBlockProcedure;
 import net.mcreator.erikmod.block.entity.ErikBlocksBlockEntity;
@@ -36,7 +33,7 @@ import io.netty.buffer.Unpooled;
 
 public class ErikBlocksBlock extends Block implements EntityBlock {
 	public ErikBlocksBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.2f).jumpFactor(10000000000000000000000000f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).speedFactor(1.2f).jumpFactor(6f));
 	}
 
 	@Override
@@ -45,22 +42,9 @@ public class ErikBlocksBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		ErikBlocksOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
-		ErikBlocksEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, pos);
+		ErikBlocksEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override
