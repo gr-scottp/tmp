@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.yousefmod.block.TestblockyousefBlock;
+import net.mcreator.yousefmod.block.SquidGamedimensionPortalBlock;
 import net.mcreator.yousefmod.block.ImadyousefblockBlock;
 import net.mcreator.yousefmod.block.BebeaBlock;
 import net.mcreator.yousefmod.YousefmodMod;
@@ -19,6 +20,7 @@ public class YousefmodModBlocks {
 	public static final DeferredBlock<Block> BEBEA = REGISTRY.register("bebea", BebeaBlock::new);
 	public static final DeferredBlock<Block> IMADYOUSEFBLOCK = REGISTRY.register("imadyousefblock", ImadyousefblockBlock::new);
 	public static final DeferredBlock<Block> TESTBLOCKYOUSEF = REGISTRY.register("testblockyousef", TestblockyousefBlock::new);
+	public static final DeferredBlock<Block> SQUID_GAMEDIMENSION_PORTAL = REGISTRY.register("squid_gamedimension_portal", SquidGamedimensionPortalBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

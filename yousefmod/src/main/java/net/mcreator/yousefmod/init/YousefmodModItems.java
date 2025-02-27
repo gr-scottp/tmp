@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.yousefmod.item.YOUSEFwandItem;
+import net.mcreator.yousefmod.item.SquidGamedimensionItem;
 import net.mcreator.yousefmod.YousefmodMod;
 
 public class YousefmodModItems {
@@ -23,6 +24,7 @@ public class YousefmodModItems {
 	public static final DeferredItem<Item> IMADYOUSEFBLOCK = block(YousefmodModBlocks.IMADYOUSEFBLOCK);
 	public static final DeferredItem<Item> DRAGONN_SPAWN_EGG = REGISTRY.register("dragonn_spawn_egg", () -> new DeferredSpawnEggItem(YousefmodModEntities.DRAGONN, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> TESTBLOCKYOUSEF = block(YousefmodModBlocks.TESTBLOCKYOUSEF);
+	public static final DeferredItem<Item> SQUID_GAMEDIMENSION = REGISTRY.register("squid_gamedimension", SquidGamedimensionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

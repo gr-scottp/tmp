@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="024d9ad4-4c83-4afb-8f61-1ad2286209a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/OogaBoogaBlockGen-SophiaA - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Prepare OogaBoogaBlockGen-SophiaA - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Data.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Data.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - GameTestServer.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - GameTestServer.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Run OogaBoogaBlockGen-SophiaA - Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main~2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/OogaBoogaBlockGen-SophiaA.main~2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/minecraft-codeclub-2024.OogaBoogaBlockGen-SophiaA.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/minecraft-codeclub-2024.OogaBoogaBlockGen-SophiaA.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/AutoGeneratorForOBblock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/AutoGeneratorForOBblock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/AutoPlace.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/AutoPlace.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/CheckFuel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/CheckFuel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Duck.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Duck.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GetMoolah.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GetMoolah.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEE.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEE.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTick.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTick.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEEOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GoofyAhhBlockYIPPEEEOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Money.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Money.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/MoneyRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/MoneyRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/OGBWand.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/OGBWand.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/OGBWandRightclicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/OGBWandRightclicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/OogaBoogaBlockGen.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/OogaBoogaBlockGen.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/OogaBoogaBlockGenOnBlockRightClicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/OogaBoogaBlockGenOnBlockRightClicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/OogaBoogaBlockGenOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/OogaBoogaBlockGenOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/SophiaOogaBoogaBlockGen.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/SophiaOogaBoogaBlockGen.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Stars.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Stars.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/ThankYouForPayingYourFanumTax.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/ThankYouForPayingYourFanumTax.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/ThanksForTheTaxMoney.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/ThanksForTheTaxMoney.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/YIPEE.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/YIPEE.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/command_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/fml.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-common.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/config/neoforge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/client/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/runs/client/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/server/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/runs/server/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/OogaboogablockgenMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/OogaboogablockgenMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/GoofyAhhBlockYIPPEEEBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/GoofyAhhBlockYIPPEEEBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/OogaBoogaBlockGenBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/entity/GoofyAhhBlockYIPPEEEBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/entity/GoofyAhhBlockYIPPEEEBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/entity/OogaBoogaBlockGenBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/block/entity/OogaBoogaBlockGenBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/gui/YIPEEScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/gui/YIPEEScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/particle/StarsParticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/particle/StarsParticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/renderer/DuckRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/client/renderer/DuckRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/entity/DuckEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/entity/DuckEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBiomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBiomes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModEntityRenderers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModEntityRenderers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModParticleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModParticleTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModParticles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModParticles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModScreens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModScreens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/init/OogaboogablockgenModTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/MoneyItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/MoneyItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/OGBWandItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/OGBWandItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/ThankYouForPayingYourFanumTaxItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/ThankYouForPayingYourFanumTaxItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/ThanksForTheTaxMoneyItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/item/ThanksForTheTaxMoneyItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoGeneratorForOBblockProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoGeneratorForOBblockProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoPlaceProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/AutoPlaceProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/CheckFuelProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/CheckFuelProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GetMoolahProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GetMoolahProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTickProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnRandomClientDisplayTickProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/GoofyAhhBlockYIPPEEEOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OGBWandRightclickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OGBWandRightclickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnBlockRightClickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnBlockRightClickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnTickUpdateProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/OogaBoogaBlockGenOnTickUpdateProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/SophiaOogaBoogaBlockGenProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/procedures/SophiaOogaBoogaBlockGenProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeFruitDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeFruitDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeLeaveDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeLeaveDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeTrunkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/features/treedecorators/JamesCharlesBiomeTrunkDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/inventory/YIPEEMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/oogaboogablockgen/world/inventory/YIPEEMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/accesstransformer.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/accesstransformer.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/blockstates/goofy_ahh_block_yippeee.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/blockstates/goofy_ahh_block_yippeee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/blockstates/ooga_booga_block_gen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/blockstates/ooga_booga_block_gen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/block/goofy_ahh_block_yippeee.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/block/goofy_ahh_block_yippeee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/block/ooga_booga_block_gen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/duck_spawn_egg.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/duck_spawn_egg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/goofy_ahh_block_yippeee.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/goofy_ahh_block_yippeee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/money.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/money.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/ogb_wand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/ogb_wand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/ooga_booga_block_gen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/thank_you_for_paying_your_fanum_tax.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/thank_you_for_paying_your_fanum_tax.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/thanks_for_the_tax_money.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/models/item/thanks_for_the_tax_money.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/particles/stars.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/oogaboogablockgen/particles/stars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/loot_table/blocks/goofy_ahh_block_yippeee.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/loot_table/blocks/goofy_ahh_block_yippeee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/loot_table/blocks/ooga_booga_block_gen.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/loot_table/blocks/ooga_booga_block_gen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/neoforge/biome_modifier/duck_biome_modifier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/neoforge/biome_modifier/duck_biome_modifier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/recipe/money_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/oogaboogablockgen/recipe/money_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thehousetrap/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thehousetrap/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thehousetrap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thehousetrap/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thehousetrap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thehousetrap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thehousetrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thehousetrap/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2sM7JxQHTLjMzAzhseXCXDu725a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SophiaA&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/minecraft-codeclub-2024/OogaBoogaBlockGen-SophiaA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="OogaBoogaBlockGen-SophiaA.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="OogaBoogaBlockGen-SophiaA.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\OogaBoogaBlockGen-SophiaA\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="024d9ad4-4c83-4afb-8f61-1ad2286209a9" name="Changes" comment="" />
+      <created>1738253521757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738253521757</updated>
+    </task>
+    <servers />
+  </component>
+</project>

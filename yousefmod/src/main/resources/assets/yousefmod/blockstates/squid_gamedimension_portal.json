@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "yousefmod:block/squid_gamedimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "yousefmod:block/squid_gamedimension_portal_ns"
+    }
+  }
+}

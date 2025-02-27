@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.yousefmod.init.YousefmodModTabs;
+import net.mcreator.yousefmod.init.YousefmodModSounds;
 import net.mcreator.yousefmod.init.YousefmodModMenus;
 import net.mcreator.yousefmod.init.YousefmodModItems;
 import net.mcreator.yousefmod.init.YousefmodModEntities;
@@ -42,7 +43,7 @@ public class YousefmodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		YousefmodModSounds.REGISTRY.register(modEventBus);
 		YousefmodModBlocks.REGISTRY.register(modEventBus);
 		YousefmodModBlockEntities.REGISTRY.register(modEventBus);
 		YousefmodModItems.REGISTRY.register(modEventBus);

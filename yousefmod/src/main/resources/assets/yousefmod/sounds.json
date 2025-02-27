@@ -1,0 +1,10 @@
+{
+  "squidgame": {
+    "sounds": [
+      {
+        "name": "yousefmod:squidgame",
+        "stream": false
+      }
+    ]
+  }
+}
