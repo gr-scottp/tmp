@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.thehousetrap.item.SquidgameItem;
 import net.mcreator.thehousetrap.item.CiraeFroggyItem;
 import net.mcreator.thehousetrap.ThehousetrapMod;
 
@@ -23,6 +24,7 @@ public class ThehousetrapModItems {
 	public static final DeferredItem<Item> CIRAEISTHEBEST = block(ThehousetrapModBlocks.CIRAEISTHEBEST);
 	public static final DeferredItem<Item> CIRAEWOLF_SPAWN_EGG = REGISTRY.register("ciraewolf_spawn_egg", () -> new DeferredSpawnEggItem(ThehousetrapModEntities.CIRAEWOLF, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> HI = block(ThehousetrapModBlocks.HI);
+	public static final DeferredItem<Item> SQUIDGAME = REGISTRY.register("squidgame", SquidgameItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -331,11 +331,37 @@
           "src/main/resources/data/thehousetrap/recipe/sigma.json"
         ]
       }
+    },
+    {
+      "name": "Squidgame",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squidgame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/world/teleporter/SquidgameTeleporter.java",
+          "src/main/java/net/mcreator/thehousetrap/block/SquidgamePortalBlock.java",
+          "src/main/resources/assets/thehousetrap/models/block/squidgame_portal_ns.json",
+          "src/main/java/net/mcreator/thehousetrap/world/teleporter/SquidgamePortalShape.java",
+          "src/main/resources/assets/thehousetrap/models/item/squidgame.json",
+          "src/main/java/net/mcreator/thehousetrap/world/dimension/SquidgameDimension.java",
+          "src/main/java/net/mcreator/thehousetrap/item/SquidgameItem.java",
+          "src/main/resources/assets/thehousetrap/models/block/squidgame_portal_ew.json",
+          "src/main/resources/data/thehousetrap/dimension_type/squidgame.json",
+          "src/main/resources/assets/thehousetrap/blockstates/squidgame_portal.json",
+          "src/main/resources/data/thehousetrap/dimension/squidgame.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.GRASS"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -344,6 +370,7 @@
       "item_group.thehousetrap.froggy": "Froggy",
       "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",
       "gui.thehousetrap.cireissosigma.label_cinmroll": "cinmroll",
+      "item.thehousetrap.squidgame": "Squidgame Portal Igniter",
       "item.thehousetrap.cirae_froggy": "Cirae Froggy",
       "block.thehousetrap.hi": "Hi",
       "entity.thehousetrap.ciraewolf": "Ciraewolf"

@@ -38,6 +38,10 @@ public class ThehousetrapModTabs {
 
 			tabData.accept(ThehousetrapModItems.CIRAEWOLF_SPAWN_EGG.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(ThehousetrapModItems.SQUIDGAME.get());
+
 		}
 	}
 }

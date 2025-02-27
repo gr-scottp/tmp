@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.thehousetrap.block.SquidgamePortalBlock;
 import net.mcreator.thehousetrap.block.HiBlock;
 import net.mcreator.thehousetrap.block.CiraeblockBlock;
 import net.mcreator.thehousetrap.block.CIRAEISTHEBESTBlock;
@@ -19,6 +20,7 @@ public class ThehousetrapModBlocks {
 	public static final DeferredBlock<Block> CIRAEBLOCK = REGISTRY.register("ciraeblock", CiraeblockBlock::new);
 	public static final DeferredBlock<Block> CIRAEISTHEBEST = REGISTRY.register("ciraeisthebest", CIRAEISTHEBESTBlock::new);
 	public static final DeferredBlock<Block> HI = REGISTRY.register("hi", HiBlock::new);
+	public static final DeferredBlock<Block> SQUIDGAME_PORTAL = REGISTRY.register("squidgame_portal", SquidgamePortalBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

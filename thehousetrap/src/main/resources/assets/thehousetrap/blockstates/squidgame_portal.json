@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "thehousetrap:block/squidgame_portal_ew"
+    },
+    "axis=x": {
+      "model": "thehousetrap:block/squidgame_portal_ns"
+    }
+  }
+}
