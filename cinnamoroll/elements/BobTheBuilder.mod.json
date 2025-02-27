@@ -21,6 +21,9 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "BobTheBuilderPlayerEntersDimension"
+    },
     "portalFrame": {
       "value": "Blocks.EMERALD_BLOCK"
     },

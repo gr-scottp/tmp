@@ -274,6 +274,36 @@
           "src/main/java/net/mcreator/cinnamoroll/world/teleporter/BobTheBuilderTeleporter.java"
         ]
       }
+    },
+    {
+      "name": "BobTheBuilderPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_the_builder_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/BobTheBuilderPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
