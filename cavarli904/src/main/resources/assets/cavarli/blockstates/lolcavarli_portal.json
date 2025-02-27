@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cavarli:block/lolcavarli_portal_ew"
+    },
+    "axis=x": {
+      "model": "cavarli:block/lolcavarli_portal_ns"
+    }
+  }
+}
