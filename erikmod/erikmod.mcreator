@@ -3,7 +3,7 @@
     {
       "name": "ErikBlocks",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "erik_blocks",
       "metadata": {
@@ -21,7 +21,7 @@
       "name": "ErikBlocksOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "erik_blocks_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -51,7 +51,7 @@
       "name": "ErikBlocksEntityWalksOnTheBlock",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "erik_blocks_entity_walks_on_the_block",
       "metadata": {
         "files": [
@@ -85,7 +85,7 @@
       "name": "ErikBlocksOnBlockRightClicked0",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "erik_blocks_on_block_right_clicked_0",
       "metadata": {
         "files": [
@@ -383,6 +383,28 @@
           "src/main/java/net/mcreator/erikmod/world/features/treedecorators/FreiyrFruitDecorator.java",
           "src/main/java/net/mcreator/erikmod/world/features/treedecorators/FreiyrLeaveDecorator.java",
           "src/main/resources/data/erikmod/worldgen/biome/freiyr.json"
+        ]
+      }
+    },
+    {
+      "name": "ErikishimPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikishim_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/ErikishimPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
