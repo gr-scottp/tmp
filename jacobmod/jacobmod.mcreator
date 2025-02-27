@@ -294,14 +294,41 @@
           "src/main/resources/data/dextermod/recipe/sigmaboy.json"
         ]
       }
+    },
+    {
+      "name": "Skibididimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skibididimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dextermod/block/SkibididimensionPortalBlock.java",
+          "src/main/java/net/mcreator/dextermod/world/dimension/SkibididimensionDimension.java",
+          "src/main/resources/assets/dextermod/blockstates/skibididimension_portal.json",
+          "src/main/resources/assets/dextermod/models/block/skibididimension_portal_ew.json",
+          "src/main/java/net/mcreator/dextermod/world/teleporter/SkibididimensionTeleporter.java",
+          "src/main/resources/data/dextermod/dimension/skibididimension.json",
+          "src/main/resources/assets/dextermod/models/item/skibididimension.json",
+          "src/main/resources/data/dextermod/dimension_type/skibididimension.json",
+          "src/main/java/net/mcreator/dextermod/world/teleporter/SkibididimensionPortalShape.java",
+          "src/main/resources/assets/dextermod/models/block/skibididimension_portal_ns.json",
+          "src/main/java/net/mcreator/dextermod/item/SkibididimensionItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.LOG#0"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.dextermod.skibididimension": "Skibididimension Portal Igniter",
       "item_group.dextermod.dextertab": "Dextertab",
       "item.dextermod.platform_wand": "Platform Wand",
       "gui.dextermod.dexter_furnace_gui.label_bob_the_builder": "Bob The Builder",

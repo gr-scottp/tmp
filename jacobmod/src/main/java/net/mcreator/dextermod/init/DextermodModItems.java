@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.dextermod.item.SkibididimensionItem;
 import net.mcreator.dextermod.item.PlatformWandItem;
 import net.mcreator.dextermod.DextermodMod;
 
@@ -20,6 +21,7 @@ public class DextermodModItems {
 	public static final DeferredItem<Item> DEXTER_FACE_BLOCK = block(DextermodModBlocks.DEXTER_FACE_BLOCK);
 	public static final DeferredItem<Item> PLATFORM_WAND = REGISTRY.register("platform_wand", PlatformWandItem::new);
 	public static final DeferredItem<Item> DEXTER_FUNACE_BLOCK = block(DextermodModBlocks.DEXTER_FUNACE_BLOCK);
+	public static final DeferredItem<Item> SKIBIDIDIMENSION = REGISTRY.register("skibididimension", SkibididimensionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

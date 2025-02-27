@@ -35,6 +35,7 @@ public class DextermodModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(DextermodModItems.PLATFORM_WAND.get());
+			tabData.accept(DextermodModItems.SKIBIDIDIMENSION.get());
 
 		}
 	}
