@@ -19,7 +19,9 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModTabs;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModPotions;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModParticleTypes;
+import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModMobEffects;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModMenus;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModItems;
 import net.mcreator.oogaboogablockgen.init.OogaboogablockgenModFluids;
@@ -52,6 +54,8 @@ public class OogaboogablockgenMod {
 		OogaboogablockgenModEntities.REGISTRY.register(modEventBus);
 		OogaboogablockgenModTabs.REGISTRY.register(modEventBus);
 
+		OogaboogablockgenModPotions.REGISTRY.register(modEventBus);
+		OogaboogablockgenModMobEffects.REGISTRY.register(modEventBus);
 		OogaboogablockgenModMenus.REGISTRY.register(modEventBus);
 		OogaboogablockgenModParticleTypes.REGISTRY.register(modEventBus);
 

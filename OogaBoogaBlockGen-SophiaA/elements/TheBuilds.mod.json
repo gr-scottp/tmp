@@ -7,9 +7,9 @@
         "value": "CUSTOM:TheBuildsBiome"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.MOSS_BLOCK"
+      "value": "CUSTOM:BUILDBLOCKKKKKKKKKKKKKK"
     },
     "fluidBlock": {
       "value": "CUSTOM:TheBuildWater"
@@ -19,19 +19,22 @@
       "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": false,
+    "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "TheBuildsPlayerEntersDimension"
+    },
     "portalFrame": {
-      "value": "CUSTOM:TheBuilds.portal"
+      "value": "CUSTOM:BuildsObsidio"
     },
     "portalParticles": {
       "value": "SNOWBALL"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 1,
     "portalSound": {
       "value": "block.portal.ambient"
     },
@@ -44,10 +47,13 @@
     "creativeTabs": [
       {
         "value": "TOOLS"
+      },
+      {
+        "value": "COMBAT"
       }
     ],
-    "texture": "portalstick",
-    "portalTexture": "waterbuild",
+    "texture": "minecraft:breeze_rod",
+    "portalTexture": "minecraft:white_stained_glass",
     "enablePortal": true
   }
 }

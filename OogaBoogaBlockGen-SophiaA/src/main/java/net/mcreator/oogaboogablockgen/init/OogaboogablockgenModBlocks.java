@@ -14,6 +14,7 @@ import net.mcreator.oogaboogablockgen.block.TheBuildWaterBlock;
 import net.mcreator.oogaboogablockgen.block.OogaBoogaBlockGenBlock;
 import net.mcreator.oogaboogablockgen.block.GoofyAhhBlockYIPPEEEBlock;
 import net.mcreator.oogaboogablockgen.block.BuildsObsidioBlock;
+import net.mcreator.oogaboogablockgen.block.BUILDBLOCKKKKKKKKKKKKKKBlock;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
 public class OogaboogablockgenModBlocks {
@@ -23,6 +24,7 @@ public class OogaboogablockgenModBlocks {
 	public static final DeferredBlock<Block> THE_BUILD_WATER = REGISTRY.register("the_build_water", TheBuildWaterBlock::new);
 	public static final DeferredBlock<Block> THE_BUILDS_PORTAL = REGISTRY.register("the_builds_portal", TheBuildsPortalBlock::new);
 	public static final DeferredBlock<Block> BUILDS_OBSIDIAN = REGISTRY.register("builds_obsidian", BuildsObsidioBlock::new);
+	public static final DeferredBlock<Block> BUILDBLOCKKKKKKKKKKKKKK = REGISTRY.register("buildblockkkkkkkkkkkkkk", BUILDBLOCKKKKKKKKKKKKKKBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

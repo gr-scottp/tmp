@@ -1,0 +1,129 @@
+{
+  "_fv": 69,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Best Potion In The Game",
+    "splashName": "Splash Potion of Best Potion In The Game",
+    "lingeringName": "Lingering Potion of Best Potion In The Game",
+    "arrowName": "Arrow of Best Potion In The Game",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:BestPotionYippee"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WATER_BREATHING"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "DOLPHINS_GRACE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "FIRE_RESISTANCE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NIGHT_VISION"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SATURATION"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

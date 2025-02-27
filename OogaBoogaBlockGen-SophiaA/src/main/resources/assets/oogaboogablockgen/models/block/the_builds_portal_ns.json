@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "oogaboogablockgen:block/waterbuild",
-    "portal": "oogaboogablockgen:block/waterbuild"
+    "particle": "minecraft:block/white_stained_glass",
+    "portal": "minecraft:block/white_stained_glass"
   },
   "elements": [
     {

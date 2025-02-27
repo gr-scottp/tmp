@@ -44,6 +44,7 @@ public class OogaboogablockgenModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
 			tabData.accept(OogaboogablockgenModItems.EMERALD_SWORD.get());
+			tabData.accept(OogaboogablockgenModItems.THE_BUILDS.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 

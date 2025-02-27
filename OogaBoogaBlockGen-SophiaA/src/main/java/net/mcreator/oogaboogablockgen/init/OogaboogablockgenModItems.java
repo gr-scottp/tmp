@@ -35,6 +35,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> THE_BUILD_WATER_BUCKET = REGISTRY.register("the_build_water_bucket", TheBuildWaterItem::new);
 	public static final DeferredItem<Item> THE_BUILDS = REGISTRY.register("the_builds", TheBuildsItem::new);
 	public static final DeferredItem<Item> BUILDS_OBSIDIAN = block(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN);
+	public static final DeferredItem<Item> BUILDBLOCKKKKKKKKKKKKKK = block(OogaboogablockgenModBlocks.BUILDBLOCKKKKKKKKKKKKKK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

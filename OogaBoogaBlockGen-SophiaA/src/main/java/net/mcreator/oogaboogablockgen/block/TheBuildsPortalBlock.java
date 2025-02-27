@@ -56,7 +56,7 @@ public class TheBuildsPortalBlock extends NetherPortalBlock {
 	}
 
 	public TheBuildsPortalBlock() {
-		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noLootTable());
+		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 1).noLootTable());
 	}
 
 	private TheBuildsTeleporter getTeleporter(ServerLevel level) {
