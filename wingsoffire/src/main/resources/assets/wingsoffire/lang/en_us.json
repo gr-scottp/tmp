@@ -1,12 +1,12 @@
 {
   "item_group.wingsoffire.glorys_tab": "Glorys Tab",
   "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
+  "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
   "entity.wingsoffire.anikawof": "Anikawof",
+  "block.wingsoffire.momofrogsigma": "Momofrogsigma",
   "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
   "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
   "gui.wingsoffire.checkersgui.label_empty": "",
   "block.wingsoffire.checkers": "Checkers",
-  "block.wingsoffire.raiseyouryayaya_2": "Raiseyouryayaya 2",
-  "block.wingsoffire.funblock": "Funblock",
-  "block.wingsoffire.raiseyouryayaya": "Raiseyouryayaya"
+  "block.wingsoffire.funblock": "Funblock"
 }

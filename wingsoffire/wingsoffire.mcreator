@@ -4,7 +4,7 @@
       "name": "WingsOfFireex",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wings_of_fireex",
       "metadata": {
         "files": [
@@ -85,7 +85,7 @@
       "name": "WingsOfFireexOnBlockRightClicked",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "wings_of_fireex_on_block_right_clicked",
       "metadata": {
         "files": [
@@ -172,7 +172,7 @@
       "name": "WingsOfFireexOnTickUpdate",
       "type": "procedure",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "wings_of_fireex_on_tick_update",
       "metadata": {
         "files": [
@@ -322,66 +322,64 @@
       }
     },
     {
-      "name": "Raiseyouryayaya",
+      "name": "Momofrogsigma",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raiseyouryayaya",
+      "registry_name": "momofrogsigma",
       "metadata": {
         "files": [
-          "src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya.json",
-          "src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya.json",
-          "src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya.json",
-          "src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya.json",
-          "src/main/java/net/mcreator/wingsoffire/block/RaiseyouryayayaBlock.java"
+          "src/main/resources/assets/wingsoffire/blockstates/momofrogsigma.json",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/momofrogsigma.json",
+          "src/main/resources/assets/wingsoffire/models/item/momofrogsigma.json",
+          "src/main/java/net/mcreator/wingsoffire/block/MomofrogsigmaBlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogsigma.json"
         ]
       }
     },
     {
-      "name": "Raiseyouryayaya2",
-      "type": "block",
+      "name": "Momofrogdimension",
+      "type": "dimension",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raiseyouryayaya_2",
+      "registry_name": "momofrogdimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/wingsoffire/models/block/raiseyouryayaya_2.json",
-          "src/main/java/net/mcreator/wingsoffire/block/Raiseyouryayaya2Block.java",
-          "src/main/resources/data/wingsoffire/loot_table/blocks/raiseyouryayaya_2.json",
-          "src/main/resources/assets/wingsoffire/blockstates/raiseyouryayaya_2.json",
-          "src/main/resources/assets/wingsoffire/models/item/raiseyouryayaya_2.json"
-        ]
-      }
-    },
-    {
-      "name": "Anikarecipewof",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anikarecipewof",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wingsoffire/recipe/winterdeservedbetter.json"
+          "src/main/resources/assets/wingsoffire/models/item/momofrogdimension.json",
+          "src/main/java/net/mcreator/wingsoffire/world/dimension/MomofrogdimensionDimension.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogdimension_portal_ew.json",
+          "src/main/java/net/mcreator/wingsoffire/world/teleporter/MomofrogdimensionTeleporter.java",
+          "src/main/resources/data/wingsoffire/dimension/momofrogdimension.json",
+          "src/main/resources/assets/wingsoffire/blockstates/momofrogdimension_portal.json",
+          "src/main/java/net/mcreator/wingsoffire/world/teleporter/MomofrogdimensionPortalShape.java",
+          "src/main/resources/assets/wingsoffire/models/block/momofrogdimension_portal_ns.json",
+          "src/main/java/net/mcreator/wingsoffire/item/MomofrogdimensionItem.java",
+          "src/main/java/net/mcreator/wingsoffire/block/MomofrogdimensionPortalBlock.java",
+          "src/main/resources/data/wingsoffire/dimension_type/momofrogdimension.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Momofrogsigma"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.wingsoffire.glorys_tab": "Glorys Tab",
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
+      "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
       "entity.wingsoffire.anikawof": "Anikawof",
+      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.checkers": "Checkers",
-      "block.wingsoffire.raiseyouryayaya_2": "Raiseyouryayaya 2",
-      "block.wingsoffire.funblock": "Funblock",
-      "block.wingsoffire.raiseyouryayaya": "Raiseyouryayaya"
+      "block.wingsoffire.funblock": "Funblock"
     }
   },
   "foldersRoot": {

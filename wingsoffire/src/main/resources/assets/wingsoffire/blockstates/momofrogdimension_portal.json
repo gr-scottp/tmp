@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "wingsoffire:block/momofrogdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "wingsoffire:block/momofrogdimension_portal_ns"
+    }
+  }
+}

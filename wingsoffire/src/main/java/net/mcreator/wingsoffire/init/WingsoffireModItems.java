@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.wingsoffire.item.MomofrogdimensionItem;
 import net.mcreator.wingsoffire.item.GloryandthehiddenkingdomItem;
 import net.mcreator.wingsoffire.WingsoffireMod;
 
@@ -23,8 +24,8 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> CHECKERS = block(WingsoffireModBlocks.CHECKERS);
 	public static final DeferredItem<Item> FUNBLOCK = block(WingsoffireModBlocks.FUNBLOCK);
 	public static final DeferredItem<Item> ANIKAWOF_SPAWN_EGG = REGISTRY.register("anikawof_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.ANIKAWOF, -1, -1, new Item.Properties()));
-	public static final DeferredItem<Item> RAISEYOURYAYAYA = block(WingsoffireModBlocks.RAISEYOURYAYAYA);
-	public static final DeferredItem<Item> RAISEYOURYAYAYA_2 = block(WingsoffireModBlocks.RAISEYOURYAYAYA_2);
+	public static final DeferredItem<Item> MOMOFROGSIGMA = block(WingsoffireModBlocks.MOMOFROGSIGMA);
+	public static final DeferredItem<Item> MOMOFROGDIMENSION = REGISTRY.register("momofrogdimension", MomofrogdimensionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

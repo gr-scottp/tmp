@@ -27,8 +27,7 @@ public class WingsoffireModTabs {
 				tabData.accept(WingsoffireModItems.GLORYANDTHEHIDDENKINGDOM.get());
 				tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
 				tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
-				tabData.accept(WingsoffireModBlocks.RAISEYOURYAYAYA.get().asItem());
-				tabData.accept(WingsoffireModBlocks.RAISEYOURYAYAYA_2.get().asItem());
+				tabData.accept(WingsoffireModBlocks.MOMOFROGSIGMA.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -42,6 +41,10 @@ public class WingsoffireModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(WingsoffireModItems.ANIKAWOF_SPAWN_EGG.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(WingsoffireModItems.MOMOFROGDIMENSION.get());
 
 		}
 	}
