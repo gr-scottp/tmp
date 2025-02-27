@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60bef385-e6d2-4820-89f0-ad5a539b4b82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eclipse/configurations/Server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/.eclipse/configurations/Server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dextermod.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/dextermod.mcreator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexCheckFuel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexCheckFuel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFaceBlock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFaceBlock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFaceBlockEntityWalksOnTheBlock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFaceBlockEntityWalksOnTheBlock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFaceBlockOnBlockRightClicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFaceBlockOnBlockRightClicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFunaceBlock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFunaceBlock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFunaceBlockOnTickUpdate.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFunaceBlockOnTickUpdate.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/DexterFurnaceGUI.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/DexterFurnaceGUI.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Dextertab.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Dextertab.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/GetFuel.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/GetFuel.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/PlatformWand.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/PlatformWand.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/PlatformWandRightclicked.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/PlatformWandRightclicked.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/block/DexterFaceBlockBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/block/DexterFunaceBlockBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/block/DexterFunaceBlockBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockEntityWalksOnTheBlockProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockEntityWalksOnTheBlockProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockOnBlockRightClickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/dextermod/procedures/DexterFaceBlockOnBlockRightClickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/blockstates/dexter_face_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/blockstates/dexter_face_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/blockstates/dexter_funace_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/blockstates/dexter_funace_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/block/dexter_face_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/block/dexter_face_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/block/dexter_funace_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/block/dexter_funace_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/dexter_face_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/dexter_face_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/dexter_funace_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/dexter_funace_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/platform_wand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/dextermod/models/item/platform_wand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/dextermod/loot_table/blocks/dexter_face_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/dextermod/loot_table/blocks/dexter_face_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/dextermod/loot_table/blocks/dexter_funace_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/dextermod/loot_table/blocks/dexter_funace_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="ide" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="mod development" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="mod development/internal" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dextermod2024" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2rzCNfUIU50vxBVpyrkvQBe62qt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.dextermod2024 [build].executor": "Run",
+    "Gradle.dextermod2024 [runClient].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "dexter",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub-2024/dextermod2024"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="dextermod2024.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\dextermod2024\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\dextermod2024\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\dextermod2024\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\dextermod2024\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="dextermod2024.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\dextermod2024\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\minecraft-codeclub-2024\\dextermod2024\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=testproject%%C:\\minecraft-codeclub-2024\\dextermod2024\\build\\classes\\java\\main;testproject%%C:\\minecraft-codeclub-2024\\dextermod2024\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dextermod2024 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.dextermod2024 [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60bef385-e6d2-4820-89f0-ad5a539b4b82" name="Changes" comment="" />
+      <created>1737552477240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737552477240</updated>
+    </task>
+    <servers />
+  </component>
+</project>

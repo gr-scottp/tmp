@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.something.item.TheKEYItem;
 import net.mcreator.something.item.OverunderItem;
 import net.mcreator.something.item.NOTWATERItem;
+import net.mcreator.something.item.JakysDimentionItem;
 import net.mcreator.something.SomethingMod;
 
 public class SomethingModItems {
@@ -26,6 +27,7 @@ public class SomethingModItems {
 	public static final DeferredItem<Item> OVERUNDER = REGISTRY.register("overunder", OverunderItem::new);
 	public static final DeferredItem<Item> VOLDEMORT_IS_STEALING_MY_SHAMPOO = block(SomethingModBlocks.VOLDEMORT_IS_STEALING_MY_SHAMPOO);
 	public static final DeferredItem<Item> KITYY_JAKY_SPAWN_EGG = REGISTRY.register("kityy_jaky_spawn_egg", () -> new DeferredSpawnEggItem(SomethingModEntities.KITYY_JAKY, -1, -1, new Item.Properties()));
+	public static final DeferredItem<Item> JAKYS_DIMENTION = REGISTRY.register("jakys_dimention", JakysDimentionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -37,6 +37,7 @@ public class SomethingModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(SomethingModItems.OVERUNDER.get());
+			tabData.accept(SomethingModItems.JAKYS_DIMENTION.get());
 
 		}
 	}

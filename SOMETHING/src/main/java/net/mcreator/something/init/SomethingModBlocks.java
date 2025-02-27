@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.something.block.VoldemortIsStealingMyShampooBlock;
 import net.mcreator.something.block.OverunderPortalBlock;
 import net.mcreator.something.block.NOTWATERBlock;
+import net.mcreator.something.block.JakysDimentionPortalBlock;
 import net.mcreator.something.block.JUSTINBEBEBlock;
 import net.mcreator.something.SomethingMod;
 
@@ -21,6 +22,7 @@ public class SomethingModBlocks {
 	public static final DeferredBlock<Block> NOTWATER = REGISTRY.register("notwater", NOTWATERBlock::new);
 	public static final DeferredBlock<Block> OVERUNDER_PORTAL = REGISTRY.register("overunder_portal", OverunderPortalBlock::new);
 	public static final DeferredBlock<Block> VOLDEMORT_IS_STEALING_MY_SHAMPOO = REGISTRY.register("voldemort_is_stealing_my_shampoo", VoldemortIsStealingMyShampooBlock::new);
+	public static final DeferredBlock<Block> JAKYS_DIMENTION_PORTAL = REGISTRY.register("jakys_dimention_portal", JakysDimentionPortalBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
