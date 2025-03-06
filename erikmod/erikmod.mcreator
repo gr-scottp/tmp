@@ -407,6 +407,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "Aboy",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aboy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/block/AboyBlock.java",
+          "src/main/resources/assets/erikmod/models/item/aboy.json",
+          "src/main/resources/assets/erikmod/models/block/aboy.json",
+          "src/main/resources/data/erikmod/loot_table/blocks/aboy.json",
+          "src/main/resources/assets/erikmod/blockstates/aboy.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/erikmod/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -424,6 +470,7 @@
       "item.erikmod.erikwandthebest": "Erikwandthebest",
       "item_group.erikmod.eriktab": "Eriktab",
       "block.erikmod.erikytu": "Erikytu",
+      "block.erikmod.aboy": "Aboy",
       "biome.erikmod.freiyr": "Freiyr",
       "item.erikmod.erikiishim_spawn_egg": "Erikiishim Spawn Egg",
       "entity.erikmod.erikiishim": "Erikiishim",

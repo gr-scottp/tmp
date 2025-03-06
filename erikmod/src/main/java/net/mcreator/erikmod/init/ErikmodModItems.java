@@ -24,6 +24,7 @@ public class ErikmodModItems {
 	public static final DeferredItem<Item> ERIKYTU = block(ErikmodModBlocks.ERIKYTU);
 	public static final DeferredItem<Item> ERIKIISHIM_SPAWN_EGG = REGISTRY.register("erikiishim_spawn_egg", () -> new DeferredSpawnEggItem(ErikmodModEntities.ERIKIISHIM, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> ERIKISHIM = REGISTRY.register("erikishim", ErikishimItem::new);
+	public static final DeferredItem<Item> ABOY = block(ErikmodModBlocks.ABOY);
 
 	// Start of user code block custom items
 	// End of user code block custom items

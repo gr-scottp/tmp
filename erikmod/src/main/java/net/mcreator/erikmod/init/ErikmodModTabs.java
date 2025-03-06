@@ -25,6 +25,7 @@ public class ErikmodModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.erikmod.eriktab")).icon(() -> new ItemStack(ErikmodModBlocks.ERIK_BLOCKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ErikmodModItems.ERIKWANDTHEBEST.get());
 				tabData.accept(ErikmodModBlocks.ERIKYTU.get().asItem());
+				tabData.accept(ErikmodModBlocks.ABOY.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
