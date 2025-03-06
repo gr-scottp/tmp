@@ -20,6 +20,7 @@ public class JUSTINBEBEOnBlockRightClickedProcedure {
 				.get()) {
 			Xcurrent = Xcurrent + (entity.getDirection()).getStepY();
 			zcurrent = zcurrent + (entity.getDirection()).getStepZ();
+			Ycurrent = Ycurrent + (entity.getDirection()).getStepZ();
 		}
 		world.setBlock(BlockPos.containing(Xcurrent + (entity.getDirection()).getStepY(), y, zcurrent + (entity.getDirection()).getStepZ()), SomethingModBlocks.JUSTINBEBE.get().defaultBlockState(), 3);
 	}

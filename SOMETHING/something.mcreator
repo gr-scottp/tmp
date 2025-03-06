@@ -383,6 +383,35 @@
           }
         ]
       }
+    },
+    {
+      "name": "EpicGamesSwordJakyOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_games_sword_jaky_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/EpicGamesSwordJakyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "EpicGamesSwordJaky",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_games_sword_jaky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/something/blockstates/epic_games_sword_jaky.json",
+          "src/main/resources/data/something/loot_table/blocks/epic_games_sword_jaky.json",
+          "src/main/resources/assets/something/models/block/epic_games_sword_jaky.json",
+          "src/main/java/net/mcreator/something/block/EpicGamesSwordJakyBlock.java",
+          "src/main/resources/assets/something/models/item/epic_games_sword_jaky.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -412,6 +441,7 @@
       "item.something.overunder": "Overunder Portal Igniter",
       "item.something.notwater_bucket": "NOTWATER ",
       "entity.something.kityy_jaky": "Kityy Jaky",
+      "block.something.epic_games_sword_jaky": "Epic Games Sword Jaky",
       "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo"
     }
   },
