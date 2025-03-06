@@ -26,6 +26,7 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> ANIKAWOF_SPAWN_EGG = REGISTRY.register("anikawof_spawn_egg", () -> new DeferredSpawnEggItem(WingsoffireModEntities.ANIKAWOF, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> MOMOFROGSIGMA = block(WingsoffireModBlocks.MOMOFROGSIGMA);
 	public static final DeferredItem<Item> MOMOFROGDIMENSION = REGISTRY.register("momofrogdimension", MomofrogdimensionItem::new);
+	public static final DeferredItem<Item> POLLYFROGBLOCK = block(WingsoffireModBlocks.POLLYFROGBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

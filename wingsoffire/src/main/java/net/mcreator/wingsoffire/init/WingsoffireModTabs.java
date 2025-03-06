@@ -28,6 +28,7 @@ public class WingsoffireModTabs {
 				tabData.accept(WingsoffireModBlocks.CHECKERS.get().asItem());
 				tabData.accept(WingsoffireModBlocks.FUNBLOCK.get().asItem());
 				tabData.accept(WingsoffireModBlocks.MOMOFROGSIGMA.get().asItem());
+				tabData.accept(WingsoffireModBlocks.POLLYFROGBLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.wingsoffire.block.WingsOfFireexBlock;
+import net.mcreator.wingsoffire.block.PollyfrogblockBlock;
 import net.mcreator.wingsoffire.block.MomofrogsigmaBlock;
 import net.mcreator.wingsoffire.block.MomofrogdimensionPortalBlock;
 import net.mcreator.wingsoffire.block.FunblockBlock;
@@ -23,6 +24,7 @@ public class WingsoffireModBlocks {
 	public static final DeferredBlock<Block> FUNBLOCK = REGISTRY.register("funblock", FunblockBlock::new);
 	public static final DeferredBlock<Block> MOMOFROGSIGMA = REGISTRY.register("momofrogsigma", MomofrogsigmaBlock::new);
 	public static final DeferredBlock<Block> MOMOFROGDIMENSION_PORTAL = REGISTRY.register("momofrogdimension_portal", MomofrogdimensionPortalBlock::new);
+	public static final DeferredBlock<Block> POLLYFROGBLOCK = REGISTRY.register("pollyfrogblock", PollyfrogblockBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -22,7 +22,6 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.util.RandomSource;
@@ -36,7 +35,6 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.wingsoffire.world.inventory.CheckersguiMenu;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexRedstoneOnProcedure;
 import net.mcreator.wingsoffire.procedures.WingsOfFireexOnTickUpdateProcedure;
-import net.mcreator.wingsoffire.procedures.WingsOfFireexEntityWalksOnTheBlockProcedure;
 import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -98,12 +96,6 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock,
 		super.tick(blockstate, world, pos, random);
 		WingsOfFireexOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
-		super.stepOn(world, pos, blockstate, entity);
-		WingsOfFireexEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, pos);
 	}
 
 	@Override

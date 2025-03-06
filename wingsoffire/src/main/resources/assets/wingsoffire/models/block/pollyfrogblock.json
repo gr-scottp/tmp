@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wingsoffire:block/pollyfrogblock",
+    "up": "wingsoffire:block/pollyfrogblock",
+    "north": "wingsoffire:block/pollyfrogblock",
+    "east": "wingsoffire:block/pollyfrogblock",
+    "south": "wingsoffire:block/pollyfrogblock",
+    "west": "wingsoffire:block/pollyfrogblock",
+    "particle": "wingsoffire:block/pollyfrogblock"
+  },
+  "render_type": "solid"
+}

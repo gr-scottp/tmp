@@ -4,7 +4,7 @@
       "name": "WingsOfFireex",
       "type": "block",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "wings_of_fireex",
       "metadata": {
         "files": [
@@ -358,6 +358,52 @@
           "src/main/resources/data/wingsoffire/dimension_type/momofrogdimension.json"
         ]
       }
+    },
+    {
+      "name": "Pollyfrogblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pollyfrogblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/block/PollyfrogblockBlock.java",
+          "src/main/resources/data/wingsoffire/loot_table/blocks/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/blockstates/pollyfrogblock.json",
+          "src/main/resources/assets/wingsoffire/models/block/pollyfrogblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -376,6 +422,7 @@
       "entity.wingsoffire.anikawof": "Anikawof",
       "block.wingsoffire.momofrogsigma": "Momofrogsigma",
       "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
+      "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
       "block.wingsoffire.checkers": "Checkers",
