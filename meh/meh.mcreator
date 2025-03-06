@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "MehtotallynotLeonor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mehtotallynot_leonor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/meh/models/block/mehtotallynot_leonor.json",
+          "src/main/resources/assets/meh/models/item/mehtotallynot_leonor.json",
+          "src/main/java/net/mcreator/meh/block/MehtotallynotLeonorBlock.java",
+          "src/main/resources/data/meh/loot_table/blocks/mehtotallynot_leonor.json",
+          "src/main/resources/assets/meh/blockstates/mehtotallynot_leonor.json"
+        ]
+      }
+    },
+    {
+      "name": "MehtotallynotLeonorOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mehtotallynot_leonor_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/meh/procedures/MehtotallynotLeonorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.meh.mehtotallynot_leonor": "Mehtotallynot Leonor"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "meh",
+    "modName": "Meh",
+    "version": "1.0.0",
+    "author": "TrainingGR16, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.meh"
+  },
+  "mcreatorVersion": 202400342716
+}

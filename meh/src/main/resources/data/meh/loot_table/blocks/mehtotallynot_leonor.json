@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "meh:blocks/mehtotallynot_leonor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "meh:mehtotallynot_leonor"
+        }
+      ]
+    }
+  ]
+}
