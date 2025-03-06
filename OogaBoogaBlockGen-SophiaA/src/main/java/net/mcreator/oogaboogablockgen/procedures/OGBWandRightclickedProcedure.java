@@ -15,9 +15,13 @@ public class OGBWandRightclickedProcedure {
 		double Z2Offset = 0;
 		ZOffset = -1;
 		XOffset = -1;
+		YOffset = -1;
 		for (int index0 = 0; index0 < 10; index0++) {
 			for (int index1 = 0; index1 < 10; index1++) {
-				world.setBlock(BlockPos.containing(x + XOffset, y + 0, z + ZOffset), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+				for (int index2 = 0; index2 < 10; index2++) {
+					world.setBlock(BlockPos.containing(x + XOffset, y + 1, z + ZOffset), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+					XOffset = XOffset + 1;
+				}
 				XOffset = XOffset + 1;
 			}
 			ZOffset = ZOffset + 1;
