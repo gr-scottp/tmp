@@ -19,6 +19,7 @@ import net.mcreator.oogaboogablockgen.item.ThanksForTheTaxMoneyItem;
 import net.mcreator.oogaboogablockgen.item.ThankYouForPayingYourFanumTaxItem;
 import net.mcreator.oogaboogablockgen.item.OGBWandItem;
 import net.mcreator.oogaboogablockgen.item.MoneyItem;
+import net.mcreator.oogaboogablockgen.item.HyperventalationSamsungRefridgerationWandItem;
 import net.mcreator.oogaboogablockgen.item.EmeraldSwordItem;
 import net.mcreator.oogaboogablockgen.OogaboogablockgenMod;
 
@@ -36,6 +37,7 @@ public class OogaboogablockgenModItems {
 	public static final DeferredItem<Item> THE_BUILDS = REGISTRY.register("the_builds", TheBuildsItem::new);
 	public static final DeferredItem<Item> BUILDS_OBSIDIAN = block(OogaboogablockgenModBlocks.BUILDS_OBSIDIAN);
 	public static final DeferredItem<Item> BUILDBLOCKKKKKKKKKKKKKK = block(OogaboogablockgenModBlocks.BUILDBLOCKKKKKKKKKKKKKK);
+	public static final DeferredItem<Item> HYPERVENTALATION_SAMSUNG_REFRIDGERATION_WAND = REGISTRY.register("hyperventalation_samsung_refridgeration_wand", HyperventalationSamsungRefridgerationWandItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

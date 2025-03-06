@@ -1,0 +1,47 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "sovietunionmwahahhahaha",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Hyperventalation Samsung Refridgeration Wand",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "OP_BLOCKS"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 0.1,
+    "enchantability": 2,
+    "damageVsEntity": 14.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "OGBWandRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "OGBWandRightclicked"
+    }
+  }
+}
