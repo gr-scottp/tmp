@@ -353,6 +353,52 @@
           "src/main/resources/data/thehousetrap/dimension/squidgame.json"
         ]
       }
+    },
+    {
+      "name": "Cosyblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosyblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/block/CosyblockBlock.java",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/models/item/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/blockstates/cosyblock.json",
+          "src/main/resources/assets/thehousetrap/models/block/cosyblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Housebuilder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "housebuilder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/HousebuilderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -365,6 +411,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.thehousetrap.cosyblock": "Cosyblock",
       "block.thehousetrap.ciraeblock": "Ciraeblock",
       "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
       "item_group.thehousetrap.froggy": "Froggy",

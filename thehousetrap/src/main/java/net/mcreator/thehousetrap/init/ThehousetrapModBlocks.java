@@ -21,6 +21,7 @@ public class ThehousetrapModBlocks {
 	public static final DeferredBlock<Block> CIRAEISTHEBEST = REGISTRY.register("ciraeisthebest", CIRAEISTHEBESTBlock::new);
 	public static final DeferredBlock<Block> HI = REGISTRY.register("hi", HiBlock::new);
 	public static final DeferredBlock<Block> SQUIDGAME_PORTAL = REGISTRY.register("squidgame_portal", SquidgamePortalBlock::new);
+	public static final DeferredBlock<Block> COSYBLOCK = REGISTRY.register("cosyblock", CosyblockBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

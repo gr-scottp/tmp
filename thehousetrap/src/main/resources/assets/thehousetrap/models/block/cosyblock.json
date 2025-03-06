@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thehousetrap:block/cosy",
+    "up": "thehousetrap:block/cosy",
+    "north": "thehousetrap:block/cosy",
+    "east": "thehousetrap:block/cosy",
+    "south": "thehousetrap:block/cosy",
+    "west": "thehousetrap:block/cosy",
+    "particle": "thehousetrap:block/cosy"
+  },
+  "render_type": "solid"
+}
