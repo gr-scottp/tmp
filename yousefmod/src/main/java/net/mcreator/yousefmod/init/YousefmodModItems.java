@@ -25,6 +25,7 @@ public class YousefmodModItems {
 	public static final DeferredItem<Item> DRAGONN_SPAWN_EGG = REGISTRY.register("dragonn_spawn_egg", () -> new DeferredSpawnEggItem(YousefmodModEntities.DRAGONN, -1, -1, new Item.Properties()));
 	public static final DeferredItem<Item> TESTBLOCKYOUSEF = block(YousefmodModBlocks.TESTBLOCKYOUSEF);
 	public static final DeferredItem<Item> SQUID_GAMEDIMENSION = REGISTRY.register("squid_gamedimension", SquidGamedimensionItem::new);
+	public static final DeferredItem<Item> FOOTBALL = block(YousefmodModBlocks.FOOTBALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

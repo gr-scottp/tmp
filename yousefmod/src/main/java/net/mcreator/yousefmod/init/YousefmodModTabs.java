@@ -26,6 +26,7 @@ public class YousefmodModTabs {
 				tabData.accept(YousefmodModItems.YOUSE_FWAND.get());
 				tabData.accept(YousefmodModBlocks.IMADYOUSEFBLOCK.get().asItem());
 				tabData.accept(YousefmodModBlocks.TESTBLOCKYOUSEF.get().asItem());
+				tabData.accept(YousefmodModBlocks.FOOTBALL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

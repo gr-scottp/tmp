@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yousefmod:block/h",
+    "up": "yousefmod:block/h",
+    "north": "yousefmod:block/h",
+    "east": "yousefmod:block/h",
+    "south": "yousefmod:block/h",
+    "west": "yousefmod:block/h",
+    "particle": "yousefmod:block/h"
+  },
+  "render_type": "solid"
+}
