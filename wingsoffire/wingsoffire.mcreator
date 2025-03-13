@@ -91,28 +91,7 @@
         "files": [
           "src/main/java/net/mcreator/wingsoffire/procedures/WingsOfFireexOnBlockRightClickedProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -404,6 +383,53 @@
           }
         ]
       }
+    },
+    {
+      "name": "Momolandhouseblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momolandhouseblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wingsoffire/loot_table/blocks/momolandhouseblock.json",
+          "src/main/resources/assets/wingsoffire/models/item/momolandhouseblock.json",
+          "src/main/resources/assets/wingsoffire/blockstates/momolandhouseblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/MomolandhouseblockBlock.java",
+          "src/main/resources/assets/wingsoffire/models/block/momolandhouseblock.json",
+          "src/main/java/net/mcreator/wingsoffire/block/entity/MomolandhouseblockBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MomolandhouseblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "momolandhouseblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wingsoffire/procedures/MomolandhouseblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -416,17 +442,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.wingsoffire.glorys_tab": "Glorys Tab",
       "item.wingsoffire.anikawof_spawn_egg": "Anikawof Spawn Egg",
       "item.wingsoffire.momofrogdimension": "Momofrogdimension Portal Igniter",
       "entity.wingsoffire.anikawof": "Anikawof",
-      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
-      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
       "block.wingsoffire.pollyfrogblock": "Pollyfrogblock",
       "block.wingsoffire.wings_of_fireex": "Wings Of Fireex",
       "gui.wingsoffire.checkersgui.label_empty": "",
-      "block.wingsoffire.checkers": "Checkers",
-      "block.wingsoffire.funblock": "Funblock"
+      "block.wingsoffire.momolandhouseblock": "Momolandhouseblock",
+      "block.wingsoffire.funblock": "Funblock",
+      "item_group.wingsoffire.glorys_tab": "Glorys Tab",
+      "block.wingsoffire.momofrogsigma": "Momofrogsigma",
+      "item.wingsoffire.gloryandthehiddenkingdom": "Gloryandthehiddenkingdom",
+      "block.wingsoffire.checkers": "Checkers"
     }
   },
   "foldersRoot": {

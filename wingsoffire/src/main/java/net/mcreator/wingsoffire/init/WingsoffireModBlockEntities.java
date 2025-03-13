@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
+import net.mcreator.wingsoffire.block.entity.MomolandhouseblockBlockEntity;
 import net.mcreator.wingsoffire.block.entity.FunblockBlockEntity;
 import net.mcreator.wingsoffire.block.entity.CheckersBlockEntity;
 import net.mcreator.wingsoffire.WingsoffireMod;
@@ -26,6 +27,7 @@ public class WingsoffireModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> WINGS_OF_FIREEX = register("wings_of_fireex", WingsoffireModBlocks.WINGS_OF_FIREEX, WingsOfFireexBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> CHECKERS = register("checkers", WingsoffireModBlocks.CHECKERS, CheckersBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> FUNBLOCK = register("funblock", WingsoffireModBlocks.FUNBLOCK, FunblockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> MOMOLANDHOUSEBLOCK = register("momolandhouseblock", WingsoffireModBlocks.MOMOLANDHOUSEBLOCK, MomolandhouseblockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -38,5 +40,6 @@ public class WingsoffireModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, WINGS_OF_FIREEX.get(), (blockEntity, side) -> ((WingsOfFireexBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CHECKERS.get(), (blockEntity, side) -> ((CheckersBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, FUNBLOCK.get(), (blockEntity, side) -> ((FunblockBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, MOMOLANDHOUSEBLOCK.get(), (blockEntity, side) -> ((MomolandhouseblockBlockEntity) blockEntity).getItemHandler());
 	}
 }

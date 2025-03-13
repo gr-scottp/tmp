@@ -27,6 +27,7 @@ public class WingsoffireModItems {
 	public static final DeferredItem<Item> MOMOFROGSIGMA = block(WingsoffireModBlocks.MOMOFROGSIGMA);
 	public static final DeferredItem<Item> MOMOFROGDIMENSION = REGISTRY.register("momofrogdimension", MomofrogdimensionItem::new);
 	public static final DeferredItem<Item> POLLYFROGBLOCK = block(WingsoffireModBlocks.POLLYFROGBLOCK);
+	public static final DeferredItem<Item> MOMOLANDHOUSEBLOCK = block(WingsoffireModBlocks.MOMOLANDHOUSEBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

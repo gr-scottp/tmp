@@ -24,17 +24,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.wingsoffire.world.inventory.CheckersguiMenu;
-import net.mcreator.wingsoffire.procedures.WingsOfFireexRedstoneOnProcedure;
-import net.mcreator.wingsoffire.procedures.WingsOfFireexOnTickUpdateProcedure;
 import net.mcreator.wingsoffire.block.entity.WingsOfFireexBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -75,27 +71,6 @@ public class WingsOfFireexBlock extends Block implements SimpleWaterloggedBlock,
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
-	}
-
-	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
-		if (world.getBestNeighborSignal(pos) > 0) {
-			WingsOfFireexRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		}
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		WingsOfFireexOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override
