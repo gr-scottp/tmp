@@ -31,6 +31,7 @@ public class DextermodModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(DextermodModBlocks.DEXTER_FACE_BLOCK.get().asItem());
+			tabData.accept(DextermodModBlocks.SKIBIDIBLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
