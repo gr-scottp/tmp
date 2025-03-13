@@ -26,6 +26,7 @@ public class CinnamorollModTabs {
 				tabData.accept(CinnamorollModBlocks.WINTER_LAND.get().asItem());
 				tabData.accept(CinnamorollModBlocks.LO_L.get().asItem());
 				tabData.accept(CinnamorollModBlocks.WINTERBLOCK_2.get().asItem());
+				tabData.accept(CinnamorollModBlocks.HOUSE.get().asItem());
 			})
 
 					.build());

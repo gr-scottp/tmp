@@ -23,6 +23,7 @@ public class CinnamorollModItems {
 	public static final DeferredItem<Item> LO_L = block(CinnamorollModBlocks.LO_L);
 	public static final DeferredItem<Item> WINTERBLOCK_2 = block(CinnamorollModBlocks.WINTERBLOCK_2);
 	public static final DeferredItem<Item> BOB_THE_BUILDER = REGISTRY.register("bob_the_builder", BobTheBuilderItem::new);
+	public static final DeferredItem<Item> HOUSE = block(CinnamorollModBlocks.HOUSE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

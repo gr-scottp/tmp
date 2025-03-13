@@ -304,6 +304,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "House",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cinnamoroll/loot_table/blocks/house.json",
+          "src/main/java/net/mcreator/cinnamoroll/block/HouseBlock.java",
+          "src/main/resources/assets/cinnamoroll/blockstates/house.json",
+          "src/main/resources/assets/cinnamoroll/models/block/house.json",
+          "src/main/resources/assets/cinnamoroll/models/item/house.json"
+        ]
+      }
+    },
+    {
+      "name": "HouseOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cinnamoroll/procedures/HouseOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -322,7 +368,8 @@
       "block.cinnamoroll.winterblock_2": "Winter Land 2",
       "item_group.cinnamoroll.lollipop": "Lollipop",
       "item.cinnamoroll.sunsetwand": "Sunsetwand",
-      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet"
+      "gui.cinnamoroll.jamilanotcinmroll.label_cinmrollissosweet": "cinmrollissosweet",
+      "block.cinnamoroll.house": "House"
     }
   },
   "foldersRoot": {
