@@ -23,8 +23,8 @@ public class HousefbuilderProcedure {
 		zOffset = -1;
 		xOffset = -1;
 		yOffset = -1;
-		for (int index2 = 0; index2 < 10; index2++) {
-			for (int index3 = 0; index3 < 10; index3++) {
+		for (int index2 = 0; index2 < 3; index2++) {
+			for (int index3 = 0; index3 < 3; index3++) {
 				world.setBlock(BlockPos.containing(x + xOffset, y + yOffset, z + zOffset), Blocks.STRIPPED_BIRCH_WOOD.defaultBlockState(), 3);
 				xOffset = 1 + xOffset;
 			}
