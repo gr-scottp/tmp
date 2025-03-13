@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "something:block/housetexturejaky",
+    "particle": "something:block/housetexturejaky"
+  },
+  "render_type": "solid"
+}

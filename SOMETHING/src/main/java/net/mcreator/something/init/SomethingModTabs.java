@@ -25,6 +25,7 @@ public class SomethingModTabs {
 
 			tabData.accept(SomethingModBlocks.JUSTINBEBE.get().asItem());
 			tabData.accept(SomethingModItems.NOTWATER_BUCKET.get());
+			tabData.accept(SomethingModBlocks.ABSOULOUTLEY_NOT_JAKY.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 

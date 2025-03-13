@@ -15,6 +15,7 @@ import net.mcreator.something.block.NOTWATERBlock;
 import net.mcreator.something.block.JakysDimentionPortalBlock;
 import net.mcreator.something.block.JUSTINBEBEBlock;
 import net.mcreator.something.block.EpicGamesSwordJakyBlock;
+import net.mcreator.something.block.AbsouloutleyNotJakyBlock;
 import net.mcreator.something.SomethingMod;
 
 public class SomethingModBlocks {
@@ -25,6 +26,7 @@ public class SomethingModBlocks {
 	public static final DeferredBlock<Block> VOLDEMORT_IS_STEALING_MY_SHAMPOO = REGISTRY.register("voldemort_is_stealing_my_shampoo", VoldemortIsStealingMyShampooBlock::new);
 	public static final DeferredBlock<Block> JAKYS_DIMENTION_PORTAL = REGISTRY.register("jakys_dimention_portal", JakysDimentionPortalBlock::new);
 	public static final DeferredBlock<Block> EPIC_GAMES_SWORD_JAKY = REGISTRY.register("epic_games_sword_jaky", EpicGamesSwordJakyBlock::new);
+	public static final DeferredBlock<Block> ABSOULOUTLEY_NOT_JAKY = REGISTRY.register("absouloutley_not_jaky", AbsouloutleyNotJakyBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

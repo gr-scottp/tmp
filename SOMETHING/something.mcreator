@@ -412,6 +412,52 @@
           "src/main/resources/assets/something/models/item/epic_games_sword_jaky.json"
         ]
       }
+    },
+    {
+      "name": "AbsouloutleyNotJakyOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absouloutley_not_jaky_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/procedures/AbsouloutleyNotJakyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbsouloutleyNotJaky",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absouloutley_not_jaky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/something/block/AbsouloutleyNotJakyBlock.java",
+          "src/main/resources/assets/something/models/item/absouloutley_not_jaky.json",
+          "src/main/resources/assets/something/models/block/absouloutley_not_jaky.json",
+          "src/main/resources/data/something/loot_table/blocks/absouloutley_not_jaky.json",
+          "src/main/resources/assets/something/blockstates/absouloutley_not_jaky.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -442,7 +488,8 @@
       "item.something.notwater_bucket": "NOTWATER ",
       "entity.something.kityy_jaky": "Kityy Jaky",
       "block.something.epic_games_sword_jaky": "Epic Games Sword Jaky",
-      "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo"
+      "block.something.voldemort_is_stealing_my_shampoo": "Voldemort Is Stealing My Shampoo",
+      "block.something.absouloutley_not_jaky": "Absouloutley Not Jaky"
     }
   },
   "foldersRoot": {
