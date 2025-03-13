@@ -399,6 +399,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "IdkOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thehousetrap/procedures/IdkOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ciraehouse",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciraehouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thehousetrap/models/item/ciraehouse.json",
+          "src/main/resources/assets/thehousetrap/blockstates/ciraehouse.json",
+          "src/main/java/net/mcreator/thehousetrap/block/CiraehouseBlock.java",
+          "src/main/resources/data/thehousetrap/loot_table/blocks/ciraehouse.json",
+          "src/main/resources/assets/thehousetrap/models/block/ciraehouse.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -413,6 +459,7 @@
     "en_us": {
       "block.thehousetrap.cosyblock": "Cosyblock",
       "block.thehousetrap.ciraeblock": "Ciraeblock",
+      "block.thehousetrap.ciraehouse": "Ciraehouse",
       "item.thehousetrap.ciraewolf_spawn_egg": "Ciraewolf Spawn Egg",
       "item_group.thehousetrap.froggy": "Froggy",
       "block.thehousetrap.ciraeisthebest": "CIRAEISTHEBEST",

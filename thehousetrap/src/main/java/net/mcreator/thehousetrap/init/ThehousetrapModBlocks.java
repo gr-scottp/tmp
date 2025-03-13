@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.thehousetrap.block.SquidgamePortalBlock;
 import net.mcreator.thehousetrap.block.HiBlock;
+import net.mcreator.thehousetrap.block.CosyblockBlock;
+import net.mcreator.thehousetrap.block.CiraehouseBlock;
 import net.mcreator.thehousetrap.block.CiraeblockBlock;
 import net.mcreator.thehousetrap.block.CIRAEISTHEBESTBlock;
 import net.mcreator.thehousetrap.ThehousetrapMod;
@@ -22,6 +24,7 @@ public class ThehousetrapModBlocks {
 	public static final DeferredBlock<Block> HI = REGISTRY.register("hi", HiBlock::new);
 	public static final DeferredBlock<Block> SQUIDGAME_PORTAL = REGISTRY.register("squidgame_portal", SquidgamePortalBlock::new);
 	public static final DeferredBlock<Block> COSYBLOCK = REGISTRY.register("cosyblock", CosyblockBlock::new);
+	public static final DeferredBlock<Block> CIRAEHOUSE = REGISTRY.register("ciraehouse", CiraehouseBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

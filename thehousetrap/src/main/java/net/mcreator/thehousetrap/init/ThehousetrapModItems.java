@@ -26,6 +26,7 @@ public class ThehousetrapModItems {
 	public static final DeferredItem<Item> HI = block(ThehousetrapModBlocks.HI);
 	public static final DeferredItem<Item> SQUIDGAME = REGISTRY.register("squidgame", SquidgameItem::new);
 	public static final DeferredItem<Item> COSYBLOCK = block(ThehousetrapModBlocks.COSYBLOCK);
+	public static final DeferredItem<Item> CIRAEHOUSE = block(ThehousetrapModBlocks.CIRAEHOUSE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

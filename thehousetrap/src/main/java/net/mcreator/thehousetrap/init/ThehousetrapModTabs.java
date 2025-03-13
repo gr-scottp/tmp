@@ -26,6 +26,7 @@ public class ThehousetrapModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.thehousetrap.froggy")).icon(() -> new ItemStack(Blocks.SMALL_AMETHYST_BUD)).displayItems((parameters, tabData) -> {
 				tabData.accept(ThehousetrapModItems.CIRAE_FROGGY.get());
 				tabData.accept(ThehousetrapModBlocks.CIRAEISTHEBEST.get().asItem());
+				tabData.accept(ThehousetrapModBlocks.CIRAEHOUSE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
