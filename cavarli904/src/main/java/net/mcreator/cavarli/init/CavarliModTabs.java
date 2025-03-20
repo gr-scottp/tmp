@@ -36,6 +36,11 @@ public class CavarliModTabs {
 
 			tabData.accept(CavarliModItems.NOOB_1234567890_OHIO_SPAWN_EGG.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(CavarliModItems.LOLCAVARLI.get());
+			tabData.accept(CavarliModItems.LOLC_1234.get());
+
 		}
 	}
 }

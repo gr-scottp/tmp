@@ -25,7 +25,7 @@ public class CavarliModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<Noob1234567890OHIOEntity>> NOOB_1234567890_OHIO = register("noob_1234567890_ohio",
 			EntityType.Builder.<Noob1234567890OHIOEntity>of(Noob1234567890OHIOEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(1.4f, 0.9f));
+					.sized(0.4f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
