@@ -24,6 +24,8 @@ public class DextermodModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DEXTERTAB = REGISTRY.register("dextertab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dextermod.dextertab")).icon(() -> new ItemStack(DextermodModBlocks.DEXTER_FACE_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DextermodModBlocks.DEXTER_FUNACE_BLOCK.get().asItem());
+				tabData.accept(DextermodModBlocks.DEXTER_HOUSEBLOCK.get().asItem());
+				tabData.accept(DextermodModBlocks.ROBHOUSEBLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -31,10 +33,12 @@ public class DextermodModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(DextermodModBlocks.DEXTER_FACE_BLOCK.get().asItem());
+			tabData.accept(DextermodModBlocks.DEXTER_HOUSEBLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(DextermodModItems.PLATFORM_WAND.get());
+			tabData.accept(DextermodModItems.DEXMENSION.get());
 
 		}
 	}

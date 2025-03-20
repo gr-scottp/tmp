@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/bee_nest_front_honey",
+    "up": "dextermod:block/dexterfacetexture",
+    "north": "minecraft:block/oak_door_top",
+    "east": "minecraft:block/bee_nest_front_honey",
+    "south": "minecraft:block/bee_nest_front_honey",
+    "west": "minecraft:block/bee_nest_front_honey",
+    "particle": "minecraft:block/bee_nest_front_honey"
+  },
+  "render_type": "solid"
+}

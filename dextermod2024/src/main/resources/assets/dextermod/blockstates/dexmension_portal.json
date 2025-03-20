@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dextermod:block/dexmension_portal_ew"
+    },
+    "axis=x": {
+      "model": "dextermod:block/dexmension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 69,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "mushroom_fields"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:DexterFaceBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_LAVA"
+    },
+    "airColor": {
+      "value": -16711885,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "SNOWFLAKE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Dexmension Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "minecraft:shears",
+    "portalTexture": "dexterfacetexture",
+    "enablePortal": true
+  }
+}
