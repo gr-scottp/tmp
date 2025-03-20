@@ -1,5 +1,9 @@
 package net.mcreator.cinnamoroll.procedures;
 
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
@@ -34,5 +38,42 @@ public class HouseOnBlockRightClickedProcedure {
 			xoffset = -2;
 			yoffset = yoffset + 1;
 		}
+		{
+			BlockPos _bp = BlockPos.containing(x + 1, y, z + 2);
+			BlockState _bs = Blocks.GLASS_PANE.defaultBlockState();
+			BlockState _bso = world.getBlockState(_bp);
+			for (Property<?> _propertyOld : _bso.getProperties()) {
+				Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+				if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+					try {
+						_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+					} catch (Exception e) {
+					}
+			}
+			world.setBlock(_bp, _bs, 3);
+		}
+		{
+			BlockPos _bp = BlockPos.containing(x + 1, y, z + 1);
+			BlockState _bs = Blocks.GLASS_PANE.defaultBlockState();
+			BlockState _bso = world.getBlockState(_bp);
+			for (Property<?> _propertyOld : _bso.getProperties()) {
+				Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+				if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+					try {
+						_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+					} catch (Exception e) {
+					}
+			}
+			world.setBlock(_bp, _bs, 3);
+		}
+		world.setBlock(BlockPos.containing(x + 1, y, z + 2), Blocks.AIR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y + 1, z + 2), Blocks.AIR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y, z - 2), Blocks.OAK_DOOR.defaultBlockState(), 3);
+		world.setBlock(BlockPos.containing(x - 1, y + 1, z + 2), (new Object() {
+			public BlockState with(BlockState _bs, String _property, String _newValue) {
+				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
+				return _prop instanceof EnumProperty _ep && _ep.getValue(_newValue).isPresent() ? _bs.setValue(_ep, (Enum) _ep.getValue(_newValue).get()) : _bs;
+			}
+		}.with(Blocks.SPRUCE_DOOR.defaultBlockState(), "half", "upper")), 3);
 	}
 }
